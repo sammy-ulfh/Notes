@@ -3,7 +3,7 @@
 <p align="center">
     <img src="images/IMG_001.png"
     alt="Checklist de notas"
-    width="400"
+    width="200"
     style="float: left; margin-rigt: 10px">
 </p>
 
