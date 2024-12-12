@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "fc422a6979cc699f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c09811d1974304d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9e34fba3b458b13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Biblioteca_estándar_y_herramientas_adicionales.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Biblioteca_estándar_y_herramientas_adicionales"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "613200735995866c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c23d6c3bf827732d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ac33634d02e1747",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0a351910d04e575a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9a1d4a94439b3fbe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "03702f3d695c108f",
+    "type": "split",
+    "children": [
+      {
+        "id": "90a45a39edffa9f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "caca942a5ba4f621",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "f6f3531037841701",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "0b7112994ef445cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "827f0a722d27d376",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7ac33634d02e1747",
+  "lastOpenFiles": [
+    "images/IMG_765.png.bak",
+    "images/IMG_764.png.bak",
+    "images/IMG_763.png.bak",
+    "images/IMG_762.png.bak",
+    "images/IMG_761.png.bak",
+    "images/IMG_760.png.bak",
+    "images/IMG_759.png.bak",
+    "images/IMG_758.png.bak",
+    "images/IMG_757.png.bak",
+    "images/IMG_756.png.bak",
+    "images/IMG_755.png.bak",
+    "images/IMG_765.png",
+    "images/IMG_764.png",
+    "images/IMG_763.png",
+    "images/IMG_762.png",
+    "images/IMG_761.png",
+    "images/IMG_760.png",
+    "images/IMG_759.png",
+    "images/IMG_758.png",
+    "images/IMG_757.png",
+    "images/IMG_756.png",
+    "Proyectos_de_POO.md",
+    "Biblioteca_estándar_y_herramientas_adicionales.md",
+    "Entrada_y_salida_de_datos.md",
+    "Módulos_y_paquetes_en_Python.md",
+    "Introducción_a_Python.md",
+    "README.md",
+    "Colecciones_y_estructuras_de_datos_en_Python.md",
+    "Programación_Orientada_a_Objetos_en_Python_(POO).md",
+    "IMG.md",
+    "Conceptos_básicos_de_Python.md",
+    "Untitled.md",
+    "Colecciones y estructuras de datos en Python.md",
+    "historia-y-filosofía-de-python.md",
+    "Historia y filosofía de Python.md",
+    "Historia-y-filosofía-de-Python.md"
+  ]
+}
