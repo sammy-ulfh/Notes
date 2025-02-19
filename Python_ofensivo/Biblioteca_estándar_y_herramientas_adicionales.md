@@ -6,6 +6,9 @@
 - [[#Manejo de archivos y directorios]]
 - [[#Conexiones de red y protocolos (1/4)]]
 - [[#Conexiones de red y protocolos (2/4)]]
+- [[#Conexiones de red y protocolos (3/4)]]
+- [[#Conexiones de red y protocolos (4/4)]]
+- [[#Siguientes apuntes]]
 
 
 ## **Manejo de fechas y horas**
@@ -581,6 +584,318 @@
 	![[IMG_765.png]]
 
 
+	**UDP**
+
+	Con UDP cambiará un poco la cosa en cuanto a su implementación y recordemos que al utilizar UDP no se entabla una conexión con el cliente, sino directamente se empieza a trabajar con los datos que se envíen y además, el utilizar UDP no nos asegura que los paquetes lleguen en el orden enviado, así como tampoco nos asegura que lleguen todos los paquetes, ya que puede haber perdidas de estos.
+
+	Como no queremos entablar una conexión con UDP, no se utilizara una cola de espera con *listen* y tampoco *accept* para entablar la conexión, más bien lo que se utilizara será *recvfrom* para recibir los datos que sean enviados, tanto los datos como la dirección de donde son enviados.
+
+	La diferencia aquí es que ya no estaríamos utilizando un *socket* que hace referencia al cliente, porque UDP ya no se enfoca en tener una conexión con el cliente.
+
+	Empezaríamos creando un archivo *server.py* y en este definiríamos nuestra función *start_udp_server*, definiríamos nuestro host y nuestro socket de servidor casi de la misma manera, la diferencia aquí será es que el segundo argumento para *socket.socket()*, ahora será *socket.SOCK_DGRAM*, ya que aquí estaremos indicando que vamos a estar utilizando UDP.
+
+	![[IMG_766.png]]
+
+	Para inicializar el servidor se hace de la misma forma que con TCP, con bind.
+
+	Luego, para recibir los datos, como con UDP no se entabla una conexión, lo que se hace es directamente recibir los datos y la dirección de donde se realizó la conexión con *recvfrom()*, pasando como argumento el número de bytes que deseamos recibir.
+
+	Por lo que con esto, recibiremos los datos y la dirección, almacenándolos y luego podríamos mostrarlos:
+
+	![[IMG_767.png]]
+
+	Con esto ahora podríamos inicializar el servidor. Ahora la idea utilizando *netcat* primeramente, para conectarnos por UDP, tendríamos que asignar el parámetro -u, de lo contrario intentara hacerlo por TCP y no funcionara:
+
+	![[IMG_768.png]]
+
+	Para programar la parte del cliente, crearíamos un script *client.py* y en este vamos a crear nuestra función *start_udp_client* siguiendo el mismo principio.
+
+	Primeramente, almacenaríamos el host y el puerto en variables, luego crearíamos nuestro socket de cliente para UDP y finalmente con enviar mediante *sendto* el mensaje en bytes, por un lado, y por otro colocar el host y el puerto, ya estaría listo:
+
+	![[IMG_769.png]]
+
+	Por lo tanto, al ejecutarlo tendríamos lo siguiente:
+
+	![[IMG_770.png]]
+
+	Si quisiéramos enviar un mensaje con tildes, se nos presentaría un problema y es que Python no sabría como representarlas en bytes:
+
+	![[IMG_771.png]]
+
+	![[IMG_772.png]]
+
+	Por lo tanto, antes tendríamos que aplicar un *encode* al mensaje y como argumento indicar como tiene que hacerlo, en este caso con *utf-8*, de esta manera evitaríamos el error:
+
+	![[IMG_773.png]]
+
+	Con esto en mente, sabemos que podremos crear servidores TCP y UDP, pero estos, como los hemos montado, solo podrán manejar un cliente a la vez, por lo que se podría generar una cola de espera.
+
+	Como dato, para evitar esto y tener la posibilidad de tener múltiples conexiones y trabajar con ellas en paralelo, se utiliza la librería *threading*.
+
+## **Conexiones de red y protocolos (3/4)**
+
+1. **Introducción**
+
+	La función *setsockopt* en la programación en redes juega un papel crucial al permitir a los desarrolladores a ajustar y controlar varios aspectos de los sockets. Los sockets son fundamentales en la comunicación de red, proporcionando un punto final para el envío y recepción de datos en una red.
+
+	*Niveles en setsockopt:*
+
+	Cuando utilizas *setsockopt*, puedes especificar diferentes niveles de configuración, que determinan el ámbito y la aplicación de las opciones que estableces:
+
+	- *Nivel de socket (SOL_SOCKET):* Este nivel afecta a las opciones aplicables a todos los tipos de sockets, independientemente del protocolo que estén utilizando. Las opciones de este nivel controlan aspectos generales del comportamiento del socket, como el tiempo de espera, el tamaño del buffer, y el reuso de direcciones y puertos.
+	  </br>
+	- *Nivel de protocolo:* Este nivel permite configurar opciones específicas para un protocolo en particular, como TCP o UDP. Por ejemplo, puedes ajustar opciones relacionadas con la calidad del servicio, la forma en que se manejan los paquetes de datos, o características específicas de un portocolo.
+
+	*socket.SOL_SOCKET*
+
+	*socket.SOL_SOCKET* es una constante en muchos lenguajes de programación, que se usa con *setsockopt* para indicar que las opciones que se van a ajustar son a nivel de socket. Esto significa que las opciones aplicadas en este nivel afectarán a todas las operaciones de red realizadas a través del socket, sin importar el protocolo de transporte específico (como TCP o UDP) que esté utilizando.
+
+	*socket.SO_REUSEADDR*
+
+	*socket.SO_REUSEADDR* es otra opción comúnmente utilizada en setsockopt. Esta opción es muy útil en el desarrollo de aplicaciones de red. Lo que hace es permitir que un socket se enlace a un puerto que todavía está siendo utilizado por un socket y que ya no está activo. Esto es particularmente útil en situaciones donde un servidor se reinicia y sus sockets aún están en estado de "espera de cierre" (*TIME_WAIT*), lo que podría impedir que el servidor se vuelva a enlazar al mismo puerto.
+
+	Al establecer *SO_REUSEADDR*, el sistema operativo permite reutilizar el puerto inmediatamente, lo que facilita la reanudación rápida de los servicios del servidor.
+
+	En resumen, *setsockopt* con diferentres niveles y opciones, como *SOL_SOCKET* y *SO_REUSEADDR*, proporciona una flexibilidad significativa en la configuración de sockets para una comunicación de red eficiente y efectiva.
+</br>
+2. **Práctica**
+
+	Empezaremos definiendo nuestro host, puerto y un socket el cual vaya a entablar una conexión TCP:
+
+	![[IMG_774.png]]
+
+	Recordemos que el primer argumento *socket.AF_INET* es para indicar la familia de direcciones IP, en este caso IPv4.
+
+	Con esto en mente, algo interesante con socket es que nosotros podremos modificar las propiedades que ya contiene el propio socket, para esto utilizaríamos *setsockopt()*, donde nosotros tendremos que pasarle tres argumentos.
+
+	El primero es para indicarle un nivel que vayamos a modificar, en el segundo la propiedad que vamos a modificar y en el tercer argumento la igualdad de esa opción que deseamos establecer.
+
+	Con esto en mente, en el primer argumento, cuando queramos referenciar al propio nivel del socket, para poder acceder a sus propiedades utilizaremos *socket.SOL_SOCKET*,  donde *SOL* proviene de *SocketLevel*, lo cual es la capa que hace referencia al propio SOCKET para poder acceder a sus propiedades.
+
+	En este caso, como segundo argumento alteraremos la propiedad *socket.SO_REUSEADDR* y como tercer argumento le asignaremos el valor a *1*.
+
+	![[IMG_775.png]]
+
+	Esto nos serviría para que cuando cerremos el servidor, forzando el cierre de nuestro script, reutilizar el *TIME_WAIT* que sucedia dejando el address en un estado de espera, lo que no nos deja utilizar el mismo puerto de forma rápida. Al setear la propiedad *SO_REUSEADDR* a *1*, esto ya nos permite que cuando forcemos el cierre del servidor, reutilizar el mismo puerto y host sin ningún problema.
+
+	Como primer argumento, en cuanto a niveles del socket, algunos son:
+
+	- *socket.IPPROTO_IP:* Nos ayuda a alterar propiedades relacionadas con protocolo IP.
+	- *socket.IPPROTO_TCP:* Para cambiar propiedades de TCP
+	- *socket.IPPROTO_UDP:* Para cambiar propiedades de UDP
+
+	Con esta propiedad que hemos modificado lista, ahora lo que restaría es ponernos en escucha de conexiones que se puedan realizar, con *bind()* pasando mediante una tupla el host y el puerto.
+
+	![[IMG_776.png]]
+
+	Ahora lo que se define en el bucle para cuando una conexión se entabla, lo haremos empleando el uso de hilos. Esto nos permitirá realizar cosas con múltiples clientes a la vez.
+
+	Para ello vamos a utilizar la librería *threading*, de esta forma nuestra definición en el bucle, se tendría que poner *listen()*. Realmente listen es como la indicación que nos permite estar como a la espera de conexiones para que se genere una cola del orden en el que se vayan realizando las conexiones, anteriormente le indicábamos *1* como argumento, pero realmente al trabajar con hilos ya no es necesario, ya que Python gestiona internamente el total de conexiones que se entablen.
+
+	De esta manera, como anteriormente lo hacíamos, también aceptaremos la conexión para recibir el socket del cliente y su address (IP y host):
+
+	![[IMG_777.png]]
+
+	Con la librería *threading*, por lo que con *threading.Thread()*, estaríamos instanciando a una clase a la cual como argumentos tendríamos que pasarle un *target* el cual debe de tener como contenido una función la cual debe gestionar todo el funcionamiento que se realizara cuando un cliente se conecte, así como *args*, lo que debe tener como contenido el socket del cliente y el address. Lo que nos permitirá trabajar con cada cliente de forma individual.
+
+	Desde luego, al instanciar una clase, esto tendremos que almacenarlo, por lo que estaríamos creando un objeto, para lo cual luego podremos utilizar *start()* para iniciar nuestro nuevo hilo.
+
+	![[IMG_778.png]]
+
+	Esto está bien, pero realmente la clase *Thread* por sí sola no está preparada para lo que nosotros queremos hacer de trabajar con múltiples hilos para múltiples conexiones en un servidor TCP.
+
+	Por ende, tendremos que modificar esta clase, por lo que crearemos nuestra propia clase que herede de la clase *threading.Thread*, tendremos en cuenta que le pasaremos al constructor como argumentos los datos del cliente (el socket y el address), además de que tendremos que llamar al propio constructor de la clase *Thread*, ya que este inicializa cosas importantes para el funcionamiento de los hilos.
+
+	De esta manera, si dentro del constructor mostráramos la información del nuevo cliente que se ha conectado, funcionaria correctamente:
+
+	![[IMG_779.png]]
+
+	![[IMG_780.png]]
+
+	*hola* fue algo que ya escribí. Con esto estaríamos viendo que funciona correctamente, por lo que podríamos tener múltiples conexiones.
+
+	Ahora mismo, cuando intentamos conectar a un cliente cuando ya hay uno activo, se termina la sesión del que ya se encuentra activo, esto sucede porque aún no tenemos nada definido que se vaya a realizar cuando los clientes se conecten.
+
+	Lo que haremos en este caso, será definir que se retronará el mensaje que el cliente nos envíe.
+
+	Para esto, la clase principal corre el método *run()* cuando utilizamos *start()* para inicializar el hilo. Por ende lo que haremos será reescribir este método y definir que es lo que queremos que suceda. Definiremos que el servidor reciba el mensaje del cliente, lo muestre y luego lo envíe al mismo, si este ingresa la palabra *bye* cerraremos el bucle que constantemente esperara un mensaje del usuario y se cerrará su sesión.
+
+	![[IMG_781.png]]
+
+	Finalmente, mostramos un mensaje indicando que cliente se termina desconectando y tendríamos lo siguiente:
+
+	![[IMG_782.png]]
+
+	Todo funciona correctamente porque en el código, al momento de recibir el mensaje del cliente, le metemos un *strip*, lo que elimina cualquier carácter especial que este al inicio o al final de este.
+
+	Si elimináramos el *strip*, esto ahora tendría un salto de línea y por ende en nuestro condicional, si nuestra condición es que nuestro mensaje sea igual a "bye", no lo tomaría como igual y continuaría la ejecución del programa.
+
+	Pero, algo interesante es que tenemos la librería *pbd*, la cual nos permite colocar un breakpoint, este lo colocaríamos justo después de asignarle el contenido a nuestra variable *message:*
+
+	![[IMG_783.png]]
+
+	Si esto lo ejecutáramos, el programa haría una pausa luego de asignarle el contenido a *message* y con esto podremos utilizar *l*, para listar la parte del código donde nos encontramos y usar *p* para listar el contenido de una variable, en este caso de la variable *message*:
+
+	![[IMG_784.png]]
+
+	De esta manera podremos ver como nos llega el mensaje y que sucede si le aplicamos el *strip*.
+
+## **Conexiones de red y protocolos (4/4)**
+
+1. **Introducción**
+
+	El uso de hilos con *threading* en Python, es crucial para gestionar múltiples clientes en aplicaciones de red que utilizan sockets, especialmente en servidores.
+
+	*¿Por qué es necesario?*
+
+	- *Concurrencia y Manejo de Múltiples Conexiones:* Los servidores de red a menudo necesitan manejar múltiples conexiones de clientes simultáneamente. Sin hijos, un servidor tendría que atender a un cliente a la vez, lo cual es ineficiente y no estable. Con *threading*, cada cliente puede ser manejado en un hilo separado, permitiendo al servidor atender múltiples solicitudes al mismo tiempo.
+	  </br>
+	- *Bloqueo de Operaciones de Red:* Las operaciones de red, como *recv* y *accept*, suelen ser bloqueantes. Esto significa que el servidor se detendrá en estas operaciones hasta que reciba algo de la red. Si un cliente se demora en enviar datos, esto puede bloquear todo el servidor, impidiendo que atienda a otros clientes. Con los hilos, cada cliente tiene su propio hilo de ejecución, por lo que la lentitud o el bloqueo de uno no afecta a los demás.
+	  </br>
+	- *Escalabilidad:* Los hilos permiten a los desarrolladores crear servidores que escalan bien con el número de clientes. Al asignar un hilo a cada cliente, el servidor puede manejar muchos clientes a la vez, ya que cada hilo ocupa relativamente pocos recursos del sistema.
+	  </br>
+	- *Simplicidad en el Diseño de la Aplicación:* Aunque existen modelos alternativos para manejar la concurrencia (como programación asíncrona), el uso de hilos puede simplificar el diseño y la lógica de la aplicación. Cada hilo puede ser diseñado como si estuviera manejando solo un cliente, lo que facilita la programación y el mantenimiento del código.
+	  </br>
+	- *Uso Eficiente de Recursos de CPU en Sistemas Multi-Core:* Los hilos pueden ejecutarse en paralelo en diferentes núcleos de un procesador multi-core, lo que permite a un servidor aprovechar mejor el hardware moderno y manejar más eficientemente varias conexiones al mismo tiempo.
+	  </br>
+	- *Independencia y Aislamiento de Clientes:* Cada hilo opera de manera independiente, lo que significa que un problema en un hilo (como un error o una excepción) no necesariamente afectará a los demás. Esto proporciona un aislamiento efectivo entre las conexiones de los clientes, mejorando la robustez del servidor.
+
+	En resumen, el uso de *threading* para manejar múltiples clientes en aplicaciones basadas en sockets es esencial para lograr una alta concurrencia, escalabilidad y un diseño eficiente que aprovecha al máximo los recursos del sistema y proporcione un servicio fluido y estable a múltiples clientes simultáneamente.
+	</br>
+2. **Práctica**
+
+	Para el script de la conexión del lado del cliente, es algo más sencillo, ya que no se tendrá que emplear la librería threading porque eso lo manejara el servidor.
+
+	Por ende, para ello crearíamos un script *client.py* y definiríamos la función *start_client*, dentro de esta nuestro host, puerto y comenzaríamos a definir nuestro socket de cliente con direcciones IPv4 y mediante TCP::
+
+	![[IMG_785.png]]
+
+	Ahora definiríamos nuestra conexión como cliente por el host y puerto indicados, para despues mediante un bucle infinito estar solicitando un mensaje como input para que el usuario lo ingrese y almacenarlo:
+
+	![[IMG_786.png]]
+
+	De esta manera estamos enviando el mensaje al cliente en forma de bytes, ya que así tienen que ser enviados los datos siempre.
+
+	Despues verificamos si nuestro mensaje es "bye", porque en caso de serlo, también tendría que cerrarnos el socket del lado del cliente, por ende salir del bucle.
+
+	En caso de que el mensaje no sea "bye", ejecutara las líneas de código debajo del *if*, de hacerlo, definiremos que reciba el mensaje del servidor y lo imprima en pantalla:
+
+	![[IMG_787.png]]
+
+	Recordemos agregar correctamente los *F-string*, para la representación de datos en las cadenas.
+
+	De esta manera ahora podríamos conectarnos, enviar y recibir mensajes con el servidor:
+
+	![[IMG_788.png]]
+
+	Y ahora que estamos utilizando hilos, es algo que podremos hacer con múltiples clientes sin ningún problema.
+
+	Esto sería similar a tener un chat con el servidor, pero no es del todo así.
+
+	Es por ello que como ejercicio crearemos un chat, el cual acepte una única conexión para poder entablar una conversación entre cliente-servidor.
+
+	De esta manera, este tendrá mucha similitud con los scripts cliente-servidor que hemos estado montando, un poco la diferencia será el recibir el mensaje del servidor mediante un input y luego ser enviado.
+
+	*Chat de mensajeria directa*
+
+	Para nuestro servidor definiremos una función *start_chat_server*, en esta al tener nuestro host, puerto y socket de servidor, definiremos que sea posible reutilizar el mismo host y puertos recientemente utilizados, en caso de cerrar o terminar el servidor.
+
+	![[IMG_789.png]]
+
+	Con esto lo que hacemos es setear el valor de la propiedad *SO_REUSEADDR* para que nos permita volver a utilizar la misma conexión en caso de que esta nos la pueda marcar como ocupada con *TIME_WAIT*.
+
+	Con esto, ahora empezaríamos definiendo a nuestro socket en escucha con *bind()* por el host y puerto correspondientes, además de con *listen* definir que estaremos permitiendo que se establezca solo una conexión a la vez. Además de aceptarla y con ello mostrar mensajes correspondientes:
+
+	![[IMG_790.png]]
+
+	Ahora, mediante el bucle infinito, definiremos la gestión en cuanto al chat. Teniendo en cuenta que cuando una conexión se entable, el primero que tendrá que hablar es el cliente, por lo tanto, pondremos en espera al servidor de recibir un mensaje.
+
+	![[IMG_791.png]]
+
+	Con esto,  primeramente compararíamos si el mensaje del cliente es *bye*, porque de serlo cerraríamos su conexión. (Realment eel bucle queda dentro de *with connection*)
+
+	Ahora nosotros dentro del servidor tendremos que escribir un mensaje, por lo que ahora utilizando input vamos a solicitar un mensaje y este mismo lo enviaremos al cliente con *send*:
+
+	![[IMG_792.png]]
+
+	![[IMG_793.png]]
+
+	Por lo tanto, ahora podríamos verificar su funcionamiento, conectándonos por netcat.
+
+	![[IMG_794.png]]
+
+	Por el momento, yo le agregué un salto de línea al momento en el que el servidor envía un mensaje al cliente, para que no se viese empalmado.
+
+	De esta forma, con todo esto listo, ahora comenzaríamos con nuestro script para inicializar la conexión al chat desde el cliente.
+
+	Para ello crearemos la función *start_chat_client*, definiremos nuestro host, puerto y sokcet de cliente, para entablar directamente la conexión al address del servidor con *connect*.
+
+	![[IMG_795.png]]
+
+	De esta manera, ahora para enviar y recibir mensajes, como cliente, iniciaríamos introduciendo un mensaje para enviarlo, despues una verificación de sí, el mensaje que hemos introducido es *bye*, para de ser así que se cierre la conexión y nuestro socket como cliente se cierre:
+
+	![[IMG_796.png]]
+
+	![[IMG_797.png]]
+
+	Con esto ya nos hemos hecho un chat directo con el servidor, el cual funciona correctamente, es algo sencillo y no está ni encriptado. A nivel de seguridad, desde luego que no es lo mejor, ya que si nosotros abriéramos la herramienta *wireshark* lo normal sería poder ver la comunicación, al no estar cifrada.
+
+	![[IMG_798.png]]
+
+	Esto tiene una interfaz de la siguiente manera:
+
+	![[IMG_799.png]]
+
+	Puede que no nos aparezcan todas las opciones, para que nos aparezcan tendremos que ejecutar la aplicación como administrador, con *sudo* al inicio o siendo directamente usuario admin. De esta forma ya lo tendríamos:
+
+	![[IMG_800.png]]
+
+	Aquí seleccionaremos la opción *Loopback: lo*, presionándolo 2 veces seguidas. Ahora regresaremos a nuestro chat cliente-servidor y seguiremos enviando mensajes.
+
+	Con esto listo, volvemos a wireshark y ahora veremos como este captura una conexión por TCP:
+
+	![[IMG_801.png]]
+
+	Y en la parte inferior veríamos la información y el mensaje que se ha enviado, ya de forma decodificada:
+
+	![[IMG_802.png]]
+
+	Incluso podríamos de la parte izquierda inferior, el último campo es que *DATA*, seleccionamos *data* y lcopeamos esto como *value* y en nuestra terminal decodificarlos con *xxd* y mostrarlo en pantalla:
+
+	![[IMG_803.png]]
+
+	De esta forma funcionaria con *wireshark*, pero también funcionaria en nuestra terminal utilizando *tshark*:
+
+	![[IMG_804.png]]
+
+	De esta manera, con *tshark -i lo -Y "tcp" -e data.data -Tjson*:
+
+	Al utilizar *-i lo*, estamos indicando que nos pondremos en escucha por *Loopback*, tal como en wireshark.
+
+	Despues con -Y "tcp", estamos filtrando solamente por las conexiones TCP.
+
+	Con *-e data.data*, estamos accediendo directamente al campo de los datos transmitidos en bytes y finalmente con *-Tjson* le indicamos que nos lo muestre en formato *json*.
+
+	Ahora podríamos tomar *data* y nuevamente convertirlo a una cadena de texto legible:
+
+	![[IMG_805.png]]
+
+	Y si quisiéramos únicamente quedarnos con la cadena en bytes, reemplazaríamos *-Tjson* por *-Tfields*:
+
+	![[IMG_806.png]]
+
+	![[IMG_807.png]]
+
+	Lo que se ve sobre los mensajes interceptados realmente son errores, por lo que se podrían mandar a */dev/null*, con esto además aplicando *stdbuf* al inicio, con los parámetros oL, en tiempo real podríamos ir aplicación la conversión a una cadena legible:
+
+	![[IMG_808.png]]
+
+	De esta manera hemos visto como entablar conexiones de cliente-servidor e incluso un chat cliente-servidor, así como en conjunto la forma de interceptar comunicaciones no encriptadas mediante el uso de herramientas como *wireshark* o *tshark*.
+
 [[#Índice]]
+
+## **Siguientes apuntes**
+
+[[Manejo_de_librerías_comunes]]
 
 
