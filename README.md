@@ -14,3 +14,4 @@ Este repositorio incluirá apuntes personales de diversos cursos, todos tomados 
 - [Python ofensivo](Python_ofensivo/Indice.md)
 - [Personalización de entorno en Linux](Personalizacion_entorno/)
 - [Introducción al hacking](Hacking_introuction)
+- [Instalación de Python2 en Debian](Python2_Install)
