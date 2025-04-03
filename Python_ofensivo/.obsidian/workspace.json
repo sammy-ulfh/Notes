@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desarrollo_de_aplicaciones_de_escritorio_con_Python.md",
-                "mode": "preview",
+                "file": "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Desarrollo_de_aplicaciones_de_escritorio_con_Python"
+              "title": "Creando un escáner de puertos (1-4)"
             }
           }
         ]
@@ -165,21 +165,28 @@
   },
   "active": "e9e34fba3b458b13",
   "lastOpenFiles": [
+    "Offensive/port_scanner/v1_4/images/IMG_006.png",
+    "Offensive/port_scanner/v1_4/images/IMG_005.png",
+    "Offensive/port_scanner/v1_4/images/IMG_004.png",
+    "Offensive/port_scanner/v1_4/images/IMG_002.png",
+    "Offensive/port_scanner/v1_4/images/IMG_003.png",
+    "Offensive/port_scanner/v1_4/images/IMG_001.png",
+    "Offensive/Creando un escáner de puertos (1-4).md",
+    "Offensive/port_scanner/v1_4/images",
+    "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
+    "Offensive/port_scanner/v1_4",
+    "Offensive/port_scanner/Creando un escáner de puertos (1-4).md",
+    "Offensive/port_scanner",
+    "Biblioteca_estándar_y_herramientas_adicionales.md",
+    "Desarrollo_de_aplicaciones_de_escritorio_con_Python.md",
+    "Offensive",
     "images/IMG_1178.png",
     "images/IMG_1177.png",
     "images/IMG_1176.png",
     "images/IMG_1175.png",
     "images/IMG_1174.png",
-    "images/IMG_1173.png",
-    "images/IMG_1172.png",
-    "images/IMG_1171.png",
-    "images/IMG_1170.png",
-    "images/IMG_1169.png",
-    "images/IMG_1168.png",
     "Manejo_de_librerías_comunes.md",
-    "Biblioteca_estándar_y_herramientas_adicionales.md",
     "Proyectos_de_POO.md",
-    "Desarrollo_de_aplicaciones_de_escritorio_con_Python.md",
     "README.md",
     "images/IMG_765.png.bak",
     "images/IMG_764.png.bak",
@@ -187,10 +194,6 @@
     "images/IMG_762.png.bak",
     "images/IMG_761.png.bak",
     "images/IMG_760.png.bak",
-    "images/IMG_759.png.bak",
-    "images/IMG_758.png.bak",
-    "images/IMG_757.png.bak",
-    "images/IMG_756.png.bak",
     "Entrada_y_salida_de_datos.md",
     "Módulos_y_paquetes_en_Python.md",
     "Introducción_a_Python.md",

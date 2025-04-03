@@ -1726,4 +1726,4 @@ En esta sección nos sumergiremos con Tkinter, empezando por una introducción d
 
 ## **Siguientes apuntes**
 
-[[]]
+[[Creando un escáner de puertos (1-4)]]
