@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
+                "file": "Desarrollo_de_aplicaciones_de_escritorio_con_Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un escáner de puertos (1-4)"
+              "title": "Desarrollo_de_aplicaciones_de_escritorio_con_Python"
+            }
+          },
+          {
+            "id": "c4ec182c7ccfe7c9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,8 +176,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9e34fba3b458b13",
+  "active": "c4ec182c7ccfe7c9",
   "lastOpenFiles": [
+    "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
     "Offensive/port_scanner/v1_4/images/IMG_006.png",
     "Offensive/port_scanner/v1_4/images/IMG_005.png",
     "Offensive/port_scanner/v1_4/images/IMG_004.png",
@@ -173,7 +187,6 @@
     "Offensive/port_scanner/v1_4/images/IMG_001.png",
     "Offensive/Creando un escáner de puertos (1-4).md",
     "Offensive/port_scanner/v1_4/images",
-    "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
     "Offensive/port_scanner/v1_4",
     "Offensive/port_scanner/Creando un escáner de puertos (1-4).md",
     "Offensive/port_scanner",
@@ -184,7 +197,6 @@
     "images/IMG_1177.png",
     "images/IMG_1176.png",
     "images/IMG_1175.png",
-    "images/IMG_1174.png",
     "Manejo_de_librerías_comunes.md",
     "Proyectos_de_POO.md",
     "README.md",

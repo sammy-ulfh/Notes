@@ -1613,10 +1613,10 @@ En esta sección nos sumergiremos con Tkinter, empezando por una introducción d
 	**Crear clave privada**
 
 	```bash
-	opnssl genpkey -algorithm RSA -out server-key.key -aes256
+	openssl genpkey -algorithm RSA -out server-key.key -aes256
 	```
 
-	Con el comando anterior, lo que estamos haciendo es crear una clave privada, la cual se cree empleando el algoritmo RSA, la cual se almacenara como server-key.key y para crearla nos solicitara colocarle una contraseña:
+	Con el comando anterior, lo que estamos haciendo es crear una clave privada, la cual se crea empleando el algoritmo RSA, la cual se almacenara como server-key.key y para crearla nos solicitara colocarle una contraseña:
 
 	![[IMG_1165.png]]
 
