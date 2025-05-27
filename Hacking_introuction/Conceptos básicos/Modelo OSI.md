@@ -34,4 +34,4 @@ Esto nos permite identificar de manera efectiva los puntos débiles de una red y
 
 ## **Siguientes apuntes**
 
-[[Subnetting]]
+[[Subnetting - Introduccion]]
