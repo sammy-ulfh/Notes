@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
+                "file": "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar"
+              "title": "TIPS de subnetting y cálculo veloz de direccionamiento en redes"
             }
           }
         ]
@@ -170,9 +170,12 @@
   },
   "active": "778a0aaf27abe0c6",
   "lastOpenFiles": [
-    "Conceptos básicos/images/015.png",
-    "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
+    "Conceptos básicos/images/017.png",
+    "Conceptos básicos/images/016.png",
     "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
+    "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
+    "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
+    "Conceptos básicos/images/015.png",
     "Conceptos básicos/Subnetting - Introduccion.md",
     "Conceptos básicos/Subnetting - CIDRs y cálculo total de hosts.md",
     "Conceptos básicos/Modelo OSI.md",
@@ -188,8 +191,6 @@
     "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
     "Conceptos básicos/images/009.png",
     "Conceptos básicos/images/008.png",
-    "Conceptos básicos/images/007.png",
-    "Conceptos básicos/images/006.png",
     "Conceptos básicos/images",
     "Conceptos básicos",
     "Introduccion",
