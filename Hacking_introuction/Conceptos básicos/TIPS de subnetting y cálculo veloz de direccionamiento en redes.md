@@ -74,3 +74,7 @@ NOTA:
 La dirección IP **13.51.47.131/4** es un caso especial, se puede considerar un error tipográfico o una confusión en la notación. Esto se debe a que una máscara de subred **/4** es inusual en la práctica y no se ajusta a las asignaciones rales de direcciones IP.
 
 La máscara de subred generalmente tiene un valor entre **/8** y **/32**. El caso puntual que hemos representado no se ajusta a las asignaciones de direcciones IP en la vida real, por lo tanto obtenemos estos resultados.
+
+## Siguientes apuntes
+
+[[Nmap y sus diferentes modos de escaneo]]

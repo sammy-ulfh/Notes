@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5c6c2a7be83965d6",
+        "id": "bf182c2647224286",
         "type": "tabs",
         "children": [
           {
-            "id": "778a0aaf27abe0c6",
+            "id": "0d8ddaefa946ef26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TIPS de subnetting y cálculo veloz de direccionamiento en redes"
+              "title": "New tab"
             }
           }
         ]
@@ -168,13 +164,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "778a0aaf27abe0c6",
+  "active": "0d8ddaefa946ef26",
   "lastOpenFiles": [
+    "Reconocimiento/Nmap y sus diferentes modos de escaneo.md",
+    "Reconocimiento/images/005.png",
+    "Reconocimiento/images/004.png",
+    "Reconocimiento/images/003.png",
+    "Reconocimiento/images/002.png",
+    "Reconocimiento/images/001.png",
+    "Reconocimiento/images",
+    "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
+    "Untitled.md",
+    "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
+    "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
+    "Reconocimiento",
     "Conceptos básicos/images/017.png",
     "Conceptos básicos/images/016.png",
-    "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
-    "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
-    "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
     "Conceptos básicos/images/015.png",
     "Conceptos básicos/Subnetting - Introduccion.md",
     "Conceptos básicos/Subnetting - CIDRs y cálculo total de hosts.md",
@@ -184,13 +189,7 @@
     "Subnetting -.md",
     "Conceptos básicos/images/014.png",
     "Conceptos básicos/images/013.png",
-    "Conceptos básicos/images/013.jpg",
-    "Conceptos básicos/images/012.png",
-    "Conceptos básicos/images/011.png",
-    "Conceptos básicos/images/010.png",
     "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
-    "Conceptos básicos/images/009.png",
-    "Conceptos básicos/images/008.png",
     "Conceptos básicos/images",
     "Conceptos básicos",
     "Introduccion",
