@@ -6,7 +6,8 @@
 
 - [[#Introduccion]]
 - [[#Escaneo de puertos en el router]]
-- [[#Escaneo de los dispositivos conectados a la red]]
+- [[#Escaneo de los dispositivos conectados a la red local]]
+- [[#Siguientes apuntes]]
 
 ## Introducción
 
@@ -106,5 +107,50 @@ nmap -p- --open -T5 -sU 10.43.87.254 -v -n -Pn
 
 ## Escaneo de los dispositivos conectados a la red local
 
+Para escanear la red local, utilizaremos el comando **arp-scan** y utilizaremos el parametro **-I** para indicar la tarjeta de red de nuestro dispositivo desde la cual estamos conectados a la red.
 
+En este caso, utilizaremos **iwconfig** para ver cual es la que estamos utilizando:
 
+![[Reconocimiento/images/006.png]]
+
+En este caso la que tenemos es **wlan0** y la que indicaremos al realizar el escaneo:
+
+```shell
+arp-scan -I wlan0
+```
+
+Finalmente, indicaremos que realizaremos el escaneo en una red local:
+
+```shell
+arp-scan -I wlan0 --localnet
+```
+
+Teniendo como resultado las IP de los dispositivos conectados:
+
+![[Reconocimiento/images/007.png]]
+
+Ademas, esto tambien podremos realizarlo con **nmap** utilizando los parametros **-sn** de la siguiente manera, con la IP de la red o subred en la que nos encontremos y la bitmask:
+
+```shell
+nmap -sn 10.43.80.1/21
+```
+
+Esto nos dara las IP con un formato como el siguiente:
+
+![[Reconocimiento/images/008.png]]
+
+Si queremos tener solamente las IP podremos filtrar el output con **grep** y **regex** para indicar el formato de la IP:
+
+```shell
+nmap -sn 10.43.80.1/21 | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
+```
+
+En este caso, el parametro **-o** se utiliza para que se impriman solamente aquellas coincidencias con la expresion regular y el parametro **-E** para habilitas las expresiones regulares y esta sea reconocida.
+
+Teniendo como resultado colamente las direcciones IP:
+
+![[Reconocimiento/images/009.png]]
+
+## Siguientes apuntes
+
+[[Técnicas de evasión de Firewalls]]
