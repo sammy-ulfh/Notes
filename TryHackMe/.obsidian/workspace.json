@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "6482c57efbf536ae",
+    "id": "330581e90878136f",
     "type": "split",
     "children": [
       {
-        "id": "679f784a3c3cbd2d",
+        "id": "11218d732395c50e",
         "type": "tabs",
         "children": [
           {
-            "id": "af07972067b70ea4",
+            "id": "afb9a3063ee81b14",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Introduction/Intro to Offensive Security.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Intro to Offensive Security"
             }
           }
         ]
@@ -23,20 +27,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "90b4e5f64f3ba87e",
+    "id": "76321cbecf09af5b",
     "type": "split",
     "children": [
       {
-        "id": "1f85bc836061d2b0",
+        "id": "b4e9721eea3596ba",
         "type": "tabs",
         "children": [
           {
-            "id": "801b3a2b33c3debb",
+            "id": "cd23fa40636f9174",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "48c34065b725b8ea",
+            "id": "937c23ff9515bef7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "a05ae7dabdad0485",
+            "id": "4c003bcab2d57aa3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 300
   },
   "right": {
-    "id": "4c3eb245f36bd6bb",
+    "id": "e13379566aff720c",
     "type": "split",
     "children": [
       {
-        "id": "337d5151756934eb",
+        "id": "ed19fe43c93fcf98",
         "type": "tabs",
         "children": [
           {
-            "id": "b4875b4739375c90",
+            "id": "17f253f144e2e243",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
+                "file": "Introduction/Intro to Offensive Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Direcciones IP (IPv4 e IPv6)"
+              "title": "Backlinks for Intro to Offensive Security"
             }
           },
           {
-            "id": "4ba9b7df82ce9fb2",
+            "id": "ae155a074fad1aed",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
+                "file": "Introduction/Intro to Offensive Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Direcciones IP (IPv4 e IPv6)"
+              "title": "Outgoing links from Intro to Offensive Security"
             }
           },
           {
-            "id": "61a1f3018b93efac",
+            "id": "7a59f578068fcf4f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,18 +137,18 @@
             }
           },
           {
-            "id": "cce08f1bf6575d13",
+            "id": "1b91f4020cc758d8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
+                "file": "Introduction/Intro to Offensive Security.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Direcciones IP (IPv4 e IPv6)"
+              "title": "Outline of Intro to Offensive Security"
             }
           }
         ]
@@ -164,36 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af07972067b70ea4",
+  "active": "cd23fa40636f9174",
   "lastOpenFiles": [
-    "Reconocimiento/Técnicas de evasión de Firewalls.md",
-    "Reconocimiento/Nmap y sus diferentes modos de escaneo.md",
-    "Reconocimiento/images/009.png",
-    "Reconocimiento/images/008.png",
-    "Reconocimiento/images/007.png",
-    "Reconocimiento/images/006.png",
-    "Reconocimiento/images/005.png",
-    "Reconocimiento/images/004.png",
-    "Reconocimiento/images/003.png",
-    "Reconocimiento/images/002.png",
-    "Reconocimiento/images/001.png",
-    "Reconocimiento/images",
-    "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
-    "Untitled.md",
-    "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
-    "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
-    "Reconocimiento",
-    "Conceptos básicos/images/017.png",
-    "Conceptos básicos/Subnetting - Introduccion.md",
-    "Conceptos básicos/Subnetting - CIDRs y cálculo total de hosts.md",
-    "Conceptos básicos/Modelo OSI.md",
-    "Conceptos básicos/Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake.md",
-    "Conceptos básicos/Direcciones MAC (OUI y NIC).md",
-    "Subnetting -.md",
-    "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
-    "Conceptos básicos/images",
-    "Conceptos básicos",
-    "Introduccion",
-    "Images"
+    "Introduction/images/001.png",
+    "Introduction/images",
+    "Introduction/Intro to Offensive Security.md",
+    "Introduction"
   ]
 }
