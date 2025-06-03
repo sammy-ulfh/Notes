@@ -25,12 +25,14 @@
             "id": "c4ec182c7ccfe7c9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "Desarrollo_de_aplicaciones_de_escritorio_con_Python.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "Desarrollo_de_aplicaciones_de_escritorio_con_Python"
             }
           }
         ],
@@ -178,6 +180,12 @@
   },
   "active": "c4ec182c7ccfe7c9",
   "lastOpenFiles": [
+    "Entrada_y_salida_de_datos.md",
+    "Introducción_a_Python.md",
+    "Manejo_de_librerías_comunes.md",
+    "Módulos_y_paquetes_en_Python.md",
+    "Programación_Orientada_a_Objetos_en_Python_(POO).md",
+    "Proyectos_de_POO.md",
     "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
     "Offensive/port_scanner/v1_4/images/IMG_006.png",
     "Offensive/port_scanner/v1_4/images/IMG_005.png",
@@ -197,8 +205,6 @@
     "images/IMG_1177.png",
     "images/IMG_1176.png",
     "images/IMG_1175.png",
-    "Manejo_de_librerías_comunes.md",
-    "Proyectos_de_POO.md",
     "README.md",
     "images/IMG_765.png.bak",
     "images/IMG_764.png.bak",
@@ -206,11 +212,7 @@
     "images/IMG_762.png.bak",
     "images/IMG_761.png.bak",
     "images/IMG_760.png.bak",
-    "Entrada_y_salida_de_datos.md",
-    "Módulos_y_paquetes_en_Python.md",
-    "Introducción_a_Python.md",
     "Colecciones_y_estructuras_de_datos_en_Python.md",
-    "Programación_Orientada_a_Objetos_en_Python_(POO).md",
     "IMG.md",
     "Conceptos_básicos_de_Python.md",
     "Untitled.md",

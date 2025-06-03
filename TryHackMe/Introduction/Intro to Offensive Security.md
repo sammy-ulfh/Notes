@@ -40,4 +40,24 @@ So, in this case we have acces to **/bank-transfer** into the web **fakebank.thm
 
 Inside the web, the mission is made a transaction from the account 2276 to our account 8881 of $2000.
 
-When we have made a transaction of the correct amount we will se a message that contain the answer of the exercise. In this case:
+When we have made a transaction of the correct amount we will see a message that contain the answer of the exercise. In this case:
+
+![[002.png]]
+
+![[003.png]]
+
+Finally, we need to return to our account and then the system give us the answer for the question of TryHackMe:
+
+![[004.png]]
+
+## Carreers in cibersecurity
+
+Here's a short description of a few offensive security roles:
+
+- Penetration tester: Responsible for testes technology products for finding exploitable security vulnerabilities.
+- Red Teamer: Plays the rol of an adversary, attacking an organization and providing feedback from an enemy's perspective.
+- Security Engineer: Desing, monitor, and maintain security controls, networks, and systems to help prevent cyberattacks.
+
+## Siguientes apuntes
+
+[[Intro to Defensive Security]]
