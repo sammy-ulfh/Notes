@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "6482c57efbf536ae",
+    "id": "ae0451db6f2ad991",
     "type": "split",
     "children": [
       {
-        "id": "679f784a3c3cbd2d",
+        "id": "99fc490f8b6c20ea",
         "type": "tabs",
         "children": [
           {
-            "id": "af07972067b70ea4",
+            "id": "c858fbf61d0e00fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
+                "file": "Base/Configuracion CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar"
+              "title": "Configuracion CLI"
             }
           }
         ]
@@ -27,20 +27,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "90b4e5f64f3ba87e",
+    "id": "d7cb18c69f763833",
     "type": "split",
     "children": [
       {
-        "id": "1f85bc836061d2b0",
+        "id": "1b9f41500c5bfab0",
         "type": "tabs",
         "children": [
           {
-            "id": "801b3a2b33c3debb",
+            "id": "c3f7613689736df8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "48c34065b725b8ea",
+            "id": "5f46772b94a49973",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "a05ae7dabdad0485",
+            "id": "8a6d6ad110ceb4bc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 300
   },
   "right": {
-    "id": "4c3eb245f36bd6bb",
+    "id": "4b34b27e54a8a193",
     "type": "split",
     "children": [
       {
-        "id": "337d5151756934eb",
+        "id": "be6ff416ae2a1c3a",
         "type": "tabs",
         "children": [
           {
-            "id": "b4875b4739375c90",
+            "id": "27604817c94a8e73",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
+                "file": "Base/Configuracion CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Direcciones IP (IPv4 e IPv6)"
+              "title": "Backlinks for Configuracion CLI"
             }
           },
           {
-            "id": "4ba9b7df82ce9fb2",
+            "id": "7b4e446d9e742b29",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
+                "file": "Base/Configuracion CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Direcciones IP (IPv4 e IPv6)"
+              "title": "Outgoing links from Configuracion CLI"
             }
           },
           {
-            "id": "61a1f3018b93efac",
+            "id": "b5c0d0b1ac8a2e62",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +137,18 @@
             }
           },
           {
-            "id": "cce08f1bf6575d13",
+            "id": "e97a35168b2028dc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
+                "file": "Base/Configuracion CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Direcciones IP (IPv4 e IPv6)"
+              "title": "Outline of Configuracion CLI"
             }
           }
         ]
@@ -168,36 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af07972067b70ea4",
+  "active": "c858fbf61d0e00fd",
   "lastOpenFiles": [
-    "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
-    "Reconocimiento/Técnicas de evasión de Firewalls.md",
-    "Reconocimiento/images/016.png",
-    "Reconocimiento/images/015.png",
-    "Reconocimiento/images/014.png",
-    "Reconocimiento/images/013.png",
-    "Reconocimiento/images/012.png",
-    "Reconocimiento/images/011.png",
-    "Reconocimiento/images/010.png",
-    "Reconocimiento/Nmap y sus diferentes modos de escaneo.md",
-    "Reconocimiento/images/009.png",
-    "Reconocimiento/images/008.png",
-    "Reconocimiento/images/007.png",
-    "Reconocimiento/images",
-    "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
-    "Untitled.md",
-    "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
-    "Reconocimiento",
-    "Conceptos básicos/Subnetting - Introduccion.md",
-    "Conceptos básicos/Subnetting - CIDRs y cálculo total de hosts.md",
-    "Conceptos básicos/Modelo OSI.md",
-    "Conceptos básicos/Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake.md",
-    "Conceptos básicos/Direcciones MAC (OUI y NIC).md",
-    "Subnetting -.md",
-    "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
-    "Conceptos básicos/images",
-    "Conceptos básicos",
-    "Introduccion",
-    "Images"
+    "Base/Buenas practicas.md",
+    "Base/Configuracion CLI.md",
+    "Base/VLANs.md",
+    "Welcome.md",
+    "Base"
   ]
 }
