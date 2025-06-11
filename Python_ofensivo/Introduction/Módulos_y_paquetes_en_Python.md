@@ -449,7 +449,7 @@
 
 	*Markdown* tiene cierta forma de configurar el contenido para una buena visualización mediante lugares que lo soporten, tales como *github*. Aquí no será explicado el uso de *Markdown* por ende lo que colocaremos en el archivo README.md, será lo siguiente:
 
-	![[README.md]]
+	![[README]]
 
 	Con todos los archivos listos, ahora para subirlo ahora tendremos que instalar *twine* con *pip3*:
 

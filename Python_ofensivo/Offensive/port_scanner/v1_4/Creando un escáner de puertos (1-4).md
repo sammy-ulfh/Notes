@@ -43,4 +43,34 @@
 
 	![[Offensive/port_scanner/v1_4/images/IMG_006.png]]
 
+	Siguiendo este mismo principio, utilice la libreria **sys** para generar el script de manera en que le pasaramos el host y puerto como argumentos, teniendo el codigo de la siguiente manera:
 	
+	![[./images/IMG_007.png]]
+
+	**sys.argv** nos da la lista de los argumentos que haya recibido el script al ejecutarse en terminal.
+
+# **Colores en un script**
+
+Sin duda alguna la representacion de lo que se realice, con colores es mucho mejor, ya que, le da mas vida a nuestros programas basados en terminal.
+
+Para ello, importaremos **colored** desde la libreria **termcolor**:
+
+```python
+from termcolor import colored
+```
+
+Es posible que tengamos que instalar la libreria.
+
+Primeramente, reorganizaremos el script para que pueda recibir como argumentos un rango de puertos a escanear, considerando siempre que el primer puerto que se de en el rango debera ser menor al segundo:
+
+![[./images/IMG_008.png]]
+
+![[./images/IMG_009.png]]
+
+Finalmente, para la representacion de nuestro output en colores, bastara con usar la funcion **colored**, como primer argumento pasarle el output que mostraremos y como segundo el color que queremos representar:
+
+![[./images/IMG_010.png]]
+
+## Siguientes apuntes
+
+[[Creando un escáner de puertos (2-4)]]
