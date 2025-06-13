@@ -4,6 +4,23 @@ import socket
 from concurrent.futures import ThreadPoolExecutor
 import argparse
 from termcolor import colored
+import signal
+import sys
+
+open_sockets = []
+
+def def_handler(sig, frame):
+    
+    print(colored(f"\n[-] Terminando procesos correctamente...\n", "yellow"))
+
+    for socket in open_sockets:
+        socket.close()
+
+    print(colored(f"\n[!] Saliendo del programa...\n", "red"))
+    
+    sys.exit(1)
+
+signal.signal(signal.SIGINT, def_handler) # CTRL + C
 
 def get_arguments():
     parser = argparse.ArgumentParser(description='Fast TCP Port Scanner')
@@ -15,13 +32,31 @@ def get_arguments():
     return options.target, options.port
 
 def port_scanner(h, p):
+
+    global open_sockets
+
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.settimeout(1)
 
-    if not s.connect_ex((h, p)):
-        print(colored(f"[+] {p} - OPEN", 'green'))
+    open_sockets.append(s)
+
+    try:
+
+        s.connect((h, p))
+        s.sendall(b"HEAD / HTTP/1.0\r\n\r\n")
+        response = s.recv(1024)
+        response = response.decode(errors='ignore').split('\n')[0]
+
+        if not response:
+            print(colored(f"[+] {p} - OPEN", 'green'))
+        else:
+            print(colored(f"[+] {p} - {response}", 'green'))
+
+    except (s.timeout, ConnectionRefusedError):
+        pass
     
-    s.close()
+    finally:
+        s.close()
 
 def scan_ports(ports, target):
     

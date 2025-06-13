@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/port_scanner/v2_4/Creando un escáner de puertos (2-4).md",
+                "file": "Offensive/port_scanner/v4_4/Creando un escáner de puertos (4-4).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un escáner de puertos (2-4)"
+              "title": "Creando un escáner de puertos (4-4)"
             }
           }
         ]
@@ -165,6 +165,13 @@
   },
   "active": "e1e9dd850c9dd680",
   "lastOpenFiles": [
+    "Offensive/port_scanner/v4_4/images/005.png",
+    "Offensive/port_scanner/v4_4/port_scanner_v4.py~",
+    "Offensive/port_scanner/v4_4/images/004.png",
+    "Offensive/port_scanner/v4_4/images/003.png",
+    "Offensive/port_scanner/v4_4/images/002.png",
+    "Offensive/port_scanner/v4_4/images/001.png",
+    "Offensive/port_scanner/v2_4/Creando un escáner de puertos (2-4).md",
     "Offensive/port_scanner/v4_4/Creando un escáner de puertos (4-4).md",
     "Offensive/port_scanner/v3_4/Creando un escáner de puertos (3-4).md",
     "Offensive/port_scanner/v4_4/port_scanner_v4.py",
@@ -176,20 +183,13 @@
     "Offensive/port_scanner/v4_4/pip3/lib/python3.13/site-packages/pip-25.0.1.dist-info/REQUESTED",
     "Offensive/port_scanner/v4_4/pip3/lib/python3.13/site-packages/pip-25.0.1.dist-info/INSTALLER",
     "Offensive/port_scanner/v4_4/pip3/lib/python3.13/site-packages/pip-25.0.1.dist-info/INSTALLERtazlf9fi.tmp",
-    "Offensive/port_scanner/v4_4/pip3/bin/pip3.13",
     "Offensive/port_scanner/v4_4/images/007.png",
     "Offensive/port_scanner/v4_4/images/006.png",
-    "Offensive/port_scanner/v4_4/images/005.png",
-    "Offensive/port_scanner/v4_4/images/004.png",
-    "Offensive/port_scanner/v4_4/images/003.png",
-    "Offensive/port_scanner/v4_4/images/002.png",
-    "Offensive/port_scanner/v4_4/images/001.png",
     "Offensive/port_scanner/v4_4/Creando un escáner de puertos (3-4).md",
     "Offensive/port_scanner/v3_4/Creando un escáner de puertos (2-4).md",
     "Offensive/port_scanner/v3_4/images/015.png",
     "Offensive/port_scanner/v3_4/images/014.png",
     "Offensive/port_scanner/v3_4/images/013.png",
-    "Offensive/port_scanner/v2_4/Creando un escáner de puertos (2-4).md",
     "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
     "Offensive/Creando un escáner de puertos (2/4).md",
     "Introduction/README.md",
