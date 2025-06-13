@@ -73,4 +73,4 @@ Finalmente, para la representacion de nuestro output en colores, bastara con usa
 
 ## Siguientes apuntes
 
-[[Creando un escáner de puertos (2-4)]]
+[[Offensive/port_scanner/v2_4/Creando un escáner de puertos (2-4)]]
