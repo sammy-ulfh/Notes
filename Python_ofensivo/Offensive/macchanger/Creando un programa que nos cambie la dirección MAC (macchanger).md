@@ -70,3 +70,7 @@ Finalmente, si todo se cambia correctamente, se nos imprime el mensaje y podremo
 ```shell
 macchanger -s wlan0
 ```
+
+## Siguientes apuntes
+
+[[Creando un escáner de red (ICMP)]]

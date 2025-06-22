@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/macchanger/Creando un programa que nos cambie la dirección MAC (macchanger).md",
+                "file": "Offensive/ICMP_scanner/Creando un escáner de red (ICMP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un programa que nos cambie la dirección MAC (macchanger)"
+              "title": "Creando un escáner de red (ICMP)"
             }
           }
         ]
@@ -165,31 +165,32 @@
   },
   "active": "e1e9dd850c9dd680",
   "lastOpenFiles": [
-    "Offensive/macchanger/images/004.png",
-    "Offensive/macchanger/images/003.png",
-    "Offensive/macchanger/images/002.png",
-    "Offensive/macchanger/images/001.png",
-    "Offensive/macchanger/images",
-    "Offensive/port_scanner/v4_4/Creando un escáner de puertos (4-4).md",
+    "Offensive/ICMP_scanner/images/010.png",
+    "Offensive/ICMP_scanner/images/009.png",
+    "Offensive/ICMP_scanner/scanner.py~",
+    "Offensive/ICMP_scanner/images/008.png",
+    "Offensive/ICMP_scanner/images/007.png",
+    "Offensive/ICMP_scanner/scanner.py",
+    "Offensive/ICMP_scanner/images/006.png",
+    "Offensive/ICMP_scanner/images/005.png",
+    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/RECORDhsb_qlyh.tmp",
+    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/REQUESTED",
+    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/INSTALLER",
+    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor/__pycache__/termcolor.cpython-313.pyc",
+    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor/__pycache__/__main__.cpython-313.pyc",
+    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor/__pycache__/__init__.cpython-313.pyc",
+    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor/__pycache__",
+    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/licenses/COPYING.txt",
+    "Offensive/ICMP_scanner/images/004.png",
+    "Offensive/ICMP_scanner/images/003.png",
+    "Offensive/ICMP_scanner/images/002.png",
+    "Offensive/ICMP_scanner/images/001.png",
     "Offensive/macchanger/Creando un programa que nos cambie la dirección MAC (macchanger).md",
-    "Offensive/macchanger/macchanger.py~",
-    "Offensive/macchanger/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/RECORDpbc8kb_t.tmp",
-    "Offensive/macchanger/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/REQUESTED",
-    "Offensive/macchanger/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/INSTALLER",
-    "Offensive/macchanger/pip3/lib/python3.13/site-packages/termcolor/__pycache__/__main__.cpython-313.pyc",
-    "Offensive/macchanger/pip3/lib/python3.13/site-packages/termcolor/__pycache__/termcolor.cpython-313.pyc",
-    "Offensive/macchanger/pip3/lib/python3.13/site-packages/termcolor/__pycache__/__init__.cpython-313.pyc",
-    "Offensive/macchanger/pip3/lib/python3.13/site-packages/termcolor/__pycache__",
-    "Offensive/macchanger/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/licenses/COPYING.txt",
-    "Offensive/port_scanner/v4_4/images/005.png",
-    "Offensive/port_scanner/v4_4/images/004.png",
-    "Offensive/port_scanner/v4_4/images/003.png",
-    "Offensive/port_scanner/v4_4/images/002.png",
-    "Offensive/port_scanner/v4_4/images/001.png",
+    "Offensive/ICMP_scanner/Creando un escáner de red (ICMP).md",
+    "Offensive/macchanger/images/004.png",
+    "Offensive/port_scanner/v4_4/Creando un escáner de puertos (4-4).md",
     "Offensive/port_scanner/v2_4/Creando un escáner de puertos (2-4).md",
     "Offensive/port_scanner/v3_4/Creando un escáner de puertos (3-4).md",
-    "Offensive/port_scanner/v4_4/images/007.png",
-    "Offensive/port_scanner/v4_4/images/006.png",
     "Offensive/port_scanner/v4_4/Creando un escáner de puertos (3-4).md",
     "Offensive/port_scanner/v3_4/Creando un escáner de puertos (2-4).md",
     "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
@@ -209,7 +210,6 @@
     "IMG.md",
     "Introduction/Conceptos_básicos_de_Python.md",
     "Untitled.md",
-    "Colecciones y estructuras de datos en Python.md",
-    "historia-y-filosofía-de-python.md"
+    "Colecciones y estructuras de datos en Python.md"
   ]
 }
