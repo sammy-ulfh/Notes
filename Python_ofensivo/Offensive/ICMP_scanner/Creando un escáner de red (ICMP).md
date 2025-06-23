@@ -58,3 +58,7 @@ Finalmente, agregaremos los hilos aprovechándonos de lo que ya tenemos para que
 De esta forma, al ejecutarlo ya tendremos un escáner de red ICMP rápido y potente.
 
 ![[Offensive/ICMP_scanner/images/010.png]]
+
+## Siguientes apuntes
+
+[[Creando un escáner de red (ARP) con Scapy]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/ICMP_scanner/Creando un escáner de red (ICMP).md",
+                "file": "Offensive/ARP_scanner/Creando un escáner de red (ARP) con Scapy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un escáner de red (ICMP)"
+              "title": "Creando un escáner de red (ARP) con Scapy"
             }
           }
         ]
@@ -165,29 +165,30 @@
   },
   "active": "e1e9dd850c9dd680",
   "lastOpenFiles": [
-    "Offensive/ICMP_scanner/images/010.png",
-    "Offensive/ICMP_scanner/images/009.png",
-    "Offensive/ICMP_scanner/scanner.py~",
-    "Offensive/ICMP_scanner/images/008.png",
-    "Offensive/ICMP_scanner/images/007.png",
-    "Offensive/ICMP_scanner/scanner.py",
-    "Offensive/ICMP_scanner/images/006.png",
-    "Offensive/ICMP_scanner/images/005.png",
-    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/RECORDhsb_qlyh.tmp",
-    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/REQUESTED",
-    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/INSTALLER",
-    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor/__pycache__/termcolor.cpython-313.pyc",
-    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor/__pycache__/__main__.cpython-313.pyc",
-    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor/__pycache__/__init__.cpython-313.pyc",
-    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor/__pycache__",
-    "Offensive/ICMP_scanner/pip3/lib/python3.13/site-packages/termcolor-3.1.0.dist-info/licenses/COPYING.txt",
-    "Offensive/ICMP_scanner/images/004.png",
-    "Offensive/ICMP_scanner/images/003.png",
-    "Offensive/ICMP_scanner/images/002.png",
-    "Offensive/ICMP_scanner/images/001.png",
-    "Offensive/macchanger/Creando un programa que nos cambie la dirección MAC (macchanger).md",
+    "Offensive/ARP_scanner/images/011.png",
+    "Offensive/ARP_scanner/arp_scanner.py~",
+    "Offensive/ARP_scanner/images/010.png",
+    "Offensive/ARP_scanner/images/009.png",
+    "Offensive/ARP_scanner/images/008.png",
+    "Offensive/ARP_scanner/images/007.png",
+    "Offensive/ARP_scanner/images/006.png",
+    "Offensive/ARP_scanner/images/005.png",
+    "Offensive/ARP_scanner/images/004.png",
+    "Offensive/ARP_scanner/images/003.png",
+    "Offensive/ARP_scanner/images/002.png",
+    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/RECORDo9__tmiy.tmp",
+    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/REQUESTED",
+    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLER",
+    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLERduu353v3.tmp",
+    "Offensive/ARP_scanner/pip3/bin/scapy",
+    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy/__pycache__/volatile.cpython-313.pyc",
+    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils6.cpython-313.pyc",
+    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils.cpython-313.pyc",
+    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy/tools/__pycache__/scapy_pyannotate.cpython-313.pyc",
+    "Offensive/ARP_scanner/images/001.png",
     "Offensive/ICMP_scanner/Creando un escáner de red (ICMP).md",
-    "Offensive/macchanger/images/004.png",
+    "Offensive/ARP_scanner/Creando un escáner de red (ARP) con Scapy.md",
+    "Offensive/macchanger/Creando un programa que nos cambie la dirección MAC (macchanger).md",
     "Offensive/port_scanner/v4_4/Creando un escáner de puertos (4-4).md",
     "Offensive/port_scanner/v2_4/Creando un escáner de puertos (2-4).md",
     "Offensive/port_scanner/v3_4/Creando un escáner de puertos (3-4).md",
@@ -209,7 +210,6 @@
     "Introduction/Colecciones_y_estructuras_de_datos_en_Python.md",
     "IMG.md",
     "Introduction/Conceptos_básicos_de_Python.md",
-    "Untitled.md",
-    "Colecciones y estructuras de datos en Python.md"
+    "Untitled.md"
   ]
 }
