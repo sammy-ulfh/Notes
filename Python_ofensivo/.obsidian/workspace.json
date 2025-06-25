@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/ARP_scanner/Creando un escáner de red (ARP) con Scapy.md",
+                "file": "Offensive/arp_spoofer/Creando un envenenador ARP (ARP Spoofer) con Scapy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un escáner de red (ARP) con Scapy"
+              "title": "Creando un envenenador ARP (ARP Spoofer) con Scapy"
             }
           }
         ]
@@ -165,29 +165,31 @@
   },
   "active": "e1e9dd850c9dd680",
   "lastOpenFiles": [
-    "Offensive/ARP_scanner/images/011.png",
-    "Offensive/ARP_scanner/arp_scanner.py~",
-    "Offensive/ARP_scanner/images/010.png",
-    "Offensive/ARP_scanner/images/009.png",
-    "Offensive/ARP_scanner/images/008.png",
-    "Offensive/ARP_scanner/images/007.png",
-    "Offensive/ARP_scanner/images/006.png",
-    "Offensive/ARP_scanner/images/005.png",
-    "Offensive/ARP_scanner/images/004.png",
-    "Offensive/ARP_scanner/images/003.png",
-    "Offensive/ARP_scanner/images/002.png",
-    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/RECORDo9__tmiy.tmp",
-    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/REQUESTED",
-    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLER",
-    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLERduu353v3.tmp",
-    "Offensive/ARP_scanner/pip3/bin/scapy",
-    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy/__pycache__/volatile.cpython-313.pyc",
-    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils6.cpython-313.pyc",
-    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils.cpython-313.pyc",
-    "Offensive/ARP_scanner/pip3/lib/python3.13/site-packages/scapy/tools/__pycache__/scapy_pyannotate.cpython-313.pyc",
-    "Offensive/ARP_scanner/images/001.png",
-    "Offensive/ICMP_scanner/Creando un escáner de red (ICMP).md",
+    "Offensive/arp_spoofer/arp_spoof.py~",
+    "Offensive/arp_spoofer/arp_spoof_cp.py",
+    "Offensive/arp_spoofer/images/008.png",
+    "Offensive/arp_spoofer/images/007.png",
+    "Offensive/arp_spoofer/images/006.png",
+    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/RECORDlzlcghc7.tmp",
+    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/REQUESTED",
+    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLER",
+    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLERxpg8ozst.tmp",
+    "Offensive/arp_spoofer/pip3/bin/scapy",
+    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy/__pycache__/volatile.cpython-313.pyc",
+    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils6.cpython-313.pyc",
+    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils.cpython-313.pyc",
+    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy/tools/__pycache__/scapy_pyannotate.cpython-313.pyc",
+    "Offensive/arp_spoofer/images/005.png",
+    "Offensive/arp_spoofer/images/004.png",
+    "Offensive/arp_spoofer/images/003.png",
+    "Offensive/arp_spoofer/images/002.png",
+    "Offensive/arp_spoofer/images/001.png",
+    "Offensive/Untitled.md",
+    "Offensive/arp_spoofer/Creando un envenenador ARP (ARP Spoofer) con Scapy.md",
     "Offensive/ARP_scanner/Creando un escáner de red (ARP) con Scapy.md",
+    "Offensive/ARP_scanner/images/011.png",
+    "Offensive/ARP_scanner/images/010.png",
+    "Offensive/ICMP_scanner/Creando un escáner de red (ICMP).md",
     "Offensive/macchanger/Creando un programa que nos cambie la dirección MAC (macchanger).md",
     "Offensive/port_scanner/v4_4/Creando un escáner de puertos (4-4).md",
     "Offensive/port_scanner/v2_4/Creando un escáner de puertos (2-4).md",
@@ -208,8 +210,6 @@
     "Offensive/port_scanner/Creando un escáner de puertos (1-4).md",
     "Introduction/Biblioteca_estándar_y_herramientas_adicionales.md",
     "Introduction/Colecciones_y_estructuras_de_datos_en_Python.md",
-    "IMG.md",
-    "Introduction/Conceptos_básicos_de_Python.md",
-    "Untitled.md"
+    "IMG.md"
   ]
 }
