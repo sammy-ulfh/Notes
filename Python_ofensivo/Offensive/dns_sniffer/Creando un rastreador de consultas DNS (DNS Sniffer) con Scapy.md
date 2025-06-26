@@ -76,4 +76,4 @@ Con esto, ahora con print mostrarás todos los dominios sin repetirlos.
 
 ## Siguienes apuntes
 
-[[]]
+[[Creando un rastreador de consultas HTTP (HTTP Sniffer) con Scapy]]
