@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/arp_spoofer/Creando un envenenador ARP (ARP Spoofer) con Scapy.md",
+                "file": "Offensive/dns_sniffer/Creando un rastreador de consultas DNS (DNS Sniffer) con Scapy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un envenenador ARP (ARP Spoofer) con Scapy"
+              "title": "Creando un rastreador de consultas DNS (DNS Sniffer) con Scapy"
             }
           }
         ]
@@ -165,30 +165,31 @@
   },
   "active": "e1e9dd850c9dd680",
   "lastOpenFiles": [
+    "Offensive/dns_sniffer/images/015.png",
+    "Offensive/dns_sniffer/dns_sniffer.py~",
+    "Offensive/dns_sniffer/images/014.png",
+    "Offensive/dns_sniffer/images/013.png",
+    "Offensive/dns_sniffer/images/012.png",
+    "Offensive/dns_sniffer/images/011.png",
+    "Offensive/dns_sniffer/images/010.png",
+    "Offensive/dns_sniffer/images/009.png",
+    "Offensive/dns_sniffer/images/008.png",
+    "Offensive/dns_sniffer/images/007.png",
+    "Offensive/dns_sniffer/images/006.png",
+    "Offensive/dns_sniffer/images/005.png",
+    "Offensive/dns_sniffer/images",
+    "Offensive/dns_sniffer/dns_sniffer.py",
+    "Offensive/arp_spoofer/Creando un envenenador ARP (ARP Spoofer) con Scapy.md",
+    "Offensive/dns_sniffer/Creando un rastreador de consultas DNS (DNS Sniffer) con Scapy.md",
+    "Offensive/dns_sniffer",
     "Offensive/arp_spoofer/arp_spoof.py~",
     "Offensive/arp_spoofer/arp_spoof_cp.py",
-    "Offensive/arp_spoofer/images/008.png",
-    "Offensive/arp_spoofer/images/007.png",
-    "Offensive/arp_spoofer/images/006.png",
     "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/RECORDlzlcghc7.tmp",
     "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/REQUESTED",
     "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLER",
     "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLERxpg8ozst.tmp",
-    "Offensive/arp_spoofer/pip3/bin/scapy",
-    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy/__pycache__/volatile.cpython-313.pyc",
-    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils6.cpython-313.pyc",
-    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils.cpython-313.pyc",
-    "Offensive/arp_spoofer/pip3/lib/python3.13/site-packages/scapy/tools/__pycache__/scapy_pyannotate.cpython-313.pyc",
-    "Offensive/arp_spoofer/images/005.png",
-    "Offensive/arp_spoofer/images/004.png",
-    "Offensive/arp_spoofer/images/003.png",
-    "Offensive/arp_spoofer/images/002.png",
-    "Offensive/arp_spoofer/images/001.png",
     "Offensive/Untitled.md",
-    "Offensive/arp_spoofer/Creando un envenenador ARP (ARP Spoofer) con Scapy.md",
     "Offensive/ARP_scanner/Creando un escáner de red (ARP) con Scapy.md",
-    "Offensive/ARP_scanner/images/011.png",
-    "Offensive/ARP_scanner/images/010.png",
     "Offensive/ICMP_scanner/Creando un escáner de red (ICMP).md",
     "Offensive/macchanger/Creando un programa que nos cambie la dirección MAC (macchanger).md",
     "Offensive/port_scanner/v4_4/Creando un escáner de puertos (4-4).md",
@@ -209,7 +210,6 @@
     "Offensive/Creando un escáner de puertos (1-4).md",
     "Offensive/port_scanner/Creando un escáner de puertos (1-4).md",
     "Introduction/Biblioteca_estándar_y_herramientas_adicionales.md",
-    "Introduction/Colecciones_y_estructuras_de_datos_en_Python.md",
-    "IMG.md"
+    "Introduction/Colecciones_y_estructuras_de_datos_en_Python.md"
   ]
 }

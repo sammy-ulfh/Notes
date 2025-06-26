@@ -20,6 +20,8 @@ Para permitir recibir solicitudes entrantes, vamos a utilizar como administrador
 
 ```shell
 iptables --policy FORWARD ACCEPT
+iptables -t nat -A POSTROUTING -o [INTERFACE] -j MASQUERADE
+iptables -A FORWARD -i [INTERFACE] -j ACCEPT
 ```
 
 Para comunicarnos de vuelta al destino sin problemas, tendremos que meter el valor **1** en el archivo **/proc/sys/net/ipv4/ip_forward**. 
@@ -69,4 +71,4 @@ Si no llegamos a ver el tráfico, es porque se llegó a implementar **DNS over H
 De ser el caso, tendríamos que ir a la configuración de conectividad de nuestro dispositivo target y cambiar la configuración del DNS de forma manual y colocar **8.8.8.8**.
 ## Siguientes apuntes
 
-[[]]
+[[Creando un rastreador de consultas DNS (DNS Sniffer) con Scapy]]
