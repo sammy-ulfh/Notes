@@ -163,8 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ac33634d02e1747",
+  "active": "e1e9dd850c9dd680",
   "lastOpenFiles": [
+    "Offensive/https_sniffer/images/001.png",
+    "Offensive/https_sniffer/images",
     "Offensive/http_sniffer/Creando un rastreador de consultas HTTP (HTTP Sniffer) con Scapy.md",
     "Offensive/https_sniffer/Creando un rastreador de consultas HTTPS (HTTPS Sniffer) con mitmdump.md",
     "Offensive/https_sniffer",
@@ -186,7 +188,6 @@
     "Offensive/http_sniffer/pip3/bin/scapy",
     "Offensive/http_sniffer/pip3/lib/python3.13/site-packages/scapy/__pycache__/volatile.cpython-313.pyc",
     "Offensive/http_sniffer/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils6.cpython-313.pyc",
-    "Offensive/http_sniffer/pip3/lib/python3.13/site-packages/scapy/__pycache__/utils.cpython-313.pyc",
     "Introduction/Módulos_y_paquetes_en_Python.md",
     "Offensive/dns_sniffer/Creando un rastreador de consultas DNS (DNS Sniffer) con Scapy.md",
     "Offensive/arp_spoofer/Creando un envenenador ARP (ARP Spoofer) con Scapy.md",
@@ -209,7 +210,6 @@
     "Introduction/Programación_Orientada_a_Objetos_en_Python_(POO).md",
     "Introduction/Proyectos_de_POO.md",
     "Offensive/Creando un escáner de puertos (1-4).md",
-    "Offensive/port_scanner/Creando un escáner de puertos (1-4).md",
-    "Introduction/Biblioteca_estándar_y_herramientas_adicionales.md"
+    "Offensive/port_scanner/Creando un escáner de puertos (1-4).md"
   ]
 }
