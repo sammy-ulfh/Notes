@@ -191,3 +191,66 @@ Esto lo que nos permite es adjuntarle un script a esta herramienta para nosotros
 
 Por ello, ahora nos crearemos nuestro **https_sniffer.py**.
 
+Empezamos importando de la librería **mitmproxy** http y ctx. Como tal, solo utilizaremos **http**, pero primeramente observaremos cómo es la funcionalidad **ctx** y para qué nos puede servir.
+
+Dentro de esto tenemos varias funciones que podemos sobreescribir. Nosotros nos enfocaremos en **request** y **response**. Existe otra que se llama start, la cual nos permite realizar algo al inicio. Podría ser como el típico mensaje inicial de **interceptando el tráfico de la máquina víctima**. 
+
+Cada función, tanto **request** como **response** reciben como argumento un paquete que es el de cada solicitud. 
+
+**ctx** nos es de ayudar para mostrar logs, por ejemplo, en la función request podremos utilizar **ctx.log.info()** y pasarle como argumento un str con la ruta extraída del paquete que se encuentra en **packet.request.url**, para la función **response** sería lo mismo, aquí recibiremos las respuestas del servidor de las solicitudes que se hayan realizado.
+
+![[024.PNG]]
+
+Con ello, ahora le podemos pasar el script a **mitmdump** con el parámetro **-s** y veremos cómo nos va mostrando el log con las solicitudes que se realicen:
+
+![[025.PNG]]
+
+Esto de utilizar el context nos permite hacer un tipo de puente entre el script y el mitmproxy, pero tiene sus limitaciones. Por ello, gestionaremos todo solamente utilizando **http**. 
+
+Nosotros solo buscaremos observar el tráfico que la víctima está generando, por ello no trabajaremos tampoco con response, solamente son **request**. Ahora, vamos a traer de la librería **urllib.parse** a **urlparse**. 
+
+Esto nos servirá para parsear la url de una forma en la que puedamos extraer su información de forma más ordenada y controlada. Como ejemplo mostraremos la impresión de la url parseada y sin parsear:
+
+![[027.PNG]]
+
+![[026.PNG]]
+
+La diferencia es que al parsear la url, separamos la url en partes para acceder, más fácilmente ciertas partes y trabajar con ello. Es importante ver cómo el dominio lo podremos recuperar a través de **netloc**, el tipo de ruta (http o https) a través de **scheme** y la ruta visitada en el dominio a través de **path**. 
+
+Cuando ejecutamos el **mitmdump** don nuestro script, vemos muchas salidas por consola del propio **mitmdump**, para evitar esto y quedarnos únicamente con el output de nuestro script, podremos utilizar además del parámetro **-s** donde le pasamos como argumento nuestro script, el parámetro **--quiet** que automáticamente nos evitara todo el output que vemos al ejecutarlo y nos dejara únicamente el de nuestro script. 
+
+Con ello en mente, en nuestro script recuperaremos de la url parseada el **scheme**, **path** y **netloc** como dominio:
+
+![[029.PNG]]
+
+![[028.PNG]]
+
+Esto ya nos captura las páginas que está visitando nuestra máquina víctima y si quisiéramos hacer algo como lo del HTTP Sniffer que además nos capturaba las credenciales, tendríamos que definir primeramente unas **keywords** que sería una lista de palabras clave que pueden contener las solicitudes a nivel de datos que si coinciden con palabras como **user**, **pass** o **mail** es muy posible que esté enviando credenciales mediante un logueo. 
+
+Por lo tanto, creamos nuestra lista de palabras clave y extraeremos los datos de nuestra solicitud que se extrae con **packet.request.get_text()**, que nos extrae todos los datos que son enviados por peticiones POST:
+
+![[030.PNG]]
+
+Recordemos que conforme vayamos modificando el script tendremos que ir ejecutando nuevamente el mitdump, ya que si este no se encuentra corriendo para interceptar el tráfico y moverlo, la máquina víctima estará sin internet. 
+
+Con esto podremos ver los datos enviados en el formulario de un login a nivel de prueba, en este caso para reddit:
+
+![[032.PNG]]
+
+Al mandar la solicitud, dependiendo de la plataforma, se llega a enviar de distinta forma. En este caso, Reddit lo que hace es enviar muchísimos valores basura alrededor de los datos para que estén un poco perdidos por así decirlo, pero al final de cuentas podremos verlo en texto claro:
+
+![[031.PNG]]
+
+Con esto en mente, ahora vamos a verificar que alguna de las palabras claves se encuentren dentro de los datos de la solicitud. Esto lo haremos con una función **has_keywords** a la que le pasaremos como argumentos **data** y las **keywords** y jugaremos con **any** para retornar True en caso de que se dé un match:
+
+![[033.PNG]]
+
+Recordemos que any automáticamente regresará True si en algún punto se da un match de alguna de las palabras clave. De esta forma, con esto ahora, cuando capturemos un posible login, lo veremos de la siguiente forma:
+
+![[034.PNG]]
+
+De esta forma ya estaremos capturando todo el tráfico HTTPS sin que la víctima note alguna anomalía para notar que su tráfico está siendo interceptado.
+
+## Siguientes apuntes
+
+[[Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump]]

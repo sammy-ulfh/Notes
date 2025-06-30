@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/https_sniffer/Creando un rastreador de consultas HTTPS (HTTPS Sniffer) con mitmdump.md",
+                "file": "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un rastreador de consultas HTTPS (HTTPS Sniffer) con mitmdump"
+              "title": "Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump"
             }
           }
         ]
@@ -163,22 +163,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1e9dd850c9dd680",
+  "active": "7ac33634d02e1747",
   "lastOpenFiles": [
-    "Offensive/https_sniffer/images/023.PNG",
-    "Offensive/https_sniffer/images/022.PNG",
-    "Offensive/https_sniffer/images/021.PNG",
-    "Offensive/https_sniffer/images/020.PNG",
-    "Offensive/https_sniffer/images/019.PNG",
-    "Offensive/https_sniffer/images/018.PNG",
-    "Offensive/https_sniffer/images/017.PNG",
-    "Offensive/https_sniffer/images/016.PNG",
-    "Offensive/https_sniffer/images/015.PNG",
-    "Offensive/https_sniffer/images/014.PNG",
-    "Offensive/https_sniffer/images/013.PNG",
+    "Offensive/https_image_sniffer",
+    "Offensive/https_sniffer/Creando un rastreador de consultas HTTPS (HTTPS Sniffer) con mitmdump.md",
+    "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
+    "Offensive/https_sniffer/images/034.PNG",
+    "Offensive/https_sniffer/images/033.PNG",
+    "Offensive/https_sniffer/images/032.PNG",
+    "Offensive/https_sniffer/images/031.PNG",
+    "Offensive/https_sniffer/images/030.PNG",
+    "Offensive/https_sniffer/images/029.PNG",
+    "Offensive/https_sniffer/images/028.PNG",
+    "Offensive/https_sniffer/images/027.PNG",
+    "Offensive/https_sniffer/images/026.PNG",
+    "Offensive/https_sniffer/images/025.PNG",
     "Offensive/https_sniffer/images",
     "Offensive/http_sniffer/Creando un rastreador de consultas HTTP (HTTP Sniffer) con Scapy.md",
-    "Offensive/https_sniffer/Creando un rastreador de consultas HTTPS (HTTPS Sniffer) con mitmdump.md",
     "Offensive/https_sniffer",
     "Offensive/http_sniffer/http_sniffer.py~",
     "Offensive/http_sniffer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/RECORDurfztypr.tmp",
@@ -209,7 +210,6 @@
     "Introduction/Manejo_de_librerías_comunes.md",
     "Introduction/Programación_Orientada_a_Objetos_en_Python_(POO).md",
     "Introduction/Proyectos_de_POO.md",
-    "Offensive/Creando un escáner de puertos (1-4).md",
-    "Offensive/port_scanner/Creando un escáner de puertos (1-4).md"
+    "Offensive/Creando un escáner de puertos (1-4).md"
   ]
 }
