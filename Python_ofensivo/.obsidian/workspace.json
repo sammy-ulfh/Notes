@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "fc422a6979cc699f",
+    "id": "799e70adaadfd6a8",
     "type": "split",
     "children": [
       {
-        "id": "ea737dd4ef35ca44",
+        "id": "49a2dbff2401185a",
         "type": "tabs",
         "children": [
           {
-            "id": "e1e9dd850c9dd680",
+            "id": "b2eb5d7de10e0897",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/Traffic_Hijacking/Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking).md",
+                "file": "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking)"
+              "title": "Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "613200735995866c",
+    "id": "98710e320c8de1ae",
     "type": "split",
     "children": [
       {
-        "id": "c23d6c3bf827732d",
+        "id": "b4ab53d0f36b6d22",
         "type": "tabs",
         "children": [
           {
-            "id": "7ac33634d02e1747",
+            "id": "3f320a3dbfea7357",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "0a351910d04e575a",
+            "id": "01683383c24ddd8a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "9a1d4a94439b3fbe",
+            "id": "8a35edee10583927",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "03702f3d695c108f",
+    "id": "9391748aee0ac333",
     "type": "split",
     "children": [
       {
-        "id": "90a45a39edffa9f3",
+        "id": "e4fa2747f4f5f522",
         "type": "tabs",
         "children": [
           {
-            "id": "caca942a5ba4f621",
+            "id": "7f8839733c473ca8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,46 +104,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump"
             }
           },
           {
-            "id": "f6f3531037841701",
+            "id": "e834c03e38429ab6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump"
             }
           },
           {
-            "id": "0b7112994ef445cb",
+            "id": "48670f1351ebe276",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "827f0a722d27d376",
+            "id": "6f319ec2b9cffdbf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump"
             }
           }
         ]
@@ -163,53 +168,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ac33634d02e1747",
+  "active": "b2eb5d7de10e0897",
   "lastOpenFiles": [
-    "Offensive/Traffic_Hijacking/images",
-    "Offensive/dns_spoofer/Creando un DNS Spoofer con Scapy y NetfilterQueue.md",
-    "Offensive/Traffic_Hijacking/Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking).md",
-    "Offensive/Traffic_Hijacking",
-    "Offensive/dns_spoofer/images/024.PNG",
-    "Offensive/dns_spoofer/images/023.PNG",
-    "Offensive/dns_spoofer/images/022.PNG",
-    "Offensive/dns_spoofer/images/021.PNG",
-    "Offensive/dns_spoofer/images/020.PNG",
-    "Offensive/dns_spoofer/images/019.PNG",
-    "Offensive/dns_spoofer/images/018.PNG",
-    "Offensive/dns_spoofer/images/017.PNG",
-    "Offensive/dns_spoofer/images/016.PNG",
-    "Offensive/dns_spoofer/images/015.PNG",
-    "Offensive/dns_spoofer/images",
-    "Offensive/dns_spoofer",
-    "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
-    "Offensive/https_image_sniffer/images",
-    "Offensive/https_image_sniffer/New folder",
-    "Offensive/https_image_sniffer",
-    "Offensive/https_sniffer/Creando un rastreador de consultas HTTPS (HTTPS Sniffer) con mitmdump.md",
-    "Offensive/https_sniffer/images",
-    "Offensive/http_sniffer/Creando un rastreador de consultas HTTP (HTTP Sniffer) con Scapy.md",
-    "Offensive/https_sniffer",
-    "Offensive/http_sniffer/http_sniffer.py~",
-    "Offensive/http_sniffer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/RECORDurfztypr.tmp",
-    "Introduction/Módulos_y_paquetes_en_Python.md",
-    "Offensive/dns_sniffer/Creando un rastreador de consultas DNS (DNS Sniffer) con Scapy.md",
-    "Offensive/arp_spoofer/Creando un envenenador ARP (ARP Spoofer) con Scapy.md",
-    "Offensive/Untitled.md",
-    "Offensive/ARP_scanner/Creando un escáner de red (ARP) con Scapy.md",
-    "Offensive/ICMP_scanner/Creando un escáner de red (ICMP).md",
-    "Offensive/macchanger/Creando un programa que nos cambie la dirección MAC (macchanger).md",
-    "Offensive/port_scanner/v4_4/Creando un escáner de puertos (4-4).md",
-    "Offensive/port_scanner/v2_4/Creando un escáner de puertos (2-4).md",
-    "Offensive/port_scanner/v3_4/Creando un escáner de puertos (3-4).md",
-    "Offensive/port_scanner/v4_4/Creando un escáner de puertos (3-4).md",
-    "Offensive/port_scanner/v3_4/Creando un escáner de puertos (2-4).md",
-    "Offensive/port_scanner/v1_4/Creando un escáner de puertos (1-4).md",
-    "Offensive/Creando un escáner de puertos (2/4).md",
-    "Introduction/README.md",
-    "Introduction/Desarrollo_de_aplicaciones_de_escritorio_con_Python.md",
-    "Introduction/Entrada_y_salida_de_datos.md",
-    "Introduction/Introducción_a_Python.md",
-    "Introduction/Manejo_de_librerías_comunes.md",
-    "Introduction/Programación_Orientada_a_Objetos_en_Python_(POO).md"
+    "Offensive/dns_spoofer/Creando un DNS Spoofer con Scapy y NetfilterQueue.md"
   ]
 }
