@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/dns_spoofer/Creando un DNS Spoofer con Scapy y NetfilterQueue.md",
+                "file": "Offensive/Traffic_Hijacking/Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un DNS Spoofer con Scapy y NetfilterQueue"
+              "title": "Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking)"
             }
           }
         ]
@@ -165,31 +165,32 @@
   },
   "active": "7ac33634d02e1747",
   "lastOpenFiles": [
+    "Offensive/Traffic_Hijacking/images",
+    "Offensive/dns_spoofer/Creando un DNS Spoofer con Scapy y NetfilterQueue.md",
+    "Offensive/Traffic_Hijacking/Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking).md",
+    "Offensive/Traffic_Hijacking",
+    "Offensive/dns_spoofer/images/024.PNG",
+    "Offensive/dns_spoofer/images/023.PNG",
+    "Offensive/dns_spoofer/images/022.PNG",
+    "Offensive/dns_spoofer/images/021.PNG",
+    "Offensive/dns_spoofer/images/020.PNG",
+    "Offensive/dns_spoofer/images/019.PNG",
+    "Offensive/dns_spoofer/images/018.PNG",
+    "Offensive/dns_spoofer/images/017.PNG",
+    "Offensive/dns_spoofer/images/016.PNG",
+    "Offensive/dns_spoofer/images/015.PNG",
     "Offensive/dns_spoofer/images",
     "Offensive/dns_spoofer",
     "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
-    "Offensive/dns_spoofer/Creando un DNS Spoofer con Scapy y NetfilterQueue.md",
-    "Offensive/https_image_sniffer/images/005.PNG",
-    "Offensive/https_image_sniffer/images/004.PNG",
-    "Offensive/https_image_sniffer/images/003.PNG",
-    "Offensive/https_image_sniffer/images/002.PNG",
-    "Offensive/https_image_sniffer/images/001.PNG",
     "Offensive/https_image_sniffer/images",
     "Offensive/https_image_sniffer/New folder",
     "Offensive/https_image_sniffer",
     "Offensive/https_sniffer/Creando un rastreador de consultas HTTPS (HTTPS Sniffer) con mitmdump.md",
-    "Offensive/https_sniffer/images/034.PNG",
-    "Offensive/https_sniffer/images/033.PNG",
-    "Offensive/https_sniffer/images/032.PNG",
-    "Offensive/https_sniffer/images/031.PNG",
-    "Offensive/https_sniffer/images/030.PNG",
     "Offensive/https_sniffer/images",
     "Offensive/http_sniffer/Creando un rastreador de consultas HTTP (HTTP Sniffer) con Scapy.md",
     "Offensive/https_sniffer",
     "Offensive/http_sniffer/http_sniffer.py~",
     "Offensive/http_sniffer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/RECORDurfztypr.tmp",
-    "Offensive/http_sniffer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/REQUESTED",
-    "Offensive/http_sniffer/pip3/lib/python3.13/site-packages/scapy-2.6.1.dist-info/INSTALLER",
     "Introduction/Módulos_y_paquetes_en_Python.md",
     "Offensive/dns_sniffer/Creando un rastreador de consultas DNS (DNS Sniffer) con Scapy.md",
     "Offensive/arp_spoofer/Creando un envenenador ARP (ARP Spoofer) con Scapy.md",
@@ -209,7 +210,6 @@
     "Introduction/Entrada_y_salida_de_datos.md",
     "Introduction/Introducción_a_Python.md",
     "Introduction/Manejo_de_librerías_comunes.md",
-    "Introduction/Programación_Orientada_a_Objetos_en_Python_(POO).md",
-    "Introduction/Proyectos_de_POO.md"
+    "Introduction/Programación_Orientada_a_Objetos_en_Python_(POO).md"
   ]
 }
