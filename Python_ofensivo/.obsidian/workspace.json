@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md",
+                "file": "Offensive/Traffic_Hijacking/Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump"
+              "title": "Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking)"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "b2eb5d7de10e0897",
   "lastOpenFiles": [
-    "Offensive/dns_spoofer/Creando un DNS Spoofer con Scapy y NetfilterQueue.md"
+    "Offensive/dns_spoofer/Creando un DNS Spoofer con Scapy y NetfilterQueue.md",
+    "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md"
   ]
 }
