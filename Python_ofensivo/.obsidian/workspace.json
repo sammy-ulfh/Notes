@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "49a2dbff2401185a",
+        "id": "1f58fe67cd0e69a3",
         "type": "tabs",
         "children": [
           {
-            "id": "b2eb5d7de10e0897",
+            "id": "2d34fa8ba14da238",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/Keylogger/Creando un Keylogger (2-2).md",
+                "file": "Offensive/Malware/script/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creando un Keylogger (2-2)"
+              "title": "Untitled"
             }
           }
         ]
@@ -168,23 +168,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2eb5d7de10e0897",
+  "active": "2d34fa8ba14da238",
   "lastOpenFiles": [
+    "Offensive/Malware/Creación de Malware (2-2).md",
+    "Offensive/Malware/script/Untitled.md",
+    "Offensive/Malware/script",
+    "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (1-2).md",
+    "Offensive/Backdoors y C&c/images",
+    "Offensive/Backdoors y C&c",
+    "Offensive/Malware/images/020.PNG",
+    "Offensive/Malware/images/019.PNG",
+    "Offensive/Malware/images/018.PNG",
+    "Offensive/Malware/images/017.PNG",
+    "Offensive/Malware/images/016.PNG",
+    "Offensive/Malware/images/015.PNG",
+    "Offensive/Malware/images/014.PNG",
+    "Offensive/Malware/images/013.PNG",
+    "Offensive/Malware/images/012.PNG",
+    "Offensive/Malware/images/011.PNG",
     "Offensive/Malware/Creación de Malware (1-2).md",
-    "Offensive/Malware/images",
+    "007.md",
     "Offensive/Keylogger/Creando un Keylogger (2-2).md",
+    "Offensive/Malware/images",
+    "Offensive/Malware/images",
     "Offensive/Malware",
-    "Offensive/Keylogger/images/023.PNG",
-    "Offensive/Keylogger/images/022.PNG",
-    "Offensive/Keylogger/images/021.PNG",
-    "Offensive/Keylogger/images/020.PNG",
-    "Offensive/Keylogger/images/019.PNG",
-    "Offensive/Keylogger/images/018.PNG",
-    "Offensive/Keylogger/images/017.PNG",
-    "Offensive/Keylogger/images/016.PNG",
-    "Offensive/Keylogger/images/015.PNG",
     "Offensive/Keylogger/Creando un Keylogger (1-2).md",
-    "Offensive/Keylogger/images/014.PNG",
     "Offensive/Traffic_Hijacking/Creando un Manipulador e Interceptor de Tráfico (Traffic Hijacking).md",
     "Offensive/Keylogger/images",
     "Creando un Keylogger (1/2).md",
