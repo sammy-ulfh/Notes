@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (2-2).md",
+                "file": "Offensive/forward_shell/Creación de Forward Shell (1-4).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creación de Backdoors y Command and Control (C&C) (2-2)"
+              "title": "Creación de Forward Shell (1-4)"
             }
           }
         ]
@@ -170,9 +170,15 @@
   },
   "active": "3f320a3dbfea7357",
   "lastOpenFiles": [
+    "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (2-2).md",
+    "Offensive/forward_shell/Creación de Forward Shell (1-4).md",
+    "Offensive/forward_shell",
+    "Offensive/Keylogger/Creando un Keylogger (2-2).md",
+    "Offensive/Backdoors y C&c/images/012.PNG",
+    "Offensive/Backdoors y C&c/images/011.PNG",
+    "Offensive/Backdoors y C&c/images/010.PNG",
     "Offensive/Backdoors y C&c/scripts1",
     "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (1-2).md",
-    "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (2-2).md",
     "Offensive/Backdoors y C&c/images/009.PNG",
     "Offensive/Backdoors y C&c/images/008.PNG",
     "Offensive/Backdoors y C&c/images/007.PNG",
@@ -180,17 +186,13 @@
     "Offensive/Backdoors y C&c/images/005.PNG",
     "Offensive/Backdoors y C&c/images/004.PNG",
     "Offensive/Backdoors y C&c/images/003.PNG",
-    "Offensive/Backdoors y C&c/images/002.PNG",
-    "Offensive/Backdoors y C&c/images/001.PNG",
     "Offensive/Malware/Creación de Malware (2-2).md",
     "Offensive/Malware/script/Untitled.md",
     "Offensive/Malware/script",
     "Offensive/Backdoors y C&c/images",
     "Offensive/Backdoors y C&c",
-    "Offensive/Malware/images/020.PNG",
     "Offensive/Malware/Creación de Malware (1-2).md",
     "007.md",
-    "Offensive/Keylogger/Creando un Keylogger (2-2).md",
     "Offensive/Malware/images",
     "Offensive/Malware/images",
     "Offensive/Malware",
@@ -199,7 +201,6 @@
     "Offensive/Keylogger/images",
     "Creando un Keylogger (1/2).md",
     "Creando un Keylogger (1",
-    "Offensive/Keylogger",
     "Offensive/dns_spoofer/Creando un DNS Spoofer con Scapy y NetfilterQueue.md",
     "Offensive/https_image_sniffer/Creando un rastreador de imágenes por HTTPS (HTTPS Image Snfifer) con mitmdump.md"
   ]
