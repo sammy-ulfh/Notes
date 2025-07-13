@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/forward_shell/Creación de Forward Shell (2-4).md",
+                "file": "Offensive/forward_shell/Creación de Forward Shell (4-4).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creación de Forward Shell (2-4)"
+              "title": "Creación de Forward Shell (4-4)"
             }
           }
         ]
@@ -168,20 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d34fa8ba14da238",
+  "active": "3f320a3dbfea7357",
   "lastOpenFiles": [
     "Offensive/forward_shell/Creación de Forward Shell (3-4).md",
+    "Offensive/forward_shell/Creación de Forward Shell (4-4).md",
+    "Offensive/forward_shell/images/057.PNG",
+    "Offensive/forward_shell/images/056.PNG",
+    "Offensive/forward_shell/images/055.PNG",
+    "Offensive/forward_shell/images/054.PNG",
+    "Offensive/forward_shell/images/053.PNG",
+    "Offensive/forward_shell/images/052.PNG",
+    "Offensive/forward_shell/images/051.PNG",
+    "Offensive/forward_shell/images/050.PNG",
+    "Offensive/forward_shell/images/049.PNG",
+    "Offensive/forward_shell/images/048.PNG",
     "Offensive/forward_shell/Creación de Forward Shell (2-4).md",
-    "Offensive/forward_shell/images/042.PNG",
-    "Offensive/forward_shell/images/041.PNG",
-    "Offensive/forward_shell/images/040.PNG",
-    "Offensive/forward_shell/images/039.PNG",
-    "Offensive/forward_shell/images/038.PNG",
-    "Offensive/forward_shell/images/037.PNG",
-    "Offensive/forward_shell/images/036.PNG",
-    "Offensive/forward_shell/images/035.PNG",
-    "Offensive/forward_shell/images/034.PNG",
-    "Offensive/forward_shell/images/033.PNG",
     "Offensive/forward_shell/Creación de Forward Shell (1-4).md",
     "Offensive/forward_shell/images/~09.tmp",
     "Offensive/forward_shell/images",
