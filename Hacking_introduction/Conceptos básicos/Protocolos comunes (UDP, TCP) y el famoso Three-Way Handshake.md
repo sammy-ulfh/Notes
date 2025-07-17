@@ -60,7 +60,7 @@ wireshark & disown &> /dev/null
 
 Monitorizaremos **Loopback**, dando doble click:
 
-![[010.png]]
+![[Conceptos básicos/images/010.png]]
 
 Ahora nos pondremos en escucha con netcat, por el puerto 4646, por el momento aun seguiremos sin visualizar nada en wireshark:
 
@@ -74,11 +74,11 @@ Ahora nos conectamos con netcat a nuestro mismo equipo y al puerto que hemos abi
 nc localhost 4646
 ```
 
-![[011.png]]
+![[Conceptos básicos/images/011.png]]
 
 Una vez que tenemos la conexión establecida, si nos enfocamos en los utlimos 3, veremos justamente lo del Three-Way Handshake:
 
-![[012.png]]
+![[Conceptos básicos/images/012.png]]
 
 Este principio lo veremos en cualquier conexión que se establesca por TCP, ya que consta de 3 pasos en los que, primero se da una comunicación donde tu le hablas a ese puerto especifico (SYN), si recibes respuesta es que esta abierto (SYN-ACK) y finalmente se establece la conexión (ACK).
 

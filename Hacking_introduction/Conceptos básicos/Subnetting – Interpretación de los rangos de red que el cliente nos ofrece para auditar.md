@@ -29,7 +29,7 @@
 
 La imagen es la misma tabla que la anterior.
 
-![[015.png]]
+![[Conceptos básicos/images/015.png]]
 
 |       | Clases y tamaños |       Net-Mask       | Bit-Mask | Bits para hosts |  Direcciónes IP totales  |  Direcciones IP para hosts   |
 | :---: | :--------------: | :------------------: | :------: | :-------------: | :----------------------: | :--------------------------: |

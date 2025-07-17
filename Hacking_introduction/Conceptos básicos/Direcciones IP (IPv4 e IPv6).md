@@ -20,25 +20,25 @@ La representación de una IP no son más que bits y su representación son 4 oct
 
 Esto lo podremos ver de una forma más práctica, convirtiendo cada par de 8 bits en binario. De tal manera que veríamos más fácilmente esto, comenzaremos convirtiendo el propio 192 de una dirección IP de decimal a binario:
 
-![[001.png]]
+![[Conceptos básicos/images/001.png]]
 
 De esta manera observamos cómo la conversión del 192 nos da como resultado en binario la representación del propio número con un total de 8 bits.
 
 De tal manera que podríamos generar la representación completa de una IP en binario:
 
-![[002.png]]
+![[Conceptos básicos/images/002.png]]
 
 ## ¿Existe un límite total de IP's?
 
 Es evidente y claro que si existe un límite, aunque es demasiado grande, este está sujeto a 32 bits en total en una dirección IP, por lo que entonces tendríamos un total de 2^32 combinaciones posibles:
 
-![[003.png]]
+![[Conceptos básicos/images/003.png]]
 
 Como podremos observar el total de combinaciones existentes es de 4 mil millones y actualmente somos más de 8 mil millones de personas es en el mundo, por lo que es evidente que también nos estamos quedando eventualmente sin direcciones IPv4.
 
 Para ello existe la implementación adicional de las *IPv6* las cuales ya contienen 128 bits y podremos ver que el total de posibles combinatorias es bastante superior:
 
-![[004.png]]
+![[Conceptos básicos/images/004.png]]
 
 # Inicio
 

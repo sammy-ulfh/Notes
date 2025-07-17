@@ -22,7 +22,7 @@ Primero convertiremos la IP a binario, para ello podremos utilizar **obase** en 
 echo "obase=2;numero" | bc
 ```
 
-![[016.png]]
+![[Conceptos básicos/images/016.png]]
 
 De esta forma transformamos cada uno de los octetos:
 

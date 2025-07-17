@@ -35,7 +35,7 @@ Por ello podremos realizar un escaneo, en este caso al puerto 22 del router para
 nmap -p22 10.43.87.254 -f
 ```
 
-![[Reconocimiento/images/010.png]]
+![[Reconocimiento/EvasionFirewall/images/001.png]]
 
 A simple vista no notaremos ninguna diferencia, pero podremos utilizar **tcpdump** justo antes del escaneo para capturar el trafico y despues abrirlo con **wireshark**, esto se hace capturando el trafico de la tarjeta de red que esta conectada al internet, esta la podremos ver haciendo un **ifconfig**.
 
@@ -45,7 +45,7 @@ Entonces la colocamos con el parametro **-i** el nombre de nuestra tarjeta de re
 tcpdump -i wlan0 -w Captura.cap -v
 ```
 
-![[Reconocimiento/images/011.png]]
+![[Reconocimiento/EvasionFirewall/images/002.png]]
 
 Finalmente, abrimos el archivo con **wireshark**:
 
@@ -53,7 +53,7 @@ Finalmente, abrimos el archivo con **wireshark**:
 wireshark Captura.cap &> /dev/null & disown
 ```
 
-![[Reconocimiento/images/012.png]]
+![[Reconocimiento/EvasionFirewall/images/003.png]]
 
 En la parte superior podemos filtrar el contenido capturado, en este caso con **ip.flags.mf == 0**, si esta en 1 filtramos por el trafico fragmentado y si esta en cero por el trafico que no ha sido fragmentado.
 
@@ -61,20 +61,36 @@ Realizaremos un filtrado para observar solmanete el trafico fragmentado, si vemo
 
 Al filtrarlo, veriamos el trafico de la siguiente manera:
 
-![[Reconocimiento/images/013.png]]
+![[Reconocimiento/EvasionFirewall/images/004.png]]
 
-![[Reconocimiento/images/014.png]]
+![[Reconocimiento/EvasionFirewall/images/005.png]]
 
 viendo los primeros dos, podremos irnos a la parte inferior y seleccionar **Data** del lado izquierdo, aqui veremos como esta la informacion en hexadecimal transmitiendose:
 
-![[Reconocimiento/images/015.png]]
-
+![[Reconocimiento/EvasionFirewall/images/006.png]]
 
 En la parte superior, si observamos bien, los primeros dos nos menciona que son reensamblados en la traza #11, esto podremos observarlo bien si quitamos el friltro que habiamos colocado y nos vamos a la traza #11:
 
-![[Reconocimiento/images/016.png]]
+![[Reconocimiento/EvasionFirewall/images/007.png]]
 
-Agregado a esto, podremos utilizar el **MTU (Maximum Transmission Unit)**. Esto puede ser de ayuda ya que hay casos en los que el Firewall espera cantidades fijas y si enviamos algunos de forma mas pequena, podrian no ser detectados y permitirnos llegar a visualizar puertos filtrados o ocultos hacia los escaneos detectados.
+El fragmentar un paquete nos da cierta seguridad de llegar a mostrar algunos puertos sin que el Firewall los oculte, esto se debe a que el Firewall espera ciertos tipos de paquetes especificos para evitarlos, al fragmentarlos lo que hacemos es dividir este paquete y al final el Firewall no detecta el tipo de paquete que esta siendo enviado.
 
-**--mtu** ocupa un valor mayor a cero y siempre tiene que ser multiplo de 8:
+## MTU
+
+Agregado a esto, podremos utilizar el **MTU (Maximum Transmission Unit)**. Esto puede ser de ayuda ya que hay casos en los que el Firewall espera cantidades fijas en el tamano de cada paquete y si enviamos algunos de forma mas pequena, podrian no ser detectados y permitirnos llegar a visualizar puertos filtrados o ocultos hacia los escaneos detectados.
+
+**--mtu** ocupa un valor mayor a cero y siempre tiene que ser multiplo de 8, de no ser asi nos lo dira el propio Nmap:
+
+![[Reconocimiento/EvasionFirewall/images/008.PNG]]
+
+Si nosotros quisieramos listar las posibilidades que tenemos para evitar estas detecciones por parte de un Firewal o un sistema de deteccion IDS, podriamos utilizar la flag **--help** de nmap para mostrar las opciones que tenemos:
+
+```shell
+nmap --help
+```
+
+![[Reconocimiento/EvasionFirewall/images/009.PNG]]
+
+Buscando especificamente por este apartado, veremos como tenemos la que recien hemos visto y ahora nos enfocaremos en el **-D**.
+## Cloak a scan with decoys
 

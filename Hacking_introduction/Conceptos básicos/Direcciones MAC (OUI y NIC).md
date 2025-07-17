@@ -26,7 +26,7 @@ Para una búsqueda de fabricante usando direcciones MAC, se requieren al menos l
 
 Primeramente, si utilizamos el comando *ifconfig* podremos visualizar nuestra interfaz de red, en este caso la **ens33** donde en el apartado *ether* tendremos una estructura como la siguiente:
 
-![[005.png]]
+![[Conceptos básicos/images/005.png]]
 
 En este caso es **00:0c:29:96:94:37**. Esta estructura es la dirección MAC la cual es de 48 bits y es un identificador el cual corresponde de forma única a una tarjeta o dispositivo de red.
 
@@ -42,7 +42,7 @@ Para esto utilizaremos la herramienta **arp-scan** como usuario *root* y aprovec
 arp-scan -I ens33 --localnet
 ```
 
-![[006.png]]
+![[Conceptos básicos/images/006.png]]
 
 Esto nos descubrirá distintos equipos conectados a la red, en este caso los que estén configurados dentro de la máquina virtual, ya que estoy en un entorno virtualizado.
 
@@ -54,15 +54,15 @@ Considerando la primera que nos sale en nuestro escaneo, tomaremos el primer apa
 
 Para ello, tendremos en cuenta la herramienta **macchanger** donde con el parámetro **\-l** podremos listar las organizaciones a las que corresponden ciertas direcciones OUI:
 
-![[007.png]]
+![[Conceptos básicos/images/007.png]]
 
 Lo mostrado es una parte del listado y tiene en cuenta una gran cantidad de organizaciones, por ende filtraremos por **Arris group**, donde el filtrado no sea sensible a mayúsculas-minúsculas:
 
-![[008.png]]
+![[Conceptos básicos/images/008.png]]
 
 Esto nos retorna un listado bastante largo, por lo que, con base en la dirección OUI que nosotros tenemos, podremos realizar otro filtrado para verificar si realmente se encuentra dentro de esta organización:
 
-![[009.png]]
+![[Conceptos básicos/images/009.png]]
 
 Como observamos, en este caso no nos aparece. Este sería un ejemplo en el que no sería efectiva esta forma para tener conocimiento de a qué nos estamos enfrentando, pero habrá casos en los que sí funcione o incluso que esta dirección haya sido modificada a propósito.
 

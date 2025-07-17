@@ -24,7 +24,7 @@ Para ello necesitaremos saber el **Gateway** lo cual es la IP asignada a nuestro
 route -n
 ```
 
-![[Reconocimiento/images/001.png]]
+![[Reconocimiento/EscaneoNmap/images/001.png]]
 
 Con esto ya podríamos iniciar un escaneo sobre nuestro router de internet, para ello utilizaremos la herramienta **nmap**:
 
@@ -36,7 +36,7 @@ Con lo anterior, estaríamos realizando un escaneo a todos los puertos existente
 
 Además, por defecto, los escaneos siempre se estarán haciendo para todos aquellos servicios que se encuentren corriendo por el protocolo TCP.
 
-![[Reconocimiento/images/002.png]]
+![[Reconocimiento/EscaneoNmap/images/002.png]]
 
 En este caso, el escaneo nos retornó solo dos puertos, los cuales se encuentran abiertos, pero también podrá retornarnos puertos filtrados o incluso de algunos servicios que se encuentran cerrados. 
 
@@ -46,7 +46,7 @@ Cuando realicemos un escaneo, lo esperado será únicamente visualizar aquellos 
 nmap -p- --open 10.43.87.254
 ```
 
-![[Reconocimiento/images/003.png]]
+![[Reconocimiento/EscaneoNmap/images/003.png]]
 
 Lo anterior nos realizará el escaneo y al final nos mostrará los resultados. Si queremos ver en tiempo real lo que está sucediendo, podremos indicar el parámetro verbose que es para verlo, lo cual indicamos con **-v**:
 
@@ -95,7 +95,7 @@ Como anteriormente se mencionó, **nmap** realiza el escaneo por defecto para en
 nmap -p- --open -T5 -sT 10.43.87.254 -v -n -Pn
 ```
 
-![[Reconocimiento/images/004.png]]
+![[Reconocimiento/EscaneoNmap/images/004.png]]
 
 Si queremos que este escaneo se realice para servicios que están corriendo utilizando el protocolo **UDP**, cambiaríamos la T por **U**:
 
@@ -103,7 +103,7 @@ Si queremos que este escaneo se realice para servicios que están corriendo util
 nmap -p- --open -T5 -sU 10.43.87.254 -v -n -Pn
 ```
 
-![[Reconocimiento/images/005.png]]
+![[Reconocimiento/EscaneoNmap/images/005.png]]
 
 ## Escaneo de los dispositivos conectados a la red local
 
@@ -111,7 +111,7 @@ Para escanear la red local, utilizaremos el comando **arp-scan** y utilizaremos 
 
 En este caso, utilizaremos **iwconfig** para ver cual es la que estamos utilizando:
 
-![[Reconocimiento/images/006.png]]
+![[Reconocimiento/EscaneoNmap/images/006.png]]
 
 En este caso la que tenemos es **wlan0** y la que indicaremos al realizar el escaneo:
 
@@ -127,7 +127,7 @@ arp-scan -I wlan0 --localnet
 
 Teniendo como resultado las IP de los dispositivos conectados:
 
-![[Reconocimiento/images/007.png]]
+![[Reconocimiento/EscaneoNmap/images/007.png]]
 
 Ademas, esto tambien podremos realizarlo con **nmap** utilizando los parametros **-sn** de la siguiente manera, con la IP de la red o subred en la que nos encontremos y la bitmask:
 
@@ -137,7 +137,7 @@ nmap -sn 10.43.80.1/21
 
 Esto nos dara las IP con un formato como el siguiente:
 
-![[Reconocimiento/images/008.png]]
+![[Reconocimiento/EscaneoNmap/images/008.png]]
 
 Si queremos tener solamente las IP podremos filtrar el output con **grep** y **regex** para indicar el formato de la IP:
 
@@ -149,7 +149,7 @@ En este caso, el parametro **-o** se utiliza para que se impriman solamente aque
 
 Teniendo como resultado colamente las direcciones IP:
 
-![[Reconocimiento/images/009.png]]
+![[Reconocimiento/EscaneoNmap/images/009.png]]
 
 ## Siguientes apuntes
 

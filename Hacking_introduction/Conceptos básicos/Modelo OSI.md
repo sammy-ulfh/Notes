@@ -11,7 +11,7 @@ En redes de ordenadores, el modelo OSI (Open Systems Interconnection) es una est
 
 **Las 7 capas del modelo OSI:**
 
-![[013.png]]
+![[Conceptos básicos/images/013.png]]
 
 1. **Capa Fisica:**
 	Es la capa más baja del modelo OSI, que se encarga de la transmisión de datos a través del medio físico de la red como cables de cobre o fíbra optica.

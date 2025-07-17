@@ -39,7 +39,7 @@ De esta manera, la suma de:
 
 Con esto en mente, sabemos que en una IP tenemos un total de 4 octetos y podremos visualizar la IP que hemos considerado hasta ahora en un excel con este principio:
 
-![[014.png]]
+![[Conceptos básicos/images/014.png]]
 
 Ahora podremos contemplar el **CIDR** el cual es un estandar de red para interpretar direcciones IP, asi como consideraremos un total de host, para en funcion de la mascara de red asignada saber cuantos host se pueden configurar o estar existentes.
 

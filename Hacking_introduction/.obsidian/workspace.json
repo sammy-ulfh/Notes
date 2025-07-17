@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
+                "file": "Reconocimiento/EvasionFirewall/Técnicas de evasión de Firewalls.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar"
+              "title": "Técnicas de evasión de Firewalls"
             }
           }
         ]
@@ -170,23 +170,27 @@
   },
   "active": "af07972067b70ea4",
   "lastOpenFiles": [
+    "Reconocimiento/EvasionFirewall/images/009.PNG",
+    "Reconocimiento/EvasionFirewall/images/008.PNG",
+    "Reconocimiento/EscaneoNmap/Nmap y sus diferentes modos de escaneo.md",
+    "Reconocimiento/EvasionFirewall/Técnicas de evasión de Firewalls.md",
+    "Reconocimiento/EvasionFirewall/images/007.png",
+    "Reconocimiento/EvasionFirewall/images/006.png",
+    "Reconocimiento/EvasionFirewall/images/005.png",
+    "Reconocimiento/EvasionFirewall/images/004.png",
+    "Reconocimiento/EvasionFirewall/images/003.png",
+    "Reconocimiento/EvasionFirewall/images/002.png",
+    "Reconocimiento/EvasionFirewall/images/001.png",
+    "Reconocimiento/EvasionFirewall/images",
+    "Reconocimiento/EvasionFirewall",
+    "Reconocimiento/EscaneoNmap",
+    "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
     "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
-    "Reconocimiento/Técnicas de evasión de Firewalls.md",
-    "Reconocimiento/images/016.png",
-    "Reconocimiento/images/015.png",
-    "Reconocimiento/images/014.png",
-    "Reconocimiento/images/013.png",
-    "Reconocimiento/images/012.png",
-    "Reconocimiento/images/011.png",
-    "Reconocimiento/images/010.png",
-    "Reconocimiento/Nmap y sus diferentes modos de escaneo.md",
-    "Reconocimiento/images/009.png",
-    "Reconocimiento/images/008.png",
-    "Reconocimiento/images/007.png",
-    "Reconocimiento/images",
+    "Reconocimiento/EscaneoNmap/images/009.png",
+    "Reconocimiento/EscaneoNmap/images/008.png",
+    "Reconocimiento/EscaneoNmap/images",
     "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
     "Untitled.md",
-    "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
     "Reconocimiento",
     "Conceptos básicos/Subnetting - Introduccion.md",
     "Conceptos básicos/Subnetting - CIDRs y cálculo total de hosts.md",
