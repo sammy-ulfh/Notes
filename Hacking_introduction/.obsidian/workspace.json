@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconocimiento/EvasionFirewall/Técnicas de evasión de Firewalls.md",
+                "file": "Reconocimiento/ScriptsNmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Técnicas de evasión de Firewalls"
+              "title": "Uso de scripts y categorías en nmap para aplicar reconocimiento"
             }
           }
         ]
@@ -170,24 +170,26 @@
   },
   "active": "af07972067b70ea4",
   "lastOpenFiles": [
-    "Reconocimiento/EvasionFirewall/images/009.PNG",
-    "Reconocimiento/EvasionFirewall/images/008.PNG",
-    "Reconocimiento/EscaneoNmap/Nmap y sus diferentes modos de escaneo.md",
     "Reconocimiento/EvasionFirewall/Técnicas de evasión de Firewalls.md",
-    "Reconocimiento/EvasionFirewall/images/007.png",
-    "Reconocimiento/EvasionFirewall/images/006.png",
-    "Reconocimiento/EvasionFirewall/images/005.png",
-    "Reconocimiento/EvasionFirewall/images/004.png",
-    "Reconocimiento/EvasionFirewall/images/003.png",
-    "Reconocimiento/EvasionFirewall/images/002.png",
-    "Reconocimiento/EvasionFirewall/images/001.png",
+    "Reconocimiento/ScriptsNmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md",
+    "Reconocimiento/ScriptsNmap/images",
+    "Reconocimiento/ScriptsNmap",
+    "Reconocimiento/EvasionFirewall/images/019.PNG",
+    "Reconocimiento/EvasionFirewall/images/018.PNG",
+    "Reconocimiento/EvasionFirewall/images/017.PNG",
+    "Reconocimiento/EvasionFirewall/images/016.PNG",
+    "Reconocimiento/EvasionFirewall/images/015.PNG",
+    "Reconocimiento/EvasionFirewall/images/014.PNG",
+    "Reconocimiento/EvasionFirewall/images/013.PNG",
+    "Reconocimiento/EvasionFirewall/images/012.PNG",
+    "Reconocimiento/EvasionFirewall/images/011.PNG",
+    "Reconocimiento/EvasionFirewall/images/010.PNG",
+    "Reconocimiento/EscaneoNmap/Nmap y sus diferentes modos de escaneo.md",
     "Reconocimiento/EvasionFirewall/images",
     "Reconocimiento/EvasionFirewall",
     "Reconocimiento/EscaneoNmap",
     "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
     "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
-    "Reconocimiento/EscaneoNmap/images/009.png",
-    "Reconocimiento/EscaneoNmap/images/008.png",
     "Reconocimiento/EscaneoNmap/images",
     "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
     "Untitled.md",
@@ -201,7 +203,6 @@
     "Conceptos básicos/Direcciones IP (IPv4 e IPv6).md",
     "Conceptos básicos/images",
     "Conceptos básicos",
-    "Introduccion",
-    "Images"
+    "Introduccion"
   ]
 }
