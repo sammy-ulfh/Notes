@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Offensive/forward_shell/Creación de Forward Shell (4-4).md",
+                "file": "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (2-2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creación de Forward Shell (4-4)"
+              "title": "Creación de Backdoors y Command and Control (C&C) (2-2)"
             }
           }
         ]
@@ -170,11 +170,14 @@
   },
   "active": "2d34fa8ba14da238",
   "lastOpenFiles": [
+    "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (1-2).md",
+    "Offensive/forward_shell/Creación de Forward Shell (1-4).md",
+    "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (2-2).md",
+    "Offensive/forward_shell/Creación de Forward Shell (4-4).md",
     "Offensive/forward_shell/images/060.PNG",
     "Offensive/forward_shell/images/059.PNG",
     "Offensive/forward_shell/images/058.PNG",
     "Offensive/forward_shell/Creación de Forward Shell (3-4).md",
-    "Offensive/forward_shell/Creación de Forward Shell (4-4).md",
     "Offensive/forward_shell/images/057.PNG",
     "Offensive/forward_shell/images/056.PNG",
     "Offensive/forward_shell/images/055.PNG",
@@ -182,16 +185,12 @@
     "Offensive/forward_shell/images/053.PNG",
     "Offensive/forward_shell/images/052.PNG",
     "Offensive/forward_shell/images/051.PNG",
-    "Offensive/forward_shell/images/050.PNG",
     "Offensive/forward_shell/Creación de Forward Shell (2-4).md",
-    "Offensive/forward_shell/Creación de Forward Shell (1-4).md",
     "Offensive/forward_shell/images/~09.tmp",
     "Offensive/forward_shell/images",
-    "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (2-2).md",
     "Offensive/forward_shell",
     "Offensive/Keylogger/Creando un Keylogger (2-2).md",
     "Offensive/Backdoors y C&c/scripts1",
-    "Offensive/Backdoors y C&c/Creación de Backdoors y Command and Control (C&C) (1-2).md",
     "Offensive/Malware/Creación de Malware (2-2).md",
     "Offensive/Malware/script/Untitled.md",
     "Offensive/Malware/script",
