@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconocimiento/Subdominios/Enumeración de subdominios.md",
+                "file": "Reconocimiento/BrechasSeguridad/Credenciales y brechas de seguridad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeración de subdominios"
+              "title": "Credenciales y brechas de seguridad"
             }
           }
         ]
@@ -168,21 +168,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af07972067b70ea4",
+  "active": "801b3a2b33c3debb",
   "lastOpenFiles": [
+    "Reconocimiento/Subdominios/Enumeración de subdominios.md",
+    "Reconocimiento/BrechasSeguridad/Credenciales y brechas de seguridad.md",
+    "Reconocimiento/BrechasSeguridad/images",
+    "Reconocimiento/BrechasSeguridad",
+    "Reconocimiento/Subdominios/imagenes/016.png",
+    "Reconocimiento/Subdominios/imagenes/015.png",
+    "Reconocimiento/Subdominios/imagenes/014.png",
+    "Reconocimiento/Subdominios/imagenes/013.png",
     "Reconocimiento/Subdominios/imagenes/012.png",
     "Reconocimiento/Subdominios/imagenes/011.png",
     "Reconocimiento/Subdominios/imagenes/010.png",
     "Reconocimiento/Subdominios/imagenes/009.png",
     "Reconocimiento/Subdominios/imagenes/008.png",
     "Tools/Subdominios.md",
-    "Reconocimiento/Subdominios/Enumeración de subdominios.md",
     "Reconocimiento/Subdominios/imagenes/007.png",
-    "Reconocimiento/Subdominios/imagenes/006.png",
-    "Reconocimiento/Subdominios/imagenes/005.png",
-    "Reconocimiento/Subdominios/imagenes/004.png",
-    "Reconocimiento/Subdominios/imagenes/003.png",
-    "Reconocimiento/Subdominios/imagenes/002.png",
     "Reconocimiento/RecImagen/Reconocimiento de imágenes.md",
     "Reconocimiento/Correos/Descubrimiento de correos electrónicos.md",
     "Tools/Imagenes.md",
@@ -197,8 +199,6 @@
     "Reconocimiento/Hackerone/Validación del objetivo (Fijando un target en HackerOne).md",
     "Reconocimiento/Correos/images",
     "Reconocimiento/Correos",
-    "Reconocimiento/Hackerone/images",
-    "Reconocimiento/Hackerone",
     "Reconocimiento/DescubrirHosts/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md",
     "Reconocimiento/EscaneoDescriptores/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
     "Reconocimiento/ScriptsNmap/Creación de tus propios scripts en Lua para nmap.md",
