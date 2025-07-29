@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
+                "file": "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fuzzing y enumeración de archivos en un servidor web (1-2)"
+              "title": "Fuzzing y enumeración de archivos en un servidor web (2-2)"
             }
           }
         ]
@@ -168,25 +168,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "801b3a2b33c3debb",
+  "active": "af07972067b70ea4",
   "lastOpenFiles": [
-    "Reconocimiento/TecnologiasWeb/Identificación de las tecnologías en una página web.md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
+    "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
+    "Reconocimiento/Fuzzing/images/010.png",
+    "Reconocimiento/Fuzzing/images/009.png",
+    "Reconocimiento/Fuzzing/images/008.png",
+    "Reconocimiento/Fuzzing/images/007.png",
+    "Reconocimiento/Fuzzing/images/006.png",
+    "Reconocimiento/Fuzzing/images/005.png",
+    "Reconocimiento/Fuzzing/images/004.png",
+    "Reconocimiento/Fuzzing/images/003.png",
+    "Reconocimiento/Fuzzing/images/002.png",
+    "Reconocimiento/Fuzzing/images/001.png",
+    "Reconocimiento/TecnologiasWeb/Identificación de las tecnologías en una página web.md",
     "Reconocimiento/Fuzzing/images",
     "Reconocimiento/Fuzzing",
-    "Reconocimiento/TecnologiasWeb/images/005.png",
-    "Reconocimiento/TecnologiasWeb/images/004.png",
-    "Reconocimiento/TecnologiasWeb/images/003.png",
-    "Reconocimiento/TecnologiasWeb/images/002.png",
-    "Reconocimiento/TecnologiasWeb/images/001.png",
     "Reconocimiento/TecnologiasWeb/images",
     "Reconocimiento/BrechasSeguridad/Credenciales y brechas de seguridad.md",
     "Reconocimiento/TecnologiasWeb",
-    "Reconocimiento/BrechasSeguridad/images/005.png",
-    "Reconocimiento/BrechasSeguridad/images/004.png",
-    "Reconocimiento/BrechasSeguridad/images/003.png",
-    "Reconocimiento/BrechasSeguridad/images/002.png",
-    "Reconocimiento/BrechasSeguridad/images/001.png",
     "Reconocimiento/Subdominios/Enumeración de subdominios.md",
     "Reconocimiento/BrechasSeguridad/images",
     "Reconocimiento/BrechasSeguridad",
@@ -214,7 +215,6 @@
     "Conceptos básicos/Subnetting - Introduccion.md",
     "Conceptos básicos/Subnetting - CIDRs y cálculo total de hosts.md",
     "Conceptos básicos/Modelo OSI.md",
-    "Conceptos básicos/Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake.md",
-    "Conceptos básicos/Direcciones MAC (OUI y NIC).md"
+    "Conceptos básicos/Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake.md"
   ]
 }
