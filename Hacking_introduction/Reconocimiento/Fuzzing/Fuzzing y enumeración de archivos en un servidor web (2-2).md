@@ -1,5 +1,19 @@
 # Índice
 
+- [[#Introducción]]
+- [[#BurpSuite Community Edition]]
+- [[#BurpSuite Professional]]
+- [[#Práctica]]
+- [[#Wfuzz]]
+- [[#Ffuf]]
+- [[#Phonebook.cz]]
+- [[#BurpSuite]]
+- [[#Configuración del navegador]]
+- [[#Tráfico en BurpSuite]]
+- [[#Fuzzing con información de peticiones que realiza la plataforma por detras]]
+- [[#Enumeración]]
+- [[#Siguientes apuntes]]
+
 # Introducción
 
 Veremos cómo se pueden utilizar distintos parámetros de **wfuzz** para ajustar el alcance y la profundidad del reconocimiento en aplicaciones web. Algunos de los parámetros cubiertos incluyen el parámetro **-sl**, para filtrar por un número de líneas determinado, el parámetro **-hl** para ocultar un número de líneas determinado y por último el parámetro **-z** para indicar que tipo de dato queremos utilizar de cara al reconocimiento que nos interese aplicar, abarcando opciones como diccionarios, listas y rangos numéricos. 
@@ -141,7 +155,93 @@ En este caso, si colocamos el dominio de **amazon.com** veremos resultados de UR
 
 ## BurpSuite
 
+**Burpsuite** es una herramienta que funciona como proxy capturando el tráfico y, si queremos interceptarlo para realizar distintas cosas o ver más a fondo lo que está sucediendo, nos lo permite. 
 
+Esta herramienta la podremos instalar con nuestro instalador de confianza del sistema, de no ser así, quiere decir que no se encuentra en los repositorios y tendremos que buscar otra alternativa. 
+
+Cuando nosotros ejecutemos **BurpSuite** tendremos que aceptar los términos y condiciones. Al pasar a la siguiente ventana solo le daremos a siguiente y finalmente iniciar burp.
+
+Con ello ya tendríamos BurpSuite Community Edition para empezar a utilizarlo:
+
+![[Reconocimiento/Fuzzing/images/020.png]]
+
+Nos enfocaremos en la funcionalidad de proxy. Si vamos al apartado de Proxy y a las configuraciones del mismo, veremos lo siguiente:
+
+![[Reconocimiento/Fuzzing/images/021.png]]
+
+Veremos que se encuentra un proxy en escucha corriendo en local en el puerto 8080. 
+
+Con BurpSuite tenemos dos opciones: en el apartado de **target** y después en **site map** nos dejará abrir un navegador basado en Chromium el cual ya trae el propio BurpSuite con todo correctamente configurado y ya podremos empezar a navegar e ir viendo el tráfico en burpsuite.
+
+Por otro lado, podemos configurar nosotros mismos un proxy y un certificado en un navegador aparte.
+
+## Configuración del navegador
+
+Con ello en mente, ahora en nuestro navegador Firefox agregaríamos el addon (extensión) de **FoxyProxy**, con ello podremos permitir que nuestro tráfico en el navegador pase por bursuite una vez configuremos el proxy para **BurpSuite**. 
+
+Cuando agreguemos el addon, vamos a abrirlo y veremos lo siguiente:
+
+![[Reconocimiento/Fuzzing/images/022.png]]
+
+Nos iremos a las opciones y en proxies agregaremos un nuevo proxy:
+
+![[Reconocimiento/Fuzzing/images/023.png]]
+
+![[Reconocimiento/Fuzzing/images/024.png]]
+
+Una vez lo guardemos, nos aparecerá en nuestra ventana de la extensión cuando la presionemos:
+
+![[Reconocimiento/Fuzzing/images/025.png]]
+
+Al seleccionarlo, ya estaría pasando el tráfico por BurpSuite, pero de primeras tendremos el siguiente error:
+
+![[Reconocimiento/Fuzzing/images/026.png]]
+
+Esto se debe a que es tráfico HTTP y tendremos que agregar un certificado al navegador para confiar en bursuite. Este podremos descargarlo accediendo a la página **http:\//burpsuite**. Confiaremos en la página HTTP y en la parte superior derecha donde dice **CA CERTIFICATE** presionaremos y nos dejará descargarlo, podría ser en la carpeta de descargas. 
+
+Ahora en la configuración de nuestro navegador filtraremos por **certificates** y en **view certificates** le daremos a importar y agregaremos este certificado que acabamos de descargar en nuestro ordenador:
+
+![[Reconocimiento/Fuzzing/images/027.png]]
+
+Al momento de agregarlo, seleccionaremos la primera opción y le daremos a **ok**:
+
+![[Reconocimiento/Fuzzing/images/028.png]]
+
+## Tráfico en BurpSuite
+
+Con ello ya estaría listo y ahora podríamos navegar tranquilamente, pero mientras tanto veremos cómo en **BurpSuite** en el apartado de **target** y después en **site map** se está capturando:
+
+![[Reconocimiento/Fuzzing/images/029.png]]
+
+También tenemos la posibilidad de irnos al apartado de **Proxy** y veremos cómo intercept está en **off**. Si lo encendemos, ahora el tráfico que pase por nosotros se quedará en espera antes de continuar su tráfico, ya que nosotros tendremos que aceptarlo o rechazarlo:
+
+![[Reconocimiento/Fuzzing/images/030.png]]
+
+Esto nos sirve bastante en enfoques ya más preciosos como lo es el hacking web, además de que nos permite visualizar a qué rutas de la página se están realizando las peticiones. Recordemos apagar el interceptor si no queremos estar aceptando cada solicitud.
+
+## Fuzzing con información de peticiones que realiza la plataforma por detras
+
+En este caso para enumeración **BurpSuite** puede ser de ayuda para ir viendo toda la información como peticiones que se hacen por detrás, como a la API que en ocasiones puede llegar a estar como subdominio del mismo dominio y basándose en los lugares en donde pueda realizar otras peticiones aplicar **FUZING**. Un ejemplo claro sería cuando Amazon o alguna tienda hace peticiones para mostrar un producto. 
+
+En estos casos en ocasiones la petición se hace mediante una URL a la cual mediante parámetros se le puede pasar el ID del producto.
+
+Desde luego abra productos que no existan, pero sí tenemos como ejemplo la ruta: **amazon.com\/productId=1567**, podríamos hacer fuzzing con una herramienta como **wfuzz** y crear una lista de rango de números con el parámetro **-z range,1-20000**, esto nos generaría una lista de números del 1 al 20,000 y con la palabra clave FUZZ podríamos probarla con cada productId. 
+
+Si vemos que muchas peticiones repiten el mismo número de líneas, por ejemplo, podríamos esconder esas peticiones con el parámetro **--hl** que esconde peticiones referentes a ciertos números de líneas en su respuesta.
+
+Finalmente, ya nos podría mostrar de forma más segura los productos que realmente existen y esto es posible aplicando **FUZZING**. 
+
+En el caso de Amazon no es así, ya que se le pasa bastante contexto de un producto seleccionado y por ende es un tanto distinto.
+
+## Enumeración
+
+En cuanto al tráfico que estemos generando, **BurpSuite** nos irá almacenando los subdominios o dominios por los que por detrás se llegan a realizar peticiones en la navegación y podremos llegar a visualizarlos en el apartado de **target** y **site map** dentro de target, incluso si desplegamos los dominios que nos aparecen podríamos llegar a listar recursos como archivos y directorios:
+
+![[Reconocimiento/Fuzzing/images/031.png]]
+
+Toda esta información la vemos porque las plataformas por detrás hacen búsquedas que nosotros no visualizamos para mostrarnos el resultado esperado en la navegación de la misma. 
+
+Con estas herramientas ya tenemos un alcance muy potente para el reconocimiento de información importante y aplicación de **Fuzzing** para búsqueda de recursos o directorios.
 # Siguientes apuntes
 
-[[]]
+[[Google Dorks - Google Hacking (Los 18 Dorks más usados)]]

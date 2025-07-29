@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
+                "file": "Reconocimiento/GoogleDorks/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fuzzing y enumeración de archivos en un servidor web (2-2)"
+              "title": "Google Dorks - Google Hacking (Los 18 Dorks más usados)"
             }
           }
         ]
@@ -168,21 +168,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af07972067b70ea4",
+  "active": "801b3a2b33c3debb",
   "lastOpenFiles": [
-    "Reconocimiento/Fuzzing/images/019.png",
-    "Reconocimiento/Fuzzing/images/018.png",
-    "Reconocimiento/Fuzzing/images/017.png",
-    "Reconocimiento/Fuzzing/images/016.png",
-    "Reconocimiento/Fuzzing/images/015.png",
-    "Reconocimiento/Fuzzing/images/014.png",
-    "Reconocimiento/Fuzzing/images/013.png",
-    "Reconocimiento/Fuzzing/images/012.png",
-    "Reconocimiento/Fuzzing/images/011.png",
-    "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
-    "Reconocimiento/Fuzzing/images/010.png",
-    "Reconocimiento/Fuzzing/images/009.png",
+    "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
+    "Reconocimiento/GoogleDorks/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
+    "Reconocimiento/GoogleDorks/images",
+    "Reconocimiento/GoogleDorks",
+    "Reconocimiento/Fuzzing/images/031.png",
+    "Reconocimiento/Fuzzing/images/030.png",
+    "Reconocimiento/Fuzzing/images/029.png",
+    "Reconocimiento/Fuzzing/images/028.png",
+    "Reconocimiento/Fuzzing/images/027.png",
+    "Reconocimiento/Fuzzing/images/026.png",
+    "Reconocimiento/Fuzzing/images/025.png",
+    "Reconocimiento/Fuzzing/images/024.png",
+    "Reconocimiento/Fuzzing/images/023.png",
+    "Reconocimiento/Fuzzing/images/022.png",
     "Reconocimiento/TecnologiasWeb/Identificación de las tecnologías en una página web.md",
     "Reconocimiento/Fuzzing/images",
     "Reconocimiento/Fuzzing",
@@ -200,8 +202,6 @@
     "Reconocimiento/Subdominios",
     "Reconocimiento/Untitled.md",
     "Tools/Correos.md",
-    "Reconocimiento/RecImagen/images",
-    "Reconocimiento/RecImagen",
     "Reconocimiento/Hackerone/Validación del objetivo (Fijando un target en HackerOne).md",
     "Reconocimiento/DescubrirHosts/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md",
     "Reconocimiento/EscaneoDescriptores/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
