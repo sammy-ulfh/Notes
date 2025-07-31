@@ -40,4 +40,33 @@ Otra alternativa es que utilizar el nombre del contenedor en lugar del identific
 Esta información la podremos ver con `docker ps`.
 # Práctica
 
+Cuando desplegamos un contenedor lo hariamos de la siguientre manera:
+
+![[Docker/Construccion/images/003.png]]
+
+Con **docker run** generamos el contenedor y automaticamente estara corriendo, lo hicimos con las opciones **d**, **i** y **t**, lo que nos permite tenerlo corriendo en segundo plano, asignarle una seudoterminal y ademas permite la entrada interactiva de comandos.
+
+Cuando ejecutamos **docker ps** podremos ver que ya se encuentra corriendo y podremos referirnos a este contenedor con el ID completo que nos retorna el **docker run** o con el ID compacto que nos retorna la hacer un **docker ps**, pero tambien podremos utilizar el nombre, que en este caso al no asignarle uno, Docker se lo asigno de forma automatica.
+
+Si quisieramos tener una shell interactiva del contenedor, lo hariamos con **docker exec** para ejecutar un comando en el contenedor refiriendonos a este con el ID o nombre y con las opciones **it**:
+
+![[Docker/Construccion/images/004.png]]
+
+En este caso vemos como el **hostname** del contenedor es el propio ID de este.
+
+Los contenedores por defecto vienen practicamente limpios, por lo que no tendremos comandos como **ifconfig** o **ping**. Si quisieramos llegar a utilizar ciertas herramientas tendriamos que instalarlas de la forma convencional, sin embargo en un inicio no funcionaria un simple **apt install** en este caso al estar basado en debian el ubuntu.
+
+Primeramiente tendriamos que hacer un update del sistema y con ello ya nos funcionaria correctamente la instalacion de paquetes:
+
+![[Docker/Construccion/images/005.png]]
+
+Con net-tools instalado ahora si que nos funcionaria **ifconfig**:
+
+![[Docker/Construccion/images/006.png]]
+
+Si vemos la IP de nuestro ordenador a comparacion de la que tiene el contenedor es totalmente distinta. Esto se debe que a nosotros en nuestra maquina se nos asigna una interfaz **docker0** la cual tiene cierto rango de IP y a partir de esta se le asigna un IP distinta a cada contenedor:
+
+![[Docker/Construccion/images/007.png]]
+
+
 # Siguientes apuntes

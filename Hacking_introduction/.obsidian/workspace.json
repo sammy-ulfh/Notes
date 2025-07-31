@@ -170,6 +170,11 @@
   },
   "active": "d40989ace6bcb5b5",
   "lastOpenFiles": [
+    "Docker/Construccion/images/007.png",
+    "Docker/Construccion/images/006.png",
+    "Docker/Construccion/images/005.png",
+    "Docker/Construccion/images/004.png",
+    "Docker/Construccion/images/003.png",
     "Docker/Construccion/Creación y construcción de imágenes.md",
     "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Docker/Construccion/images/002.png",
@@ -193,13 +198,9 @@
     "Reconocimiento/EvasionFirewall/Técnicas de evasión de Firewalls.md",
     "Docker/Introduccion",
     "Docker",
-    "Reconocimiento/OS/images/001.png",
     "Reconocimiento/OS/images",
     "Reconocimiento/GoogleDorks/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
     "Reconocimiento/OS",
-    "Reconocimiento/GoogleDorks/images/014.png",
-    "Reconocimiento/GoogleDorks/images/013.png",
-    "Reconocimiento/GoogleDorks/images/012.png",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
     "Reconocimiento/GoogleDorks/images",
@@ -214,7 +215,6 @@
     "Reconocimiento/Hackerone/Validación del objetivo (Fijando un target en HackerOne).md",
     "Reconocimiento/DescubrirHosts/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md",
     "Reconocimiento/EscaneoDescriptores/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
-    "Reconocimiento/ScriptsNmap/Creación de tus propios scripts en Lua para nmap.md",
-    "Reconocimiento/ScriptsNmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md"
+    "Reconocimiento/ScriptsNmap/Creación de tus propios scripts en Lua para nmap.md"
   ]
 }
