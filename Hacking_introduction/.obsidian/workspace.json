@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
+                "file": "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Carga de instrucciones en Docker y desplegando nuestro primer contenedor"
+              "title": "Comandos comunes para la gestión de contenedores"
             }
           }
         ]
@@ -170,24 +170,24 @@
   },
   "active": "d40989ace6bcb5b5",
   "lastOpenFiles": [
+    "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
+    "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
+    "Docker/Construccion/images/011.png",
+    "Docker/Construccion/images/010.png",
+    "Docker/Construccion/images/009.png",
+    "Docker/Construccion/images/008.png",
     "Docker/Construccion/images/007.png",
     "Docker/Construccion/images/006.png",
     "Docker/Construccion/images/005.png",
     "Docker/Construccion/images/004.png",
     "Docker/Construccion/images/003.png",
     "Docker/Construccion/Creación y construcción de imágenes.md",
-    "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Docker/Construccion/images/002.png",
-    "Docker/Construccion/images/001.png",
     "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md",
     "Docker/Construccion/images",
     "Docker/Construccion",
-    "Docker/Introduccion/images/003.png",
-    "Docker/Introduccion/images/002.png",
     "Docker/Introduccion/Instalación de Docker en Linux.md",
     "Docker/Introduccion/Introducción a Docker.md",
-    "Docker/Introduccion/images/001.png",
-    "Reconocimiento/OS/images/002.png",
     "Tools/Subdominios.md",
     "Tools/Correos.md",
     "Tools/Imagenes.md",
