@@ -1,5 +1,8 @@
 # Índice
 
+- [[#Introducción]]
+- [[#Práctica]]
+- [[#Siguientes apuntes]]
 # Introducción
 
 El tiempo de vida (**TLL**) hace referencia a la cantidad de tiempo o **saltos** que se ha establecido que un paquete debe de existir dentro de una red antes de ser descartado por un enrutador. El TLL también se utiliza en otros contextos, como el almacenamiento en caché de CDN y el almacenamiento en caché de DNS. 
@@ -32,4 +35,4 @@ Si nosotros revisamos la web, veremos que existen diversos valores de TTL para d
 Estos valores no son siempre exactos, por lo que podrán llegar a verse ligeramente distintos o incluso se pueden llegar a modificar, por lo cual no es un indicador 100% claro del sistema, pero sin que haya sido modificado, podremos intuir ante qué máquina nos enfrentamos.
 # Siguientes apuntes
 
-[[]]
+[[Introducción a Docker]]
