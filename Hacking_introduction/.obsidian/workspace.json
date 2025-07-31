@@ -168,11 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "801b3a2b33c3debb",
+  "active": "af07972067b70ea4",
   "lastOpenFiles": [
+    "Reconocimiento/OS/images/001.png",
+    "Reconocimiento/OS/images",
     "Reconocimiento/GoogleDorks/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
     "Reconocimiento/OS/Identificación y verificación externa de la versión del sistema operativo.md",
-    "Reconocimiento/OS/images",
     "Reconocimiento/OS",
     "Reconocimiento/GoogleDorks/images/014.png",
     "Reconocimiento/GoogleDorks/images/013.png",
@@ -214,7 +215,6 @@
     "Conceptos básicos/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
     "Conceptos básicos/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
     "Untitled.md",
-    "Conceptos básicos/Subnetting - Introduccion.md",
-    "Conceptos básicos/Subnetting - CIDRs y cálculo total de hosts.md"
+    "Conceptos básicos/Subnetting - Introduccion.md"
   ]
 }

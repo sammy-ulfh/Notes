@@ -1,5 +1,13 @@
 # Índice
 
+- [[#Introducción]]
+- [[#Práctica]]
+- [[#Enfoque en un dominio]]
+- [[#Encontrar subdominios]]
+- [[#Encontrar archivos por extensión]]
+- [[#Herramientas de Google Hacking]]
+- [[#Exploit-db]]
+- [[#Siguientes apuntes]]
 # Introducción
 
 El **Google Dork** es una técnica de búsqueda avanzada que utiliza operadores y palabras clave específicas en el buscador de Google para encontrar información que normalmente no aparece en los resultados de búsqueda regulares. 
