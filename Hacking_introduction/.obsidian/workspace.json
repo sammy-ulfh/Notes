@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Construccion/Creación y construcción de imágenes.md",
+                "file": "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Creación y construcción de imágenes"
+              "title": "Carga de instrucciones en Docker y desplegando nuestro primer contenedor"
             }
           }
         ]
@@ -170,8 +170,11 @@
   },
   "active": "d40989ace6bcb5b5",
   "lastOpenFiles": [
-    "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md",
     "Docker/Construccion/Creación y construcción de imágenes.md",
+    "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
+    "Docker/Construccion/images/002.png",
+    "Docker/Construccion/images/001.png",
+    "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md",
     "Docker/Construccion/images",
     "Docker/Construccion",
     "Docker/Introduccion/images/003.png",
@@ -197,8 +200,6 @@
     "Reconocimiento/GoogleDorks/images/014.png",
     "Reconocimiento/GoogleDorks/images/013.png",
     "Reconocimiento/GoogleDorks/images/012.png",
-    "Reconocimiento/GoogleDorks/images/011.png",
-    "Reconocimiento/GoogleDorks/images/010.png",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
     "Reconocimiento/GoogleDorks/images",
@@ -214,7 +215,6 @@
     "Reconocimiento/DescubrirHosts/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md",
     "Reconocimiento/EscaneoDescriptores/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
     "Reconocimiento/ScriptsNmap/Creación de tus propios scripts en Lua para nmap.md",
-    "Reconocimiento/ScriptsNmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md",
-    "Conceptos básicos/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md"
+    "Reconocimiento/ScriptsNmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md"
   ]
 }
