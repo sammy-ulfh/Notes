@@ -170,19 +170,20 @@
   },
   "active": "d40989ace6bcb5b5",
   "lastOpenFiles": [
+    "Docker/Construccion/images/029.png",
+    "Docker/Construccion/images/028.png",
+    "Docker/Construccion/images/027.png",
+    "Docker/Construccion/images/026.png",
+    "Docker/Construccion/images/025.png",
+    "Docker/Construccion/images/024.png",
+    "Docker/Construccion/images/023.png",
+    "Docker/Construccion/images/022.png",
+    "Docker/Construccion/images/021.png",
     "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/Construccion/images/020.png",
     "Docker/Construccion/images/019.png",
-    "Docker/Construccion/images/018.png",
-    "Docker/Construccion/images/017.png",
-    "Docker/Construccion/images/016.png",
-    "Docker/Construccion/images/015.png",
-    "Docker/Construccion/images/014.png",
-    "Docker/Construccion/images/013.png",
-    "Docker/Construccion/images/012.png",
     "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
-    "Docker/Construccion/images/011.png",
     "Docker/Construccion/Creación y construcción de imágenes.md",
     "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md",
     "Docker/Construccion/images",
@@ -214,7 +215,6 @@
     "Reconocimiento/Correos/Descubrimiento de correos electrónicos.md",
     "Reconocimiento/Untitled.md",
     "Reconocimiento/Hackerone/Validación del objetivo (Fijando un target en HackerOne).md",
-    "Reconocimiento/DescubrirHosts/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md",
-    "Reconocimiento/EscaneoDescriptores/Alternativas para la enumeración de puertos usando descriptores de archivo.md"
+    "Reconocimiento/DescubrirHosts/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md"
   ]
 }
