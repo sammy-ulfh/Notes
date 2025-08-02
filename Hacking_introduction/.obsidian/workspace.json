@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
+                "file": "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Port Forwarding en Docker y uso de monturas"
+              "title": "Despliegue de máquinas vulnerables con Docker-Compose (1-2)"
             }
           }
         ]
@@ -170,19 +170,21 @@
   },
   "active": "d40989ace6bcb5b5",
   "lastOpenFiles": [
+    "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
+    "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
+    "Docker/MaquinasVulnerbales/images",
+    "Docker/MaquinasVulnerbales",
+    "Docker/Construccion/images/033.png",
+    "Docker/Construccion/images/032.png",
+    "Docker/Construccion/images/031.png",
+    "Docker/Construccion/images/030.png",
     "Docker/Construccion/images/029.png",
     "Docker/Construccion/images/028.png",
     "Docker/Construccion/images/027.png",
     "Docker/Construccion/images/026.png",
     "Docker/Construccion/images/025.png",
     "Docker/Construccion/images/024.png",
-    "Docker/Construccion/images/023.png",
-    "Docker/Construccion/images/022.png",
-    "Docker/Construccion/images/021.png",
     "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
-    "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
-    "Docker/Construccion/images/020.png",
-    "Docker/Construccion/images/019.png",
     "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Docker/Construccion/Creación y construcción de imágenes.md",
     "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md",
@@ -206,9 +208,7 @@
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
     "Reconocimiento/GoogleDorks/images",
-    "Reconocimiento/GoogleDorks",
     "Reconocimiento/TecnologiasWeb/Identificación de las tecnologías en una página web.md",
-    "Reconocimiento/Fuzzing/images",
     "Reconocimiento/BrechasSeguridad/Credenciales y brechas de seguridad.md",
     "Reconocimiento/Subdominios/Enumeración de subdominios.md",
     "Reconocimiento/RecImagen/Reconocimiento de imágenes.md",

@@ -1,5 +1,14 @@
 # Índice
 
+- [[#Introducción]]
+- [[#Port forwarding]]
+- [[#Monturas]]
+- [[#Práctica]]
+- [[#Por forwarding]]
+- [[#Monturas]]
+- [[#COPY]]
+- [[#docker logs]]
+- [[#Siguientes apuntes]]
 # Introducción
 
 ## Port forwarding
@@ -130,6 +139,48 @@ De esta manera, ahora es capaz de tomar el comando que le enviamos a través del
 ![[Docker/Construccion/images/029.png]]
 
 ## Monturas
+
+Las monturas en un contenedor prácticamente son la posibilidad de compartir recursos de la máquina host con el contenedor, de tal forma que los cambios efectuados en el contenedor se verían reflejados en el archivo de la máquina host y viceversa. 
+
+Suponiendo que ahora mismo no tenemos ningún contenedor existente, nos enfocaríamos nuevamente en nuestro Dockerfile, en la ruta donde está el mismo. Crearíamos un archivo **prueba.txt** y escribiríamos algo en el, como "Hola esto es una prueba".
+
+Al tener estos dos archivos, al momento de correr el contenedor podríamos utilizar la opción **-v** la cual nos permitirá utilizar una montura con una sintaxis de dos rutas separadas por puntos dobles. Antes de los dos puntos iría la ruta del host y después de los dos puntos la ruta del contenedor donde se mostrarían los recursos.
+
+```shell
+docker run -dit -p 80:80 -v /host-path:/container-path --name myContainer id_imagen
+```
+
+En este caso, si quisiéramos compartir la ruta donde tenemos el Dockerfile y prueba.txt con la ruta **/var/www/html/** del contenedor, sería con el comando anterior, colocando cada una de las rutas, después al abrir el navegador lo veríamos de la siguiente manera:
+
+![[Docker/Construccion/images/030.png]]
+
+Si ahora abrimos el archivo txt, veremos que es el mensaje del archivo que se encuentra en la máquina host:
+
+![[Docker/Construccion/images/031.png]]
+
+Lo interesante aquí, es que si modificamos el archivo desde la máquina host o desde el contenedor, el archivo sufrirá el cambio en ambas partes debido a que se está compartiendo y es como si fuese un enlace directo. 
+
+Maniéndose como archivo principal el que está en el host, podríamos verlo algo así como si de un link simbólico se tratase, pero evidentemente no es lo mismo.
+
+Una forma de aprovechar las monturas sería, por ejemplo, en archivitos que sean o funcionen como base de datos. De esta forma siempre mantendríamos actualizados a un archivo, el cual a su vez puede compartirse con otro contenedor o recursos, sin tener el problema de tener que trabajar con distintas versiones de un archivo.
+
+## COPY
+
+Una alternativa a las monturas es copiar el contenido de nuestra máquina host a un lugar del contenedor. Esto lo podemos hacer con el prefijo **COPY** en el Dockerfile, indicando primeramente el recurso de la máquina host y posteriormente el lugar del contenedor en donde se almacenará:
+
+![[Docker/Construccion/images/032.png]]
+
+En este caso, para el archivo prueba.txt no indicamos la ruta absoluta debido a que se encuentra en el mismo directorio del Dockerfile y ahora podremos construir nuevamente la imagen y luego lanzar el contenedor con esta imagen:
+
+![[Docker/Construccion/images/033.png]]
+
+Al ejecutar el contenedor ya no utilizaríamos monturas y con ello ya tendremos el archivo copiado dentro del contenedor y este no sufrirá cambios en la máquina host si lo editamos desde el contenedor.
+
+## docker logs
+
+Con el comando **docker logs** podremos pasarle el id de un contenedor y ver que es lo que ha sucedido en un contenedor referente a los logs e incluso si quisiéramos utilizar al final el parámetro **-f** para estar en escucha de nuevos logs y visualizarlos cuando algo suceda en el momento.
+
+`docker logs id_contenedor` o `docker logs id_contenedor -f`
 # Siguientes apuntes
 
-[[]]
+[[Despliegue de máquinas vulnerables con Docker-Compose (1-2)]]
