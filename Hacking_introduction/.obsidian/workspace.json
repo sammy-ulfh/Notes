@@ -170,6 +170,11 @@
   },
   "active": "d40989ace6bcb5b5",
   "lastOpenFiles": [
+    "Docker/MaquinasVulnerbales/images/005.png",
+    "Docker/MaquinasVulnerbales/images/004.png",
+    "Docker/MaquinasVulnerbales/images/003.png",
+    "Docker/MaquinasVulnerbales/images/002.png",
+    "Docker/MaquinasVulnerbales/images/001.png",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/MaquinasVulnerbales/images",
@@ -180,10 +185,6 @@
     "Docker/Construccion/images/030.png",
     "Docker/Construccion/images/029.png",
     "Docker/Construccion/images/028.png",
-    "Docker/Construccion/images/027.png",
-    "Docker/Construccion/images/026.png",
-    "Docker/Construccion/images/025.png",
-    "Docker/Construccion/images/024.png",
     "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
     "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Docker/Construccion/Creación y construcción de imágenes.md",
@@ -214,7 +215,6 @@
     "Reconocimiento/RecImagen/Reconocimiento de imágenes.md",
     "Reconocimiento/Correos/Descubrimiento de correos electrónicos.md",
     "Reconocimiento/Untitled.md",
-    "Reconocimiento/Hackerone/Validación del objetivo (Fijando un target en HackerOne).md",
-    "Reconocimiento/DescubrirHosts/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md"
+    "Reconocimiento/Hackerone/Validación del objetivo (Fijando un target en HackerOne).md"
   ]
 }
