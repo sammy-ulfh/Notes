@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
+                "file": "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Despliegue de máquinas vulnerables con Docker-Compose (1-2)"
+              "title": "Despliegue de máquinas vulnerables con Docker-Compose (2-2)"
             }
           }
         ]
@@ -168,23 +168,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d40989ace6bcb5b5",
+  "active": "801b3a2b33c3debb",
   "lastOpenFiles": [
-    "Docker/MaquinasVulnerbales/images/005.png",
-    "Docker/MaquinasVulnerbales/images/004.png",
-    "Docker/MaquinasVulnerbales/images/003.png",
-    "Docker/MaquinasVulnerbales/images/002.png",
-    "Docker/MaquinasVulnerbales/images/001.png",
-    "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
+    "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
+    "Docker/MaquinasVulnerbales/images/014.png",
+    "Docker/MaquinasVulnerbales/images/013.png",
+    "Docker/MaquinasVulnerbales/images/012.png",
+    "Docker/MaquinasVulnerbales/images/011.png",
+    "Docker/MaquinasVulnerbales/images/010.png",
+    "Docker/MaquinasVulnerbales/images/009.png",
+    "Docker/MaquinasVulnerbales/images/008.png",
+    "Docker/MaquinasVulnerbales/images/007.png",
+    "Docker/MaquinasVulnerbales/images/006.png",
+    "Docker/MaquinasVulnerbales/images/005.png",
+    "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/MaquinasVulnerbales/images",
     "Docker/MaquinasVulnerbales",
-    "Docker/Construccion/images/033.png",
-    "Docker/Construccion/images/032.png",
-    "Docker/Construccion/images/031.png",
-    "Docker/Construccion/images/030.png",
-    "Docker/Construccion/images/029.png",
-    "Docker/Construccion/images/028.png",
     "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
     "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Docker/Construccion/Creación y construcción de imágenes.md",
