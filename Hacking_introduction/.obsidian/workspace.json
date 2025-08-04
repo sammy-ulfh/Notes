@@ -168,20 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "801b3a2b33c3debb",
+  "active": "d40989ace6bcb5b5",
   "lastOpenFiles": [
+    "Docker/MaquinasVulnerbales/images/021.png",
+    "Docker/MaquinasVulnerbales/images/020.png",
+    "Docker/MaquinasVulnerbales/images/019.png",
+    "Docker/MaquinasVulnerbales/images/018.png",
+    "Docker/MaquinasVulnerbales/images/017.png",
+    "Docker/MaquinasVulnerbales/images/016.png",
+    "Docker/MaquinasVulnerbales/images/015.png",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
     "Docker/MaquinasVulnerbales/images/014.png",
     "Docker/MaquinasVulnerbales/images/013.png",
     "Docker/MaquinasVulnerbales/images/012.png",
     "Docker/MaquinasVulnerbales/images/011.png",
-    "Docker/MaquinasVulnerbales/images/010.png",
-    "Docker/MaquinasVulnerbales/images/009.png",
-    "Docker/MaquinasVulnerbales/images/008.png",
-    "Docker/MaquinasVulnerbales/images/007.png",
-    "Docker/MaquinasVulnerbales/images/006.png",
-    "Docker/MaquinasVulnerbales/images/005.png",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/MaquinasVulnerbales/images",
     "Docker/MaquinasVulnerbales",
@@ -214,7 +215,6 @@
     "Reconocimiento/Subdominios/Enumeración de subdominios.md",
     "Reconocimiento/RecImagen/Reconocimiento de imágenes.md",
     "Reconocimiento/Correos/Descubrimiento de correos electrónicos.md",
-    "Reconocimiento/Untitled.md",
-    "Reconocimiento/Hackerone/Validación del objetivo (Fijando un target en HackerOne).md"
+    "Reconocimiento/Untitled.md"
   ]
 }
