@@ -1,7 +1,12 @@
 
 # Índice
 
-
+- [[#Introducción]]
+- [[#Práctica]]
+- [[#Ataque de fuerza bruta]]
+- [[#Usuario anonymous]]
+- [[#FTP]]
+- [[#Siguientes apuntes]]
 # Introducción
 
 En este caso mostraremos cómo se podría enumerar el servicio FTP (**File Transfer Protocol**) para recopilar información que pueda ser de ayuda para determinar cómo avanzar.
@@ -96,5 +101,40 @@ Para evitar tumbar el contenedor, trabajamos el ataque únicamente con 2 hilos, 
 
 Vemos cómo nos ha encontrado la contraseña para el usuario que hemos colocado. En este caso, desplegando el contenedor nuevamente, yo he asignado el usuario **sammy** y ha encontrado la contraseña.
 
+Si nosotros instentamos entrar a este servicio FTP, colocando correctamente las credenciales veremos como nos conectamos correctamente, pero so las colocamos mal nos dira que el login no se completo correctamente:
+
+```shell
+ftp 127.0.0.1
+```
 ## Usuario anonymous
+
+Ahora nos iremos al segundo proyecto y ejecutaremos el comando del Readme para desplegar el contenedor:
+
+```shell
+docker run -d -p 20-21:20-21 -p 65500-65515:65500-65515 -v /tmp:/var/ftp:ro metabrainz/docker-anon-ftp
+```
+
+Esto, de la misma forma, nos desplegará el servicio FTP en el puerto 21. Si ahora realizamos un escaneo de la misma forma, lanzando los scripts más comunes de Nmap, veremos cómo ahora si que nos lista que el usuario **anonymous** existe.
+
+```shell
+nmap -sCV -p21 127.0.0.1
+```
+
+![[EnumServComunes/FTP/images/004.png]]
+
+Al final nos dice que el usuario anonymous está disponible y, por ende, podríamos colocar el usuario y sin colocar una contraseña ya estaríamos logueados correctamente:
+
+![[EnumServComunes/FTP/images/005.png]]
+
+La otra sería lanzar el script específico **ftp-anon** con el parámetro **--script**, que es el que nos verifica si el usuario anonymous está disponible.
+## FTP
+
+Al ya estar logueados, podríamos llegar a subir archivos o traernos algunos a nuestra máquina local, entrar en el modo de binarios para llegar a trabajar con estos para evitar que se lleguen a corromper. 
+
+Esto ya estaría más en aprender cómo funciona el servicio FTP y utilizarlo a nuestras necesidades.
+
+- [File Transfer Protocol](https://www.youtube.com/watch?v=yg7Q-DyrvXY)
+- [¿Qué es FTP y cómo se usa?](https://www.youtube.com/watch?v=3GlYK4H8YbU)
 # Siguientes apuntes
+
+[[Enumeración del servicio SSH]]

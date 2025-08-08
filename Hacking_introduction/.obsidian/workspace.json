@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EnumServComunes/FTP/Enumeración del servicio FTP.md",
+                "file": "EnumServComunes/SSH/Enumeración del servicio SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeración del servicio FTP"
+              "title": "Enumeración del servicio SSH"
             }
           }
         ]
@@ -168,13 +168,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d40989ace6bcb5b5",
+  "active": "801b3a2b33c3debb",
   "lastOpenFiles": [
+    "EnumServComunes/FTP/Enumeración del servicio FTP.md",
+    "EnumServComunes/SSH/Enumeración del servicio SSH.md",
+    "EnumServComunes/SSH/images",
+    "EnumServComunes/SSH",
+    "EnumServComunes/FTP/images/005.png",
+    "EnumServComunes/FTP/images/004.png",
     "EnumServComunes/FTP/images/003.png",
     "EnumServComunes/FTP/images/002.png",
     "EnumServComunes/FTP/images/001.png",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
-    "EnumServComunes/FTP/Enumeración del servicio FTP.md",
     "EnumServComunes/FTP/images",
     "EnumServComunes/FTP",
     "EnumServComunes",
@@ -183,9 +188,6 @@
     "Docker/MaquinasVulnerbales/images/031.png",
     "Docker/MaquinasVulnerbales/images/030.png",
     "Docker/MaquinasVulnerbales/images/029.png",
-    "Docker/MaquinasVulnerbales/images/028.png",
-    "Docker/MaquinasVulnerbales/images/027.png",
-    "Docker/MaquinasVulnerbales/images/026.png",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/MaquinasVulnerbales/images",
@@ -206,8 +208,6 @@
     "Docker/Introduccion/images",
     "Docker/Introduccion/Untitled.md",
     "Reconocimiento/EvasionFirewall/Técnicas de evasión de Firewalls.md",
-    "Docker/Introduccion",
-    "Docker",
     "Reconocimiento/GoogleDorks/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
