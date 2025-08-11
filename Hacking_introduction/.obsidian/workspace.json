@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c497cc068bddb48e",
+        "id": "be712e66cdf3c460",
         "type": "tabs",
         "children": [
           {
-            "id": "d40989ace6bcb5b5",
+            "id": "1287a77cc4ec0efd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -168,8 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "801b3a2b33c3debb",
+  "active": "1287a77cc4ec0efd",
   "lastOpenFiles": [
+    "EnumServComunes/SSH/images/002.png",
+    "EnumServComunes/SSH/images/001.png",
     "EnumServComunes/FTP/Enumeración del servicio FTP.md",
     "EnumServComunes/SSH/Enumeración del servicio SSH.md",
     "EnumServComunes/SSH/images",
@@ -187,7 +189,6 @@
     "Docker/MaquinasVulnerbales/images/032.png",
     "Docker/MaquinasVulnerbales/images/031.png",
     "Docker/MaquinasVulnerbales/images/030.png",
-    "Docker/MaquinasVulnerbales/images/029.png",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/MaquinasVulnerbales/images",
@@ -214,7 +215,6 @@
     "Reconocimiento/TecnologiasWeb/Identificación de las tecnologías en una página web.md",
     "Reconocimiento/BrechasSeguridad/Credenciales y brechas de seguridad.md",
     "Reconocimiento/Subdominios/Enumeración de subdominios.md",
-    "Reconocimiento/RecImagen/Reconocimiento de imágenes.md",
-    "Reconocimiento/Correos/Descubrimiento de correos electrónicos.md"
+    "Reconocimiento/RecImagen/Reconocimiento de imágenes.md"
   ]
 }
