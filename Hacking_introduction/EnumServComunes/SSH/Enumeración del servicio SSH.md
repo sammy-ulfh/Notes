@@ -113,4 +113,45 @@ hydra -l sam -P /usr/share/wordlists/rockyou.txt ssh://127.0.0.1 -t 2
 ![[EnumServComunes/SSH/images/002.png]]
 
 Si en el ataque con hydra quisiéramos indicar un puerto para el servicio SSH al que estamos aplicando el ataque de fuerza bruta está en un puerto distinto al 22, podríamos agregar un puerto específico con el parámetro **-s**.
+
+## Reconocimiento
+
+Para nuestro sistema corriendo en el contenedor veremos cual es el codename, ya que este podria darnos cierta informacion para tener mas en mente informacion sobre el sistema al que nos estamos enfrentando.
+
+El contenedor que utilizamos anteriormente no viene muy vacio, por lo tanto nosotros vamos a crear un Dockerfile el cual despliegue una version especifica de ubuntu para nosotros poder extraer su codename, que seria informacion valiosa que nos ayuda a saber con que version del sistema podriamos estar tratando.
+
+Las distribuciones tiene distintas versiones que pueden correr, en el caso de Ubuntu podria ser Ubuntu truty, Ubuntu Focal, etc. Esto mismo pasa con otras distribuciones, con lo cual es un dato que seria importante llegar a recopilar para tener mas informacion de con que sistema y version estamos trabajando.
+
+Ahora podremos ir a la pagina de [docker ubuntu](https://hub.docker.com/_/ubuntu), donde encontraremos distintas versiones de ubuntu en imagenes de Docker que podremos traer a nuesro ordenador para contruir una imagen en base a esto.
+
+Ahora al construir el Dockerfile, colocariamos el **FROM** para un ubuntu el cual tenga como version alguna de las que vimos en la pagina, en este caso sera la **22.04** que es un ubuntu jammy.
+
+Nuestro Dockerfile quedaria de la siguiente manera:
+
+```docker
+FROM ubuntu:22.04
+MAINTAINER sammy-ulfh
+
+RUN apt update && apt install ssh -y
+
+ENTRYPOINT service ssh start && /bin/bash
+```
+
+Con ello, luego de indicar la version, con **RUN** actualizaremos el sistema para despues poder instalar SSH. Con ello listo agregaremos un **ENTRYPOINT** para que al momento de desplegar el contenedor se ejecuten los comandos indicados, habilitando el servicio SSH y ejecutando una terminal bash para que no se cierre el proceso del contenedor.
+
+Construitemos nuestra imagen y en este caso le asignaremos el nombre de **ssh_server**:
+
+```shell
+docker build -t ssh_server .2
+```
+
+Con ello, desplegariamos el contenedor:
+
+```shell
+docker run --name my_ssh_server -p 22:22 -dit ssh_server
+```
+
+Le damos un nombre y hacemos que el puerto 22 del contenedor sea el puerto 22 de nuestro sistema host.
+
+
 # Siguientes apuntes

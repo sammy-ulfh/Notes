@@ -40,8 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
-                "autoReveal": false
+                "sortOrder": "byModifiedTimeReverse"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -170,6 +169,7 @@
   },
   "active": "1287a77cc4ec0efd",
   "lastOpenFiles": [
+    "EnumServComunes/SSH/images/003.png",
     "EnumServComunes/SSH/images/002.png",
     "EnumServComunes/SSH/images/001.png",
     "EnumServComunes/FTP/Enumeración del servicio FTP.md",
@@ -188,7 +188,6 @@
     "Docker/MaquinasVulnerbales/images/033.png",
     "Docker/MaquinasVulnerbales/images/032.png",
     "Docker/MaquinasVulnerbales/images/031.png",
-    "Docker/MaquinasVulnerbales/images/030.png",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/MaquinasVulnerbales/images",
