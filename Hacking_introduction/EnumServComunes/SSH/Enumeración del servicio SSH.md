@@ -1,5 +1,14 @@
 # Índice
 
+- [[#Introducción]]
+- [[#Práctica]]
+- [[#SSH]]
+- [[#Desplegando el entorno]]
+- [[#SSH]]
+- [[#Ataque de fuerza bruta]]
+- [[#Reconocimiento]]
+- [[#Siguientes apuntes]]
+
 # Introducción
 
 Nos enfocaremos en la explotación del servicio SSH (**Secure Shell**), aprenderemos a cómo realizar reconocimiento para recopilar información sobre los sistemas que ejecutan este servicio. 
@@ -120,7 +129,7 @@ Para nuestro sistema corriendo en el contenedor veremos cual es el codename, ya 
 
 El contenedor que utilizamos anteriormente no viene muy vacio, por lo tanto nosotros vamos a crear un Dockerfile el cual despliegue una version especifica de ubuntu para nosotros poder extraer su codename, que seria informacion valiosa que nos ayuda a saber con que version del sistema podriamos estar tratando.
 
-Las distribuciones tiene distintas versiones que pueden correr, en el caso de Ubuntu podria ser Ubuntu truty, Ubuntu Focal, etc. Esto mismo pasa con otras distribuciones, con lo cual es un dato que seria importante llegar a recopilar para tener mas informacion de con que sistema y version estamos trabajando.
+Las distribuciones tiene distintas versiones que pueden correr, en el caso de Ubuntu podria ser Ubuntu trusty, Ubuntu Focal, etc. Esto mismo pasa con otras distribuciones, con lo cual es un dato que seria importante llegar a recopilar para tener mas informacion de con que sistema y version estamos trabajando.
 
 Ahora podremos ir a la pagina de [docker ubuntu](https://hub.docker.com/_/ubuntu), donde encontraremos distintas versiones de ubuntu en imagenes de Docker que podremos traer a nuesro ordenador para contruir una imagen en base a esto.
 
@@ -153,5 +162,29 @@ docker run --name my_ssh_server -p 22:22 -dit ssh_server
 
 Le damos un nombre y hacemos que el puerto 22 del contenedor sea el puerto 22 de nuestro sistema host.
 
+Con ello listo, si ahora intentamos conectarnos a nuestro SSH local, veremos como funciona ahora que esta corriendo en nuestro contenedor.
 
+A manera de reconocimiento, lanzaremos un escaneo con NMAP, con la finalidad de lanzar scripts comunes para buscar obtener informacion mas detallada al respecto del servicio corriendo en el puerto 22 (SSH):
+
+![[EnumServComunes/SSH/images/004.png]]
+
+Tendremos que quedarnos con la informacion que se nos da en la version, ya que, esta nos puede ser de ayuda para obtener el codename.
+
+```TXT
+OpenSSH 8.9p1 Ubuntu 3ubuntu0.13
+```
+
+Esta información, al tomarla, podríamos considerarla y buscar en páginas web o internet al respecto; en este caso bastaría con pegarlo en el navegador y al final agregarle la palabra "launchpad".
+
+Gracias a esto, realizará filtro el navegador para buscarlo en las páginas que existen por parte de Launchpad y tendremos que seleccionar el mismo que hemos buscado:
+
+![[EnumServComunes/SSH/images/005.png]]
+
+Con todo lo realizado, vemos cómo este es un Ubuntu Jammy. 
+
+Si repetimos el mismo proceso para una versión distinta del Ubuntu que se descarga con un codename distinto, la plataforma de Launchpad debería detectarnos esto al realizar el escaneo y la versión que nos dé será de acuerdo a la utilizada. 
+
+Esto es bueno porque llegamos a saber exactamente la versión del sistema con la que nos estamos enfrentando.
 # Siguientes apuntes
+
+[[Enumeración del servicio HTTP y HTTPS]]
