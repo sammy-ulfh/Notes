@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EnumServComunes/HTTP&HTTPS/Enumeración del servicio HTTP y HTTPS.md",
+                "file": "EnumServComunes/SMB/Enumeración del servicio SMB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeración del servicio HTTP y HTTPS"
+              "title": "Enumeración del servicio SMB"
             }
           }
         ]
@@ -171,24 +171,28 @@
   },
   "active": "1287a77cc4ec0efd",
   "lastOpenFiles": [
-    "EnumServComunes/SSH/Enumeración del servicio SSH.md",
+    "EnumServComunes/SMB/images/005.png",
+    "EnumServComunes/SMB/images/004.png",
+    "EnumServComunes/SMB/images/003.png",
+    "EnumServComunes/SMB/images/002.png",
+    "EnumServComunes/SMB/images/001.png",
     "EnumServComunes/HTTP&HTTPS/Enumeración del servicio HTTP y HTTPS.md",
+    "EnumServComunes/SMB/Enumeración del servicio SMB.md",
+    "EnumServComunes/SMB/images",
+    "EnumServComunes/SMB",
+    "EnumServComunes/HTTP&HTTPS/images/014.png",
+    "EnumServComunes/HTTP&HTTPS/images/013.png",
+    "EnumServComunes/HTTP&HTTPS/images/012.png",
+    "EnumServComunes/HTTP&HTTPS/images/011.png",
+    "EnumServComunes/HTTP&HTTPS/images/010.png",
+    "EnumServComunes/HTTP&HTTPS/images/009.png",
+    "EnumServComunes/SSH/Enumeración del servicio SSH.md",
     "EnumServComunes/HTTP&HTTPS/images",
     "EnumServComunes/HTTP&HTTPS",
     "EnumServComunes/Untitled.md",
-    "EnumServComunes/SSH/images/005.png",
-    "EnumServComunes/SSH/images/004.png",
-    "EnumServComunes/SSH/images/003.png",
-    "EnumServComunes/SSH/images/002.png",
-    "EnumServComunes/SSH/images/001.png",
     "EnumServComunes/FTP/Enumeración del servicio FTP.md",
     "EnumServComunes/SSH/images",
     "EnumServComunes/SSH",
-    "EnumServComunes/FTP/images/005.png",
-    "EnumServComunes/FTP/images/004.png",
-    "EnumServComunes/FTP/images/003.png",
-    "EnumServComunes/FTP/images/002.png",
-    "EnumServComunes/FTP/images/001.png",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
     "EnumServComunes/FTP/images",
     "EnumServComunes/FTP",
@@ -196,12 +200,10 @@
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
     "Docker/MaquinasVulnerbales/images",
-    "Docker/MaquinasVulnerbales",
     "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
     "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Docker/Construccion/Creación y construcción de imágenes.md",
     "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md",
-    "Docker/Construccion/images",
     "Docker/Introduccion/Instalación de Docker en Linux.md",
     "Docker/Introduccion/Introducción a Docker.md",
     "Tools/Subdominios.md",
@@ -214,8 +216,6 @@
     "Reconocimiento/GoogleDorks/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
-    "Reconocimiento/TecnologiasWeb/Identificación de las tecnologías en una página web.md",
-    "Reconocimiento/BrechasSeguridad/Credenciales y brechas de seguridad.md",
-    "Reconocimiento/Subdominios/Enumeración de subdominios.md"
+    "Reconocimiento/TecnologiasWeb/Identificación de las tecnologías en una página web.md"
   ]
 }
