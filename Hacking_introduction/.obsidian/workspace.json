@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "be712e66cdf3c460",
+        "id": "7424b9ee0727762e",
         "type": "tabs",
         "children": [
           {
-            "id": "1287a77cc4ec0efd",
+            "id": "0bd5bf3733c51ee0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EnumServComunes/SMB/Enumeración del servicio SMB.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Enumeración del servicio SMB"
+              "title": "New tab"
             }
           }
         ]
@@ -169,23 +165,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1287a77cc4ec0efd",
+  "active": "801b3a2b33c3debb",
   "lastOpenFiles": [
+    "EnumServComunes/SMB/Enumeración del servicio SMB.md",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/Enumeración de gestores de contenido (CMS) – WordPress (1-2).md",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress",
+    "EnumServComunes/Gestores de contenido (CMS)",
+    "EnumServComunes/SMB/images/011.png",
+    "EnumServComunes/SMB/images/010.png",
+    "EnumServComunes/SMB/images/009.png",
+    "EnumServComunes/SMB/images/008.png",
+    "EnumServComunes/SMB/images/007.png",
+    "EnumServComunes/SMB/images/006.png",
     "EnumServComunes/SMB/images/005.png",
     "EnumServComunes/SMB/images/004.png",
     "EnumServComunes/SMB/images/003.png",
     "EnumServComunes/SMB/images/002.png",
-    "EnumServComunes/SMB/images/001.png",
     "EnumServComunes/HTTP&HTTPS/Enumeración del servicio HTTP y HTTPS.md",
-    "EnumServComunes/SMB/Enumeración del servicio SMB.md",
     "EnumServComunes/SMB/images",
     "EnumServComunes/SMB",
-    "EnumServComunes/HTTP&HTTPS/images/014.png",
-    "EnumServComunes/HTTP&HTTPS/images/013.png",
-    "EnumServComunes/HTTP&HTTPS/images/012.png",
-    "EnumServComunes/HTTP&HTTPS/images/011.png",
-    "EnumServComunes/HTTP&HTTPS/images/010.png",
-    "EnumServComunes/HTTP&HTTPS/images/009.png",
     "EnumServComunes/SSH/Enumeración del servicio SSH.md",
     "EnumServComunes/HTTP&HTTPS/images",
     "EnumServComunes/HTTP&HTTPS",
@@ -194,12 +194,8 @@
     "EnumServComunes/SSH/images",
     "EnumServComunes/SSH",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
-    "EnumServComunes/FTP/images",
-    "EnumServComunes/FTP",
-    "EnumServComunes",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
-    "Docker/MaquinasVulnerbales/images",
     "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
     "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Docker/Construccion/Creación y construcción de imágenes.md",
