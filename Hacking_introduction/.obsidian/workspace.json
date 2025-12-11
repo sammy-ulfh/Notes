@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/Enumeración de gestores de contenido (CMS) – WordPress (2-2).md",
+                "file": "EnumServComunes/Gestores de contenido (CMS)/Joomla/Enumeración de gestores de contenido (CMS) – Joomla.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeración de gestores de contenido (CMS) – WordPress (2-2)"
+              "title": "Enumeración de gestores de contenido (CMS) – Joomla"
             }
           }
         ]
@@ -171,11 +171,17 @@
   },
   "active": "0bd5bf3733c51ee0",
   "lastOpenFiles": [
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/Enumeración de gestores de contenido (CMS) – WordPress (2-2).md",
+    "EnumServComunes/Gestores de contenido (CMS)/Joomla/Enumeración de gestores de contenido (CMS) – Joomla.md",
+    "EnumServComunes/Gestores de contenido (CMS)/Joomla/images",
+    "EnumServComunes/Gestores de contenido (CMS)/Joomla",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/images/002.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/images/001.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/042.png",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/Enumeración de gestores de contenido (CMS) – WordPress (1-2).md",
     "EnumServComunes/SSH/Enumeración del servicio SSH.md",
     "EnumServComunes/SMB/Enumeración del servicio SMB.md",
     "EnumServComunes/HTTP&HTTPS/Enumeración del servicio HTTP y HTTPS.md",
-    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/Enumeración de gestores de contenido (CMS) – WordPress (2-2).md",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/images",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/041.png",
@@ -185,17 +191,12 @@
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/037.png",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/036.png",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/035.png",
-    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/034.png",
-    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/033.png",
-    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/032.png",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress",
     "EnumServComunes/Gestores de contenido (CMS)",
     "EnumServComunes/SMB/images",
     "EnumServComunes/SMB",
-    "EnumServComunes/HTTP&HTTPS/images",
-    "EnumServComunes/HTTP&HTTPS",
     "EnumServComunes/Untitled.md",
     "EnumServComunes/FTP/Enumeración del servicio FTP.md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
@@ -215,7 +216,6 @@
     "Docker/Introduccion/Untitled.md",
     "Reconocimiento/EvasionFirewall/Técnicas de evasión de Firewalls.md",
     "Reconocimiento/GoogleDorks/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
-    "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
-    "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md"
+    "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md"
   ]
 }
