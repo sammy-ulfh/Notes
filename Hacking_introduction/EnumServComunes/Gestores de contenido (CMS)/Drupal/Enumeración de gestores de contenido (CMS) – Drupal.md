@@ -1,0 +1,26 @@
+
+# Indice
+
+# Introducción
+
+Ahora aprenderemos a enumerar el gestor de contenidos __Drupal__. Drupal es un sistema de gestión de contenido libre y de código abierto (CMS) utilizado para la creación de sitios web y aplicaciones web. 
+
+Drupal ofrece un alto grado de personalización y escalabilidad, lo que la convierte en una opción popular para sitios web complejos y grandes. Drupal se utiliza en una amplia gama de sitios web, desde blogs personales hasta sitios web gubernamentales y empresariales. Es altamente flexible y cuenta con una amplia variedad de módulos y herramientas que permiten a los usuarios personalizar su sitio web para satisfacer sus necesidades específicas.
+
+Una de las herramientas que veremos para enumerar un Drupal es la herramienta __droopescan__. Droopescan es una herramienta de escaneo de seguridad especializada en la identificación de versiones de Drupal y sus módulos, y en la detección de vulnerabilidades conocidas en ellos. La herramienta realiza un escaneo exhaustivo del sitio web para encontrar versiones de Drupal instaladas, módulos activos y vulnerabilidades conocidas, lo que ayuda a los administradores de sistemas y desarrolladores a identificar y solucionar los problemas de seguridad en sus sitios web. 
+
+Con esta herramienta, se pueden llevar a cabo análisis de seguridad en sitios web basados en Drupal, lo que puede ayudar a prevenir posibles ataques y problemas de seguridad en el futuro.
+
+Droopescan: `https://github.com/SamJoan/droopescan`
+
+Su uso es fácil de entender:
+
+```shell
+droopescan scan drupal --url https://example.com
+```
+
+Donde __scan__ indica que queremos realizar un escaneo, __drupal__ especifica que estamos realizando un escaneo de Drupal y __--url https:\//example.com__ indica la URL del sitio web que se va a escanear. 
+
+Enlace al repositorio de Vulnhub al que corresponde el laboratorio que se utiliza en esta ocasión:`https://github.com/vulhub/vulhub/tree/master/drupal/CVE-2018-7600`
+
+# Practica
