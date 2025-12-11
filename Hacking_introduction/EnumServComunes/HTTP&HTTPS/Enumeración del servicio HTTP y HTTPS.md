@@ -171,4 +171,4 @@ En este caso muestra casi siempre el mismo contenido. Esto es algo que podremos 
 Es por ello que también es importante que cualquier puerto que cuente con un certificado SSL, también es muy importante enumerarlo y buscar información al respecto.
 # Siguientes apuntes
 
-[[]]
+[[Enumeración del servicio SMB]]

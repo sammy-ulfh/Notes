@@ -11,10 +11,14 @@
             "id": "0bd5bf3733c51ee0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/Enumeración de gestores de contenido (CMS) – WordPress (2-2).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Enumeración de gestores de contenido (CMS) – WordPress (2-2)"
             }
           }
         ]
@@ -165,34 +169,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "801b3a2b33c3debb",
+  "active": "0bd5bf3733c51ee0",
   "lastOpenFiles": [
-    "EnumServComunes/SMB/Enumeración del servicio SMB.md",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/Enumeración de gestores de contenido (CMS) – WordPress (1-2).md",
+    "EnumServComunes/SSH/Enumeración del servicio SSH.md",
+    "EnumServComunes/SMB/Enumeración del servicio SMB.md",
+    "EnumServComunes/HTTP&HTTPS/Enumeración del servicio HTTP y HTTPS.md",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/Enumeración de gestores de contenido (CMS) – WordPress (2-2).md",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/images",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/041.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/040.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/039.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/038.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/037.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/036.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/035.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/034.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/033.png",
+    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images/032.png",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress",
     "EnumServComunes/Gestores de contenido (CMS)",
-    "EnumServComunes/SMB/images/011.png",
-    "EnumServComunes/SMB/images/010.png",
-    "EnumServComunes/SMB/images/009.png",
-    "EnumServComunes/SMB/images/008.png",
-    "EnumServComunes/SMB/images/007.png",
-    "EnumServComunes/SMB/images/006.png",
-    "EnumServComunes/SMB/images/005.png",
-    "EnumServComunes/SMB/images/004.png",
-    "EnumServComunes/SMB/images/003.png",
-    "EnumServComunes/SMB/images/002.png",
-    "EnumServComunes/HTTP&HTTPS/Enumeración del servicio HTTP y HTTPS.md",
     "EnumServComunes/SMB/images",
     "EnumServComunes/SMB",
-    "EnumServComunes/SSH/Enumeración del servicio SSH.md",
     "EnumServComunes/HTTP&HTTPS/images",
     "EnumServComunes/HTTP&HTTPS",
     "EnumServComunes/Untitled.md",
     "EnumServComunes/FTP/Enumeración del servicio FTP.md",
-    "EnumServComunes/SSH/images",
-    "EnumServComunes/SSH",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
@@ -211,7 +216,6 @@
     "Reconocimiento/EvasionFirewall/Técnicas de evasión de Firewalls.md",
     "Reconocimiento/GoogleDorks/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
     "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
-    "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
-    "Reconocimiento/TecnologiasWeb/Identificación de las tecnologías en una página web.md"
+    "Reconocimiento/Fuzzing/Fuzzing y enumeración de archivos en un servidor web (1-2).md"
   ]
 }
