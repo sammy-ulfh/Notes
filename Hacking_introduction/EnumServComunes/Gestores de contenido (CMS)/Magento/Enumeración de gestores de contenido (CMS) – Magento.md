@@ -1,4 +1,3 @@
-
 # Indice
 
 - [[#Introducción]]

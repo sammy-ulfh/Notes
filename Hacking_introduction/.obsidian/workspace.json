@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EnumServComunes/Gestores de contenido (CMS)/Magento/Enumeración de gestores de contenido (CMS) – Magento.md",
+                "file": "Conceptos básicos de enumeración y explotación/Shells/Reverse Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeración de gestores de contenido (CMS) – Magento"
+              "title": "Reverse Shell"
             }
           }
         ]
@@ -171,6 +171,18 @@
   },
   "active": "0bd5bf3733c51ee0",
   "lastOpenFiles": [
+    "Conceptos básicos de enumeración y explotación/Shells/Introducción a Shells.md",
+    "Conceptos básicos de enumeración y explotación/Shells/Reverse Shell.md",
+    "Conceptos básicos de enumeración y explotación/Shells/images/001.png",
+    "Conceptos básicos de enumeración y explotación/Shells/images",
+    "Conceptos básicos de enumeración y explotación/Introducción.md",
+    "Conceptos básicos de enumeración y explotación/Shells",
+    "Tools/Enumeración.md",
+    "Conceptos básicos de enumeración y explotación",
+    "Tools/Correos.md",
+    "Tools/Imagenes.md",
+    "Tools/Subdominios.md",
+    "EnumServComunes/Gestores de contenido (CMS)/Magento/Enumeración de gestores de contenido (CMS) – Magento.md",
     "EnumServComunes/Gestores de contenido (CMS)/Magento/images/014.png",
     "EnumServComunes/Gestores de contenido (CMS)/Magento/images/013.png",
     "EnumServComunes/Gestores de contenido (CMS)/Magento/images/012.png",
@@ -180,10 +192,7 @@
     "EnumServComunes/Gestores de contenido (CMS)/Magento/images/008.png",
     "EnumServComunes/Gestores de contenido (CMS)/Magento/images/007.png",
     "EnumServComunes/Gestores de contenido (CMS)/Magento/images/006.png",
-    "EnumServComunes/Gestores de contenido (CMS)/Magento/images/005.png",
-    "EnumServComunes/Gestores de contenido (CMS)/Magento/images/004.png",
     "EnumServComunes/Gestores de contenido (CMS)/Drupal/Enumeración de gestores de contenido (CMS) – Drupal.md",
-    "EnumServComunes/Gestores de contenido (CMS)/Magento/Enumeración de gestores de contenido (CMS) – Magento.md",
     "EnumServComunes/Gestores de contenido (CMS)/Magento/images",
     "EnumServComunes/Gestores de contenido (CMS)/Magento",
     "EnumServComunes/Gestores de contenido (CMS)/Joomla/Enumeración de gestores de contenido (CMS) – Joomla.md",
@@ -197,9 +206,6 @@
     "EnumServComunes/SMB/Enumeración del servicio SMB.md",
     "EnumServComunes/HTTP&HTTPS/Enumeración del servicio HTTP y HTTPS.md",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/images",
-    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2",
-    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/images",
-    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2",
     "EnumServComunes/Untitled.md",
     "EnumServComunes/FTP/Enumeración del servicio FTP.md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
@@ -210,12 +216,6 @@
     "Docker/Construccion/Creación y construcción de imágenes.md",
     "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md",
     "Docker/Introduccion/Instalación de Docker en Linux.md",
-    "Docker/Introduccion/Introducción a Docker.md",
-    "Tools/Subdominios.md",
-    "Tools/Correos.md",
-    "Tools/Imagenes.md",
-    "Reconocimiento/OS/Identificación y verificación externa de la versión del sistema operativo.md",
-    "Reconocimiento/EscaneoNmap/Nmap y sus diferentes modos de escaneo.md",
-    "Docker/Introduccion/Untitled.md"
+    "Docker/Introduccion/Introducción a Docker.md"
   ]
 }
