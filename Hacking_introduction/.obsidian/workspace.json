@@ -171,7 +171,11 @@
   },
   "active": "0bd5bf3733c51ee0",
   "lastOpenFiles": [
+    "Conceptos básicos de enumeración y explotación/Shells/Forward Shell.md",
     "Conceptos básicos de enumeración y explotación/Shells/Bind Shell.md",
+    "Conceptos básicos de enumeración y explotación/Shells/images/012.png",
+    "Conceptos básicos de enumeración y explotación/Shells/images/011.png",
+    "Conceptos básicos de enumeración y explotación/Shells/images/010.png",
     "Conceptos básicos de enumeración y explotación/Shells/Introducción a Shells.md",
     "Conceptos básicos de enumeración y explotación/Shells/Reverse Shell.md",
     "Conceptos básicos de enumeración y explotación/Shells/images/009.png",
@@ -181,8 +185,6 @@
     "Conceptos básicos de enumeración y explotación/Shells/images/005.png",
     "Conceptos básicos de enumeración y explotación/Shells/images/004.png",
     "Conceptos básicos de enumeración y explotación/Shells/images/003.png",
-    "Conceptos básicos de enumeración y explotación/Shells/images/002.png",
-    "Conceptos básicos de enumeración y explotación/Shells/images/001.png",
     "Conceptos básicos de enumeración y explotación/Shells/images",
     "Conceptos básicos de enumeración y explotación/Introducción.md",
     "Conceptos básicos de enumeración y explotación/Shells",
@@ -192,7 +194,6 @@
     "Tools/Imagenes.md",
     "Tools/Subdominios.md",
     "EnumServComunes/Gestores de contenido (CMS)/Magento/Enumeración de gestores de contenido (CMS) – Magento.md",
-    "EnumServComunes/Gestores de contenido (CMS)/Magento/images/014.png",
     "EnumServComunes/Gestores de contenido (CMS)/Drupal/Enumeración de gestores de contenido (CMS) – Drupal.md",
     "EnumServComunes/Gestores de contenido (CMS)/Magento/images",
     "EnumServComunes/Gestores de contenido (CMS)/Magento",
@@ -215,7 +216,6 @@
     "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
     "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Docker/Construccion/Creación y construcción de imágenes.md",
-    "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md",
-    "Docker/Introduccion/Instalación de Docker en Linux.md"
+    "Docker/Introduccion/Definiendo la estructura básica de Dockerfile.md"
   ]
 }

@@ -7,6 +7,7 @@
 	- Reverse Shell
 	- Bind Shell
 	- Forward Shell
+- [[#Siguientes apuntes]]
 
 # Introducción
 
@@ -34,3 +35,6 @@ Con esto en mente, podremos pasar a ver como podriamos aprovechar cada tipo de s
 
 - [[Reverse Shell]]
 - [[Bind Shell]]
+- [[Forward Shell]]
+
+# Siguientes apuntes

@@ -45,7 +45,7 @@ FROM ubuntu:latest
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt update && apt install -y php \
-apache2 ncat netcat neovim nano
+apache2 ncat netcat-traditional neovim nano
 
 COPY myphp.php /var/www/html
 
@@ -132,6 +132,7 @@ script /dev/null -c bash
 
 Con todo esto en mente, ahora sabemos cómo una reverse shell, sin importar el contexto de una web con posibilidad de comandos o directamente tener acceso a la terminal de nuestra víctima, implica el enviarnos a nosotros una terminal ejecutando un comando en la máquina víctima, para poder manejarla de una forma mucho más cómoda, de forma interactiva.
 
+Ejecutando comandos en la máquina víctima, recordemos que tenemos distintas formas de obtener una reverse shell, con distintos lenguajes. Abarcando el caso de netcat, también dependerá de su versión; existen versiones en las que el parámetro __-e__ no funciona y, por ende, la propia web de pentest monkey que nos proporciona opciones nos da una alternativa y esta la podremos utilizar para este mismo pequeño laboratorio que nos hemos construido utilizando la alternativa con el comando __nc__, gracias a que hemos instalado las dos versiones de netcat.
 # Continuar apuntes
 
 [[Introducción a Shells]]
