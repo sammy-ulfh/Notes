@@ -1,5 +1,13 @@
 # Indice
 
+- [[#Introducción]]
+- [[#Explicación]]
+- [[#Escenario]]
+- [[#Shells]]
+	- Reverse Shell
+	- Bind Shell
+	- Forward Shell
+
 # Introducción
 
 A lo largo de la explicación de los tipos de shells que se pueden obtener, abordaremos el funcionamiento de las Reverse, Bind y Forward shells.
@@ -25,3 +33,4 @@ Con esto en mente, podremos pasar a ver como podriamos aprovechar cada tipo de s
 ## Shells
 
 - [[Reverse Shell]]
+- [[Bind Shell]]
