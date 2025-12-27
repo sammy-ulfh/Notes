@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux_Introduction/Boot Loaders.md",
+                "file": "Linux_shell_basics/Basic shell commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boot Loaders"
+              "title": "Basic shell commands"
             }
           }
         ]
@@ -185,22 +185,28 @@
   },
   "active": "3a6a1b6dd1019b93",
   "lastOpenFiles": [
+    "Linux_shell_basics/Shell programming.md",
+    "Linux_shell_basics/Introduction to shells.md",
+    "Linux_shell_basics/Basic shell commands.md",
+    "Linux_shell_basics/images/change_shell.png",
     "Linux_Introduction/Runlevels.md",
-    "Linux_Introduction/images/runlevels.png",
+    "Linux_shell_basics/images",
+    "Linux_shell_basics",
     "Linux_Introduction/Boot Loaders.md",
     "Linux_Introduction/Disk Quotas.md",
     "Linux_Introduction/Swap.md",
     "Linux_Introduction/LVM.md",
-    "Linux_Introduction/images/lvm.png",
     "Linux_Introduction/File systems.md",
+    "Linux_Introduction/Shell.md",
+    "Linux_Introduction/Linux Distributions.md",
+    "Linux_Introduction/Unix-Based OS's.md",
+    "Linux_Introduction/images/runlevels.png",
+    "Linux_Introduction/images/lvm.png",
     "Linux_Introduction/images/inode.png",
     "Linux_Introduction/images/directory_structure.png",
-    "Linux_Introduction/Shell.md",
     "Linux_Introduction/images/shell.png",
-    "Linux_Introduction/Linux Distributions.md",
     "Linux_Introduction/images/distributions.png",
     "Linux_Introduction/images/singlemap.png",
-    "Linux_Introduction/Unix-Based OS's.md",
     "Linux_Introduction/images/unix.png",
     "Linux_Introduction/Unix-Based OS/Unix.md",
     "Linux_Introduction/images",

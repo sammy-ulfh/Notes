@@ -1,5 +1,9 @@
 # Index
 
+- [[#Runlevels]]
+- [[#Systemd runlevels]]
+- [[#Next Notes]]
+
 # Runlevels
 
 "Runlevel" define the state of the machine after boot.
@@ -34,4 +38,6 @@ Set default runlevel:
 
 systemctl set-default runlevel0.target
 
-#
+# Next Notes
+
+[[Introduction to shells]]

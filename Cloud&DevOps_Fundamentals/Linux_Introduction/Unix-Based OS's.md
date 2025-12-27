@@ -31,4 +31,4 @@ The kernel is a computer program that is the core of a computer's operating syst
 
 # Next Notes
 
-[[]]
+[[Linux Distributions]]
