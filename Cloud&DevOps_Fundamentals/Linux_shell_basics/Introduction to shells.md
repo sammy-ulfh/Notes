@@ -69,7 +69,7 @@ Files read:
 - ~/.bash_login or ~/.profile: first existing readable file is read
 - ~/.bash_logout upon logout
 
-__Invoked as interactive non-login shell __
+__Invoked as interactive non-login shell__
 
 A non-login shell means that you did not have to authenticate to the system. For instance, when you open a terminal using an icon, or a menu item, that is a non-login shell.
 
