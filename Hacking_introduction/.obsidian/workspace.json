@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Shells/Forward Shell.md",
+                "file": "Conceptos básicos de enumeración y explotación/Tipos de payloads/Tipos de payloads (Staged y Non-taged).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forward Shell"
+              "title": "Tipos de payloads (Staged y Non-taged)"
             }
           }
         ]
@@ -171,22 +171,24 @@
   },
   "active": "0bd5bf3733c51ee0",
   "lastOpenFiles": [
-    "Conceptos básicos de enumeración y explotación/Shells/images/013.png",
     "Conceptos básicos de enumeración y explotación/Shells/Introducción a Shells.md",
+    "Conceptos básicos de enumeración y explotación/Shells/Reverse Shell.md",
     "Conceptos básicos de enumeración y explotación/Shells/Bind Shell.md",
     "Conceptos básicos de enumeración y explotación/Shells/Forward Shell.md",
+    "Conceptos básicos de enumeración y explotación/Tipos de payloads/Tipos de payloads (Staged y Non-taged).md",
+    "Conceptos básicos de enumeración y explotación/Tipos de payloads/images",
+    "Conceptos básicos de enumeración y explotación/Tipos de payloads",
+    "Conceptos básicos de enumeración y explotación/Shells/images/017.png",
+    "Conceptos básicos de enumeración y explotación/Shells/images/016.png",
+    "Conceptos básicos de enumeración y explotación/Shells/images/015.png",
+    "Conceptos básicos de enumeración y explotación/Shells/images/014.png",
+    "Conceptos básicos de enumeración y explotación/Shells/images/013.png",
     "Conceptos básicos de enumeración y explotación/Introducción.md",
     "Conceptos básicos de enumeración y explotación/Shells/images/012.png",
     "Conceptos básicos de enumeración y explotación/Shells/images/011.png",
     "Conceptos básicos de enumeración y explotación/Shells/images/010.png",
-    "Conceptos básicos de enumeración y explotación/Shells/Reverse Shell.md",
     "Conceptos básicos de enumeración y explotación/Shells/images/009.png",
     "Conceptos básicos de enumeración y explotación/Shells/images/008.png",
-    "Conceptos básicos de enumeración y explotación/Shells/images/007.png",
-    "Conceptos básicos de enumeración y explotación/Shells/images/006.png",
-    "Conceptos básicos de enumeración y explotación/Shells/images/005.png",
-    "Conceptos básicos de enumeración y explotación/Shells/images/004.png",
-    "Conceptos básicos de enumeración y explotación/Shells/images/003.png",
     "Conceptos básicos de enumeración y explotación/Shells/images",
     "Conceptos básicos de enumeración y explotación/Shells",
     "Tools/Enumeración.md",
@@ -203,12 +205,10 @@
     "EnumServComunes/Gestores de contenido (CMS)/Drupal",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/Enumeración de gestores de contenido (CMS) – WordPress (2-2).md",
     "EnumServComunes/Gestores de contenido (CMS)/Joomla/images",
-    "EnumServComunes/Gestores de contenido (CMS)/Joomla",
     "EnumServComunes/Gestores de contenido (CMS)/Wordpress/1-2/Enumeración de gestores de contenido (CMS) – WordPress (1-2).md",
     "EnumServComunes/SSH/Enumeración del servicio SSH.md",
     "EnumServComunes/SMB/Enumeración del servicio SMB.md",
     "EnumServComunes/HTTP&HTTPS/Enumeración del servicio HTTP y HTTPS.md",
-    "EnumServComunes/Gestores de contenido (CMS)/Wordpress/2-2/images",
     "EnumServComunes/Untitled.md",
     "EnumServComunes/FTP/Enumeración del servicio FTP.md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",

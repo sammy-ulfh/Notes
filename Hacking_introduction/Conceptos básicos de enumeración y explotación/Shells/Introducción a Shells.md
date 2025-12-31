@@ -38,3 +38,4 @@ Con esto en mente, podremos pasar a ver como podriamos aprovechar cada tipo de s
 - [[Forward Shell]]
 
 # Siguientes apuntes
+[[Tipos de payloads (Staged y Non-taged)]]
