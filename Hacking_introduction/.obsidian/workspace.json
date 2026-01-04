@@ -171,6 +171,8 @@
   },
   "active": "0bd5bf3733c51ee0",
   "lastOpenFiles": [
+    "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/002.PNG",
+    "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/001.PNG",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads/Tipos de payloads (Staged y Non-taged).md",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/Tipos de explotación (Manuales y Automatizadas).md",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/images",
@@ -184,7 +186,6 @@
     "Conceptos básicos de enumeración y explotación/Tipos de payloads/images/009.PNG",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads/images/008.PNG",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads/images/007.PNG",
-    "Conceptos básicos de enumeración y explotación/Tipos de payloads/images/006.PNG",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads/images",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads/New folder",
     "Conceptos básicos de enumeración y explotación/Shells/Introducción a Shells.md",
@@ -215,7 +216,6 @@
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
-    "Docker/Construccion/Comandos comunes para la gestión de contenedores.md",
-    "Docker/Construccion/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md"
+    "Docker/Construccion/Comandos comunes para la gestión de contenedores.md"
   ]
 }
