@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monitoring, Processes Control, Logs/Logs.md",
+                "file": "Linux_Introduction/LVM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logs"
+              "title": "LVM"
             }
           }
         ]
@@ -185,8 +185,25 @@
   },
   "active": "3a6a1b6dd1019b93",
   "lastOpenFiles": [
-    "Monitoring, Processes Control, Logs/Monitoring Storage.md",
+    "Networking, Remote Access/Network Configuration.md",
+    "Linux_Introduction/Unix-Based OS's.md",
+    "Linux_Introduction/Swap.md",
+    "Linux_Introduction/Shell.md",
+    "Linux_Introduction/Runlevels.md",
+    "Linux_Introduction/LVM.md",
+    "Linux_Introduction/Linux Distributions.md",
+    "Linux_Introduction/File systems.md",
+    "Linux_Introduction/Disk Quotas.md",
+    "Linux_Introduction/Boot Loaders.md",
+    "Linux_shell_basics/Basic shell commands.md",
+    "Linux_shell_basics/Filesystem files search.md",
+    "Linux_shell_basics/Introduction to shells.md",
+    "Linux_shell_basics/Shell programming.md",
+    "Linux_shell_basics/Xargs.md",
+    "Linux_shell_basics/Working with archives.md",
+    "Linux_shell_basics/Text editors.md",
     "Monitoring, Processes Control, Logs/Logs.md",
+    "Monitoring, Processes Control, Logs/Monitoring Storage.md",
     "Monitoring, Processes Control, Logs/Monitoring Memory.md",
     "Monitoring, Processes Control, Logs/Monitoring CPU.md",
     "Monitoring, Processes Control, Logs/Process monitoring.md",
@@ -198,38 +215,21 @@
     "Networking, Remote Access/Firewall.d and IPtables.md",
     "Networking, Remote Access/images/firewall.png",
     "Networking, Remote Access/Networking Tools.md",
-    "Networking, Remote Access/Network Configuration.md",
     "Users, Groups, Permissions/SELinux.md",
     "Networking, Remote Access/images",
     "Networking, Remote Access",
-    "Users, Groups, Permissions/Permission Model.md",
     "Users, Groups, Permissions/images/file-perm.png",
-    "Users, Groups, Permissions/Users and Groups.md",
     "Users, Groups, Permissions/images/useradd.png",
     "Users, Groups, Permissions/images/group-param.png",
     "Users, Groups, Permissions/images/user-param.png",
-    "Package_management/JAVA (OpenJDK).md",
     "Users, Groups, Permissions/images",
     "Users, Groups, Permissions",
-    "Package_management/Crond.md",
     "Package_management/images/cron-script.png",
-    "Package_management/Service Management in Linux.md",
-    "Package_management/Alternatives.md",
     "Package_management/images/targets.png",
-    "Package_management/Software management.md",
-    "Linux_shell_basics/Working with archives.md",
     "Package_management/images",
     "Package_management",
-    "Linux_shell_basics/Xargs.md",
-    "Linux_shell_basics/Filesystem files search.md",
-    "Linux_shell_basics/Text editors.md",
-    "Linux_shell_basics/Shell programming.md",
-    "Linux_shell_basics/Introduction to shells.md",
-    "Linux_shell_basics/Basic shell commands.md",
     "Linux_shell_basics/images/vim_cheatsheet.png",
-    "Linux_Introduction/Runlevels.md",
     "Linux_shell_basics/images",
-    "Linux_shell_basics",
-    "Linux_Introduction/Boot Loaders.md"
+    "Linux_shell_basics"
   ]
 }

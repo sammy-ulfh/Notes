@@ -80,7 +80,7 @@ sudo vgcreate vg_newlvm /dev/sdb1 /dev/sdc1 /dev/sdc2
 __lvcreate__ - create a logical volume inside logical group.
 
 ```shell
-sudo lvcreate --name centos7_newvol -1 100%FREE vg_newlvm
+sudo lvcreate --name centos7_newvol -l 100%FREE vg_newlvm
 # creates a logical volume called cenos7_newvol that uses all of the unllocated space in the volume group vg_newlvm
 ```
 
