@@ -1,5 +1,12 @@
 # Índice
 
+- [[#Introducción]]
+- [[#Practica]]
+  - [[#Visión general]]
+  - [[#Explotación automatizada]]
+  - [[#Explotación manual]]
+    - [[#Dumpear información de columnas específicas.]]
+- [[#Next Notes]]
 # Introducción
 
 A continuación se verán dos tipos de explotación utilizados en ataques informáticos: Manuales y Automatizados.
