@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/Bash_syntax/Script Development and Invocation.md",
+                "file": "Bash/Bash_syntax/Conditions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Script Development and Invocation"
+              "title": "Conditions"
             }
           }
         ]
@@ -185,8 +185,19 @@
   },
   "active": "3a6a1b6dd1019b93",
   "lastOpenFiles": [
-    "Bash/Bash_Introduction/Additional Materials.md",
+    "Bash/Bash_syntax/Variables.md",
+    "Bash/Bash_syntax/Conditions.md",
+    "Bash/Bash_syntax/images/005.png",
+    "Bash/Bash_syntax/images/004.png",
+    "Bash/Bash_syntax/Special characters.md",
+    "Bash/Bash_syntax/images/003.png",
+    "Bash/Bash_syntax/Exit Codes.md",
+    "Bash/Bash_syntax/images/002.png",
+    "Bash/Bash_syntax/Bash options.md",
+    "Bash/Bash_syntax/images/001.png",
     "Bash/Bash_syntax/Script Development and Invocation.md",
+    "Linux/Linux_Introduction/Boot Loaders.md",
+    "Bash/Bash_Introduction/Additional Materials.md",
     "Bash/Bash_Introduction/Bash startup files.md",
     "Bash/Bash_syntax/images",
     "Bash/Bash_syntax",
@@ -210,12 +221,6 @@
     "Linux/Users, Groups, Permissions/Users and Groups.md",
     "Linux/Package_management/JAVA (OpenJDK).md",
     "Linux/Package_management/Crond.md",
-    "Linux/Package_management/Service Management in Linux.md",
-    "Linux/Package_management/Alternatives.md",
-    "Linux/Package_management/Software management.md",
-    "Linux/Linux_shell_basics/Working with archives.md",
-    "Linux/Linux_shell_basics/Xargs.md",
-    "Linux/Linux_shell_basics/Filesystem files search.md",
     "Linux",
     "Linux/Monitoring, Processes Control, Logs/images/ps.png",
     "Linux/Monitoring, Processes Control, Logs/images/top.png",
@@ -225,11 +230,6 @@
     "Linux/Networking, Remote Access/images",
     "Linux/Networking, Remote Access",
     "Linux/Users, Groups, Permissions/images/file-perm.png",
-    "Linux/Users, Groups, Permissions/images/useradd.png",
-    "Linux/Users, Groups, Permissions/images/group-param.png",
-    "Linux/Users, Groups, Permissions/images/user-param.png",
-    "Linux/Package_management/images/cron-script.png",
-    "Linux/Package_management/images/targets.png",
-    "Linux/Linux_shell_basics/images/vim_cheatsheet.png"
+    "Linux/Users, Groups, Permissions/images/useradd.png"
   ]
 }

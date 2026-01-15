@@ -21,3 +21,5 @@ Having written the script, you can involve it by __sh__ scriptname, or alternati
 Much more convenient is to make the script itself directly executable with a chmod and run it by __./scriptname__
 
 # Next Notes
+
+[[Bash options]]
