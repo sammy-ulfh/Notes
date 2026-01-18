@@ -1,5 +1,15 @@
 # Index
 
+- [[#Naming conventions]]
+	- [[#Function names]]
+	- [[#Variable names]]
+	- [[#Constants and environment variable names]]
+	- [[#Source filenames]]
+	- [[#Read-only variables]]
+	- [[#Use local variables]]
+	- [[#Function location]]
+	- [[#Main]]
+- [[#Next Notes]]
 # Naming conventions
 
 ## Function names
@@ -110,3 +120,23 @@ my_func2() {
 ```
 
 ## Function location
+
+Put all functions together in the file just bellow constants. Don't hide executable code between functions. Doing so makes the difficult to follow and results in nasty surprises when debugging.
+
+If you've got functions, put them all together near the top of the file. Only includes, __set__ statements and setting constants may be done before declaring functions.
+
+## Main
+
+A function __called__ main is required for scripts long enough to contain at least one other function.
+
+In order to easily find the start of the program, put the main program in a function called __main__ as the bottom most function. This provides consistency with the rest of the code as well as following you to define more variables as __local__ (which can't be done if the main code is not a function). The last non-comment line in the file should be a call to __main__.
+
+```shell
+main "$@"
+```
+
+Obviously, for short scripts where it's just a linear follow, __main__ is overkill and so is not required.
+
+# Next Notes
+
+[[Calling commands]]
