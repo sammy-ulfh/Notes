@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/Bash_syntax/I-O Recirection.md",
+                "file": "Bash/Bash_Style_Guide/Naming conventions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "I-O Recirection"
+              "title": "Naming conventions"
             }
           }
         ]
@@ -185,8 +185,16 @@
   },
   "active": "3a6a1b6dd1019b93",
   "lastOpenFiles": [
-    "Bash/Bash_syntax/Loops.md",
+    "Bash/Bash_Style_Guide/Formating.md",
+    "Bash/Bash_Style_Guide/Naming conventions.md",
+    "Bash/Bash_Style_Guide/Comments.md",
+    "Bash/Bash_Style_Guide/Environment.md",
+    "Bash/Bash_syntax/Functions.md",
+    "Bash/Bash_Style_Guide/images",
+    "Bash/Bash_Style_Guide",
     "Bash/Bash_syntax/I-O Recirection.md",
+    "Bash/Bash_syntax/images/007.png",
+    "Bash/Bash_syntax/Loops.md",
     "Bash/Bash_syntax/Conditions.md",
     "Bash/Bash_syntax/images/006.png",
     "Bash/Bash_syntax/Variables.md",
@@ -217,19 +225,11 @@
     "Linux/Monitoring, Processes Control, Logs/Process monitoring.md",
     "Linux/Networking, Remote Access/Remote Access.md",
     "Linux/Networking, Remote Access/Firewall.d and IPtables.md",
-    "Linux/Networking, Remote Access/Networking Tools.md",
-    "Linux/Networking, Remote Access/Network Configuration.md",
-    "Linux/Users, Groups, Permissions/SELinux.md",
-    "Linux/Users, Groups, Permissions/Permission Model.md",
-    "Linux/Users, Groups, Permissions/Users and Groups.md",
     "Linux",
     "Linux/Monitoring, Processes Control, Logs/images/ps.png",
     "Linux/Monitoring, Processes Control, Logs/images/top.png",
     "Linux/Monitoring, Processes Control, Logs/images",
     "Linux/Monitoring, Processes Control, Logs",
-    "Linux/Networking, Remote Access/images/firewall.png",
-    "Linux/Networking, Remote Access/images",
-    "Linux/Networking, Remote Access",
-    "Linux/Users, Groups, Permissions/images/file-perm.png"
+    "Linux/Networking, Remote Access/images/firewall.png"
   ]
 }
