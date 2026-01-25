@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/Text processors - AWK y SED/AWK Built-in Variables.md",
+                "file": "Bash/Text processors - AWK y SED/Sed command overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWK Built-in Variables"
+              "title": "Sed command overview"
             }
           }
         ]
@@ -185,9 +185,14 @@
   },
   "active": "3a6a1b6dd1019b93",
   "lastOpenFiles": [
+    "Bash/Text processors - AWK y SED/images/001.png",
+    "Bash/Text processors - AWK y SED/Sed address overview.md",
+    "Bash/Text processors - AWK y SED/Sed script overview.md",
+    "Bash/Text processors - AWK y SED/Sed command overview.md",
+    "Bash/Text processors - AWK y SED/AWK Overview.md",
+    "Bash/Text processors - AWK y SED/Sed overview.md",
     "Bash/Text processors - AWK y SED/AWK Examples.md",
     "Bash/Text processors - AWK y SED/AWK Built-in Variables.md",
-    "Bash/Text processors - AWK y SED/AWK Overview.md",
     "Bash/Bash_Style_Guide/Calling commands.md",
     "Bash/Text processors - AWK y SED/images",
     "Bash/Text processors - AWK y SED",
@@ -219,14 +224,9 @@
     "Bash/Bash_syntax/images",
     "Bash/Bash_syntax",
     "Bash/Bash_Introduction/Do's and Don'ts.md",
-    "Bash/Bash_Introduction/Shell programming.md",
-    "Bash/Bash_Introduction/Shell type.md",
-    "Bash/Bash_Introduction/What is Shell?.md",
-    "Linux/Monitoring, Processes Control, Logs/Monitoring Storage.md",
     "Bash/Bash_Introduction/images",
     "Bash/Bash_Introduction",
     "Bash",
-    "Linux/Monitoring, Processes Control, Logs/Monitoring Memory.md",
     "Linux",
     "Linux/Monitoring, Processes Control, Logs/images/ps.png",
     "Linux/Monitoring, Processes Control, Logs/images/top.png",
