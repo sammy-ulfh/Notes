@@ -86,3 +86,5 @@ $ journalctl --since "2015-06-26 23:15:00" --until "2015-06-26 23:20:00"
 - __/var/log/sa__ - Contains the daily sar files that are collected by the sysstat package.
 
 # Next Notes
+
+[[What is Shell]]

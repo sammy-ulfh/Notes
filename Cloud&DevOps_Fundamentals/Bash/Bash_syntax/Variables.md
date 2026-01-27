@@ -378,6 +378,6 @@ $ echo ${#my_array[*]}
 
 # Next Notes
 
-[[Conditions]]
+[[Bash/Bash_syntax/Conditions]]
 
 

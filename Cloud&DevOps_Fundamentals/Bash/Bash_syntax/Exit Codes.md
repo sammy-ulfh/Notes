@@ -7,3 +7,5 @@
 ![[002.png]]
 # Next Notes
 
+[[Special characters]]
+

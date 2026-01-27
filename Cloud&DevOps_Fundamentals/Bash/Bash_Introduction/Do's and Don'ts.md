@@ -31,3 +31,5 @@ Some guidelines:
 - Proprietary, closed-source applications (Shell scripts put the source code right out in the open for all the world to see.)
 
 # Next Notes
+
+[[Script Development and Invocation]]

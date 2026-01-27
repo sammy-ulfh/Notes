@@ -261,4 +261,4 @@ $ command-1 || command-2 || command-3 || ... command-n
 
 # Next Notes
 
-[[Loops]]
+[[Bash/Bash_syntax/Loops]]
