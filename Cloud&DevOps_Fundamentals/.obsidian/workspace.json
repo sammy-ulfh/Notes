@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Language Syntax/Input and output from console.md",
+                "file": "Python/Classes_Modules_Packaging/Packaging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Input and output from console"
+              "title": "Packaging"
             }
           }
         ]
@@ -185,9 +185,23 @@
   },
   "active": "86eb785d3c255f47",
   "lastOpenFiles": [
+    "Python/Classes_Modules_Packaging/Packages.md",
+    "Python/Classes_Modules_Packaging/Packaging.md",
+    "Python/Classes_Modules_Packaging/Files.md",
+    "Python/Classes_Modules_Packaging/images/files_directory.png",
+    "Python/Classes_Modules_Packaging/images/file_attributes.png",
+    "Python/Classes_Modules_Packaging/Modules.md",
+    "Python/Classes_Modules_Packaging/Class.md",
+    "Python/Classes_Modules_Packaging/images/module_search_order.png",
+    "Python/Classes_Modules_Packaging/images/class_methods.png",
+    "Python/Classes_Modules_Packaging/Scopes.md",
+    "Python/Classes_Modules_Packaging/images/LEGB_Rule.png",
+    "Python/Python Language Syntax/Input and output from console.md",
     "Python/Python Language Syntax/Functions.md",
     "Python/Python Language Syntax/Dictionaries.md",
-    "Python/Python Language Syntax/Input and output from console.md",
+    "Python/Classes_Modules_Packaging/images",
+    "Python/Classes_Modules_Packaging",
+    "Python/Untitled.md",
     "Python/Python Language Syntax/Images/function_arguments.png",
     "Python/Python Language Syntax/Sets.md",
     "Python/Python Language Syntax/Images/dict_built-in_function.png",
@@ -196,14 +210,9 @@
     "Python/Python Language Syntax/Lists.md",
     "Python/Python Language Syntax/Images/built-in_functions.png",
     "Python/Python Language Syntax/Images/operations.png",
-    "Python/Python Language Syntax/Images/nested.png",
-    "Python/Python Language Syntax/Images/t.png",
     "Python/Python Language Syntax/Loops.md",
     "Python/Python Language Syntax/Numbers.md",
     "Python/Python Language Syntax/Strings.md",
-    "Python/Python Language Syntax/Images/methods.png",
-    "Python/Python Language Syntax/Images/numbers.png",
-    "Python/Python Language Syntax/Images/Python-while-else.png",
     "Python/overview/PEP8.md",
     "Python/overview/PIP.md",
     "Python/overview/Virtual Environments.md",
@@ -216,20 +225,11 @@
     "Python/overview/Working with data.md",
     "Python/overview/Python Introduction.md",
     "Python/overview/Editors - IDEs.md",
-    "Python/overview/Scripts.md",
-    "Python/overview/Installation.md",
-    "Python/overview/Python Help.md",
-    "Python/overview/History.md",
-    "Python/overview/Introduction.md",
-    "png.md",
-    "Bash/Text processors - AWK y SED/Sed command overview.md",
     "Python/overview/images",
     "Python/overview",
     "Python",
     "Bash/Text processors - AWK y SED/images",
     "Bash/Text processors - AWK y SED",
-    "Bash/Bash_Style_Guide/images",
-    "Bash/Bash_Style_Guide",
-    "Bash/Bash_syntax/images"
+    "Bash/Bash_Style_Guide/images"
   ]
 }

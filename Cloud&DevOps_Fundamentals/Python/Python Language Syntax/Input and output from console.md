@@ -26,3 +26,4 @@ Input dict:{1: 'one', 2: 'two'}
 
 # Next Notes
 
+[[Scopes]]
