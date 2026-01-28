@@ -230,4 +230,4 @@ cat file | ...
 
 # Next Notes
 
-[[Functions]]
+[[Bash/Bash_syntax/Functions]]
