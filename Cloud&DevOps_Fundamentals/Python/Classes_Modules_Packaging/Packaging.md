@@ -190,3 +190,5 @@ $ pip uninstall zoo-example
 ```
 
 # Next Notes
+
+[[Exceptions]]

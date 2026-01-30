@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Classes_Modules_Packaging/Packaging.md",
+                "file": "Python/Debugging_Jinja2 templates_Flask/Jija2 templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Packaging"
+              "title": "Jija2 templates"
             }
           }
         ]
@@ -185,8 +185,17 @@
   },
   "active": "86eb785d3c255f47",
   "lastOpenFiles": [
-    "Python/Classes_Modules_Packaging/Packages.md",
+    "Python/Debugging_Jinja2 templates_Flask/PDB.md",
+    "Python/Debugging_Jinja2 templates_Flask/Jija2 templates.md",
+    "Python/Debugging_Jinja2 templates_Flask/images/pdb_debug.png",
+    "Python/Debugging_Jinja2 templates_Flask/Debugging.md",
+    "Python/Debugging_Jinja2 templates_Flask/images/logging.png",
+    "Python/Debugging_Jinja2 templates_Flask/images/debugging_in_python.png",
+    "Python/Debugging_Jinja2 templates_Flask/Exceptions.md",
     "Python/Classes_Modules_Packaging/Packaging.md",
+    "Python/Debugging_Jinja2 templates_Flask/images",
+    "Python/Debugging_Jinja2 templates_Flask",
+    "Python/Classes_Modules_Packaging/Packages.md",
     "Python/Classes_Modules_Packaging/Files.md",
     "Python/Classes_Modules_Packaging/images/files_directory.png",
     "Python/Classes_Modules_Packaging/images/file_attributes.png",
@@ -206,10 +215,7 @@
     "Python/Python Language Syntax/Sets.md",
     "Python/Python Language Syntax/Images/dict_built-in_function.png",
     "Python/Python Language Syntax/Tuples.md",
-    "Python/Python Language Syntax/Images/tuple_operations.png",
     "Python/Python Language Syntax/Lists.md",
-    "Python/Python Language Syntax/Images/built-in_functions.png",
-    "Python/Python Language Syntax/Images/operations.png",
     "Python/Python Language Syntax/Loops.md",
     "Python/Python Language Syntax/Numbers.md",
     "Python/Python Language Syntax/Strings.md",
@@ -221,15 +227,9 @@
     "Python/Python Language Syntax.md",
     "Python/overview/Input.md",
     "Python/overview/Conditions.md",
-    "Python/overview/Operators.md",
-    "Python/overview/Working with data.md",
-    "Python/overview/Python Introduction.md",
-    "Python/overview/Editors - IDEs.md",
     "Python/overview/images",
     "Python/overview",
     "Python",
-    "Bash/Text processors - AWK y SED/images",
-    "Bash/Text processors - AWK y SED",
-    "Bash/Bash_Style_Guide/images"
+    "Bash/Text processors - AWK y SED/images"
   ]
 }
