@@ -96,4 +96,4 @@ Script execution will be stopped and pdb mode is enabled when Python interpreter
 
 # Next Notes
 
-[[Jija2 templates]]
+[[Jinja2 templates]]
