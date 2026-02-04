@@ -183,8 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "86eb785d3c255f47",
+  "active": "1bfeebb63f07aeb3",
   "lastOpenFiles": [
+    "Docker/Theory/images/09_Dropdown_1_Namespaces_fixed.svg",
     "Docker/Theory/images/07_Virtual_Machines_vs_Containers.svg",
     "Docker/Theory/images/06_Docker_Components_Container.svg",
     "Docker/Theory/images/05_hot_spots_Docker_Components.svg",
@@ -215,7 +216,6 @@
     "Python/Testing_Dockerizing/images/code_quality_tools.png",
     "Python/Testing_Dockerizing/images/testing.png",
     "Python/Testing_Dockerizing/images/quality_gates.png",
-    "Python/Testing_Dockerizing/images/maintainability.png",
     "Python/Debugging_Jinja2 templates_Flask/Requests.md",
     "Python/Debugging_Jinja2 templates_Flask/HTTP.md",
     "Python/Debugging_Jinja2 templates_Flask/Flask.md",

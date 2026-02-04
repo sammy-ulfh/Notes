@@ -121,4 +121,29 @@ As the main container idea is creating an isolated space for running certain app
 
 Below is the list of different kinds of isolation and the reason Docker provides it to container:
 
-- 
+- __Namespaces__: A process in the container shouldn't see other processes running in the system and should feel itself as the only process in the system.
+- __Control Groups__: A facility is needed to manage system resources, for instances, to provide the necessary amount of RAM, CPU, shares, and so on the container.
+- __Chroot__: A process in the container should see/use only that part of the filesystems required by it.
+- __Process capabilities__: A process in the container should have enough permissions to manage/use kernel.
+- __Virtual eth__: A process in the container should have access to an ethernet device.
+- __Port Binding__: A few containers can expose the same ports, and it shouldn't cause any problem.
+- __Volumes__: A service should have the facility to keep data, even if it goes down.
+- __Docker Network__: Service should be able to communicate with other services by IP/names.
+
+The most often used technologies are Namespaces, Control Groups and Chroot.
+
+### Namespaces
+
+If you compare a Docker container to a simple process, you will see that this process running in your system requires isolation. This isolation presents a namespace. When you run a container, Docker creates a set of namespaces for it. This provides a layer of isolation: each aspect of a container runs in its own namespace and does not have access outside.
+
+There are 6 Linux kernel namespaces used by Docker Engine:
+
+- The __MNT__ namespaces: Managing mount-points, filesystems.
+- The __UTS__ namespace: Isolating kernel and version identifiers. (UTS: Unix Timesharing System).
+- The __IPC__ namespace: Managing access to IPC resources (IPC: Inter Process Communication).
+- The __PID__ namespace: Process isolation.
+- The __NET__ namespace: Managing network interfaces.
+- The __USER__ namespace.
+
+![[09_Dropdown_1_Namespaces_fixed.svg]]
+
