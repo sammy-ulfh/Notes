@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Theory/Docker essentials.md",
+                "file": "Docker/Theory/Working with Dockerfile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker essentials"
+              "title": "Working with Dockerfile"
             }
           }
         ]
@@ -183,14 +183,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "1bfeebb63f07aeb3",
+  "active": "86eb785d3c255f47",
   "lastOpenFiles": [
-    "Docker/Theory/images/09_Dropdown_1_Namespaces_fixed.svg",
-    "Docker/Theory/images/07_Virtual_Machines_vs_Containers.svg",
-    "Docker/Theory/images/06_Docker_Components_Container.svg",
-    "Docker/Theory/images/05_hot_spots_Docker_Components.svg",
-    "Python/Work with files/Archiving.md",
+    "Docker/Theory/images/SM_7_L3_Picture1code.png",
+    "Docker/Theory/images/pic9_Building_a_base_image1.svg",
+    "Docker/Theory/images/pic8_Docker_Base_Images2.svg",
+    "Docker/Theory/images/pic5_Example.svg",
+    "Docker/Theory/images/pic1_Working_with_Dockerfile2.svg",
+    "Docker/Theory/Working with Docker.md",
+    "Docker/Theory/Working with Dockerfile.md",
+    "Docker/Theory/images/SM7_L2_image15.png",
+    "Docker/Theory/images/SM7_L2_image14.png",
+    "Docker/Theory/images/SM7_L2_image13.png",
+    "Docker/Theory/images/SM7_L2_image12.png",
+    "Docker/Theory/images/SM7_L2_pic3_working_with_The_Image_Layers.svg",
+    "Docker/Theory/images/SM7_L2_image9.png",
     "Docker/Theory/Docker essentials.md",
+    "Python/Work with files/Archiving.md",
     "Docker/Theory/images",
     "Docker/Theory",
     "Docker",
@@ -205,17 +214,10 @@
     "Python/Work with files/images",
     "Python/Work with files",
     "Python/Untitled.md",
-    "Python/Testing_Dockerizing/images/docker-compose.png",
     "Python/Testing_Dockerizing/Tox.md",
-    "Python/Testing_Dockerizing/images/tox.png",
     "Python/Testing_Dockerizing/Nose_Coverage.md",
     "Python/Testing_Dockerizing/Unit test.md",
-    "Python/Testing_Dockerizing/images/testing.gif",
     "Python/Testing_Dockerizing/Testing.md",
-    "Python/Testing_Dockerizing/images/additional_tools.png",
-    "Python/Testing_Dockerizing/images/code_quality_tools.png",
-    "Python/Testing_Dockerizing/images/testing.png",
-    "Python/Testing_Dockerizing/images/quality_gates.png",
     "Python/Debugging_Jinja2 templates_Flask/Requests.md",
     "Python/Debugging_Jinja2 templates_Flask/HTTP.md",
     "Python/Debugging_Jinja2 templates_Flask/Flask.md",
@@ -226,10 +228,8 @@
     "Python/Debugging_Jinja2 templates_Flask/PDB.md",
     "Python/Debugging_Jinja2 templates_Flask/Debugging.md",
     "Python/Debugging_Jinja2 templates_Flask/Exceptions.md",
-    "Python/Classes_Modules_Packaging/Packaging.md",
     "Python/Debugging_Jinja2 templates_Flask/images",
     "Python/Debugging_Jinja2 templates_Flask",
-    "Python/Classes_Modules_Packaging/Packages.md",
     "Python/Classes_Modules_Packaging/images"
   ]
 }
