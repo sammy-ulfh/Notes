@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "9b0cc3375e533b81",
+    "id": "382a961298b861fe",
     "type": "split",
     "children": [
       {
-        "id": "d355d97536ea0d80",
+        "id": "5c6eda7da0e6749c",
         "type": "tabs",
         "children": [
           {
-            "id": "86eb785d3c255f47",
+            "id": "7a52992ab4f7a992",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Theory/Working with Dockerfile.md",
+                "file": "ArchFailures/Load kernel after break update-upgrade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Working with Dockerfile"
+              "title": "Load kernel after break update-upgrade"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ea663994a8033cbe",
+    "id": "a4ceb579093d8e0c",
     "type": "split",
     "children": [
       {
-        "id": "44a809efed28686a",
+        "id": "c06506d529be061b",
         "type": "tabs",
         "children": [
           {
-            "id": "1bfeebb63f07aeb3",
+            "id": "8aba5ef656669bd0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "288b59acff32a3ee",
+            "id": "d2f51bfdeb12224f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "dff8f07810ce9ff5",
+            "id": "58f5f49b48d73343",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "3cd0deaeb0041a8f",
+    "id": "51e44c4e02004544",
     "type": "split",
     "children": [
       {
-        "id": "62e66449dc3c5f13",
+        "id": "cc5e4fd2c63761e2",
         "type": "tabs",
         "children": [
           {
-            "id": "bd9930ffa6fd6c55",
+            "id": "fedfd9069ce43eaa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "ArchFailures/Load kernel after break update-upgrade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Load kernel after break update-upgrade"
             }
           },
           {
-            "id": "437d2123099066be",
+            "id": "227759ef493312da",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "ArchFailures/Load kernel after break update-upgrade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from Load kernel after break update-upgrade"
             }
           },
           {
-            "id": "dc383001e7496023",
+            "id": "8b5bee0c85d9d72c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "8a24901440f239ba",
+            "id": "d740a5afe6fe7c94",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,18 +151,18 @@
             }
           },
           {
-            "id": "4984e96758d4b1c5",
+            "id": "77758b7118565a0f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "ArchFailures/Load kernel after break update-upgrade.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Load kernel after break update-upgrade"
             }
           }
         ]
@@ -183,53 +183,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "86eb785d3c255f47",
+  "active": "7a52992ab4f7a992",
   "lastOpenFiles": [
-    "Docker/Theory/images/SM7_L3_Picture3.png",
-    "Docker/Theory/images/pic11_Multistage_Build.svg",
-    "Docker/Theory/images/pic10_Building_an_Image_with_Arguments.svg",
-    "Docker/Theory/images/SM_7_L3_Picture1code.png",
-    "Docker/Theory/images/pic9_Building_a_base_image1.svg",
-    "Docker/Theory/images/pic8_Docker_Base_Images2.svg",
-    "Docker/Theory/images/pic5_Example.svg",
-    "Docker/Theory/images/pic1_Working_with_Dockerfile2.svg",
-    "Docker/Theory/Working with Docker.md",
-    "Docker/Theory/Working with Dockerfile.md",
-    "Docker/Theory/images/SM7_L2_image15.png",
-    "Docker/Theory/images/SM7_L2_image14.png",
-    "Docker/Theory/images/SM7_L2_image13.png",
-    "Docker/Theory/Docker essentials.md",
-    "Python/Work with files/Archiving.md",
-    "Docker/Theory/images",
-    "Docker/Theory",
-    "Docker",
-    "Python/Work with files/Copying and moving.md",
-    "Python/Work with files/Directory listing.md",
-    "Python/Work with files/Traversing directory.md",
-    "Python/Work with files/Temporary directory.md",
-    "Python/Work with files/Deleting.md",
-    "Python/Work with files/Making directories.md",
-    "Python/Work with files/Filename pattern.md",
-    "Python/Testing_Dockerizing/Dockerizing.md",
-    "Python/Work with files/images",
-    "Python/Work with files",
-    "Python/Untitled.md",
-    "Python/Testing_Dockerizing/Tox.md",
-    "Python/Testing_Dockerizing/Nose_Coverage.md",
-    "Python/Testing_Dockerizing/Unit test.md",
-    "Python/Testing_Dockerizing/Testing.md",
-    "Python/Debugging_Jinja2 templates_Flask/Requests.md",
-    "Python/Debugging_Jinja2 templates_Flask/HTTP.md",
-    "Python/Debugging_Jinja2 templates_Flask/Flask.md",
-    "Python/Testing_Dockerizing/images",
-    "Python/Testing_Dockerizing",
-    "Python/Debugging_Jinja2 templates_Flask/Python application architecture.md",
-    "Python/Debugging_Jinja2 templates_Flask/Jinja2 templates.md",
-    "Python/Debugging_Jinja2 templates_Flask/PDB.md",
-    "Python/Debugging_Jinja2 templates_Flask/Debugging.md",
-    "Python/Debugging_Jinja2 templates_Flask/Exceptions.md",
-    "Python/Debugging_Jinja2 templates_Flask/images",
-    "Python/Debugging_Jinja2 templates_Flask",
-    "Python/Classes_Modules_Packaging/images"
+    "ArchFailures/Load kernel after break update-upgrade.md"
   ]
 }

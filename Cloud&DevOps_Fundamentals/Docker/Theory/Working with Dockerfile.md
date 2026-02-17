@@ -202,3 +202,51 @@ EXAMPLE
 ## Building an image with arguments and multiusage build
 
 Let’s have a look at Building an Image with Arguments and Multistage Build.
+
+### Building an image with arguments
+
+As an option, you can insert arguments to your Dockerfile. Dockerfile is considered as static. However, sometimes you need to provide some settings.
+
+![[pic10_Building_an_Image_with_Arguments.svg]]
+
+### Multiusage build
+
+The fact that JDK and JRE are necessary to work with Java and run doesn't mean you need to provide all JDK libraries in a resulted image. To separate the processes for building and running, you do not have to create two Dockerfiles. Just create one with multiple stages.
+
+![[pic11_Multistage_Build.svg]]
+
+The first stage is based on maven: creating the build directory, moving there (using **WORKDIR**), and installing maven with **RUN**. The first image is marked as a builder. In another stage, you copy from the builder image. Therefore, you can build it, and the resulted image can only contain JDK. There is no limit to the number of stages, and you can create as many as you need.
+
+## Running containers
+
+The main command necessary for running the containers is docker run. It can be used with the following parameters. And also, let's consider an example of running the container.
+
+### Parameters
+
+docker run can be used with the following parameters:
+
+- **-d runs** a container in the background and prints container ID
+- **-P -** use it to publish all exposed ports to random ports
+- **-p -** use it to publish a container's port(s) to the host
+- **--restart** - use it to restart policy to apply when a container exits (default 'no')
+- **-i -** use it to keep STDIN open even if not attached
+- **-t -** use it to allocate a pseudo -TTY
+- **--rm** - use it to automatically remove the container when it exits
+- **-v -** use it to bind mount a volume
+- **-e -** use it to set environment variables
+- **--label** - use it to set metadata on a container
+- **--log**-driver - use it to log driver for the container
+- **-u -** use it to set a username or UID (<name|uid>[:<group|gid>])
+- **-w -** use it to set the working directory inside the container
+- **--entrypoint** - use it to overwrite the default ENTRYPOINT of the image
+
+### Example
+
+Let’s consider an example of running the container.
+
+![[SM7_L3_Picture3.png]]
+
+## Restart policy
+
+You can execute a process, but it can be unstable for some reason. Let’s consider an example.
+
