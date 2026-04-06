@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "9e7437ecce760062",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7668dbde94d4f42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d5a8eaa8cae664d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security-Identity-Compliance/Configuring Rol Chaining in AWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Configuring Rol Chaining in AWS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05876a534514ebcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "7912fa75ef075028",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fe6f9bcbd5c618c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "534f25e1cfb626a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ed6b1b8ddfa2d4b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c94fd1443f8676ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "450be007745bc3ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9df18fcb4fe9a04c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Security-Identity-Compliance/Configuring Rol Chaining in AWS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Configuring Rol Chaining in AWS"
+            }
+          },
+          {
+            "id": "036fd52d5a7a9d55",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Security-Identity-Compliance/Configuring Rol Chaining in AWS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Configuring Rol Chaining in AWS"
+            }
+          },
+          {
+            "id": "2a60775fa1611aa8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "67dae5890afa6cd7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fe1ea6136431ea4c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Security-Identity-Compliance/Configuring Rol Chaining in AWS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Configuring Rol Chaining in AWS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5d5a8eaa8cae664d",
+  "lastOpenFiles": [
+    "Security-Identity-Compliance/Configuring IAM Group Permissions.md",
+    "Security-Identity-Compliance/Configuring Rol Chaining in AWS.md",
+    "Welcome.md",
+    "Security-Identity-Compliance"
+  ]
+}
