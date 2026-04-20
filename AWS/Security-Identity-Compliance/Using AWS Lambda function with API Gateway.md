@@ -21,3 +21,36 @@ You must achieve the following objectives in two moves:
    
 ## Practical
 
+1. Set minimum permissions for lambda role
+   
+```shell
+   aws iam attach-role-policy --role-name cmtr-3kqa67jd-iam-lp-iam_role --policy-arn awn:aws:iam::aws:policy/AWSLambda_ReadOnlyAccess
+```
+
+2. Get Account ID and API ID and save into a variable
+   
+Account ID:
+
+```shell
+ACCOUNT_ID=$(aws sts get-callet-identity --query "Account" --output text)
+```
+
+API ID:
+
+```shell
+API_ID$(aws apigatewayv2 get-apis --region eu-west-1 --query "Items[?Name=='cmtr-3kqa67jd-iam-lp-apigwv2_api'].ApiId" --output text) 
+```
+
+3. Set api gateway perssions to invoke lambda
+
+```shell
+aws lambda add-permission --function-name cmtr-3kqa67jd-iam-lp-lambda --statement-id apigw-invoke-permission --action Lambda:InvokeFunction --principal apigateway.amazonaws.com --source-arn "arn:aws:execute-api:eu-west-1:${ACCOUNT_ID}:${API_ID}/*/*" --region eu-west-1
+```
+
+4. Get web URL to check if it is working
+   
+```shell
+aws apigatewayv2 get-api --api-id $API_ID --region eu-west-1 --query "ApiEndpoint" --output text
+```
+
+Finally use the url with the '/get_list' path. If it return the function name, it's working.
