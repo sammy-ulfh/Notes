@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security-Identity-Compliance/Configuring Rol Chaining in AWS.md",
+                "file": "Security-Identity-Compliance/Using AWS Lambda function with API Gateway.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuring Rol Chaining in AWS"
+              "title": "Using AWS Lambda function with API Gateway"
             }
           }
         ]
@@ -185,8 +185,13 @@
   },
   "active": "5d5a8eaa8cae664d",
   "lastOpenFiles": [
-    "Security-Identity-Compliance/Configuring IAM Group Permissions.md",
+    "Pasted image 20260419163719.png",
+    "Security-Identity-Compliance/Policy Evaluation Logic (Allow).md",
+    "Security-Identity-Compliance/Using AWS Lambda function with API Gateway.md",
+    "Security-Identity-Compliance/Policy Evaluation Logic (Deny).md",
+    "Security-Identity-Compliance/Using AWS Managed Policies for IAM Resources.md",
     "Security-Identity-Compliance/Configuring Rol Chaining in AWS.md",
+    "Security-Identity-Compliance/Configuring IAM Group Permissions.md",
     "Welcome.md",
     "Security-Identity-Compliance"
   ]
