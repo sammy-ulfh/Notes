@@ -18,7 +18,7 @@ In this task, you will work with the following resources:
 In three moves, you must:
 
 1. Grant all necessary permissions for the `cmtr-3kqa67jd-iam-sewk-iam_role` to work with the key. Do not grant full administrator access.
-2. Enable server-side encryption for the `cmtr-3kqa67jd-iam-sewk-bucket-18396-2` bucket using the AWS KMS key with the `arn:aws:kms:eu-west-1:160885290237:key/ec2a5ed9-e1ce-4a22-a7c2-3838733cdd34` ARN.
+2. Enable server-side encryption for the `cmtr-3kqa67jd-iam-sewk-bucket-18396-2` bucket using the AWS KMS key with the `arn:aws:kms:eu-west-1:ACCOUNT_ID:key/ec2a5ed9-e1ce-4a22-a7c2-3838733cdd34` ARN.
 
 ## Validation
 
@@ -26,3 +26,65 @@ To make sure you can put a new encrypted object in the encrypted bucket. To do t
 
 ## Practical
 
+1. Grant all necessary permissions for the `cmtr-3kqa67jd-iam-sewk-iam_role` to work with the key. Do not grant full administrator access.
+
+	policy.json
+	
+```json
+{
+  "Version": "2012-10-17",
+  "Id": "key-console-policy-3",
+  "Statement": [
+    {
+      "Sid": "Enable IAM User Permissions",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::ACCOUUNT_ID:root"
+      },
+      "Action": "kms:*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Allow use of the key",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::ACCOUNT_ID:role/cmtr-3kqa67jd-iam-sewk-iam_role"
+      },
+      "Action": [
+        "kms:Encrypt",
+        "kms:Decrypt",
+        "kms:ReEncrypt",
+        "kms:GenerateDataKey",
+        "kms:DescribeKey"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+```shell
+aws kms put-key-policy --key-id ec2a5ed9-e1ce-4a22-a7c2-3838733cdd34 --policy-name default --policy file://policy.json
+```
+
+2. Enable server-side encryption for the `cmtr-3kqa67jd-iam-sewk-bucket-18396-2` bucket using the AWS KMS key with the `arn:aws:kms:eu-west-1:160885290237:key/ec2a5ed9-e1ce-4a22-a7c2-3838733cdd34` ARN.
+
+rules.json
+
+```json
+{
+  "Rules": [
+    {
+      "ApplyServerSideEncryptionByDefault": {
+        "SSEAlgorithm": "aws:kms",
+        "KMSMasterKeyID": "arn:aws:kms:eu-west-1:ACCOUNT_ID:key/ec2a5ed9-e1ce-4a22-a7c2-3838733cdd34"
+      },
+      "BucketKeyEnabled": true
+    }
+  ]
+}
+```
+
+```shell
+aws s3 cp s3://cmtr-3kqa67jd-iam-sewk-bucket-18396-1/confidential_credentials.csv s3://cmtr-3kqa67jd-iam-sewk-bucket-18396-2/confidential_credentials.csv --sse aws:kms --sse-kms-key-id arn:aws:kms:eu-west-1:ACCOUNT_ID:key/ec2a5ed9-e1ce-4a22-a7c2-3838733cdd34
+```
