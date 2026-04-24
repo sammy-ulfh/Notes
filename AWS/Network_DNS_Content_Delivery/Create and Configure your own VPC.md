@@ -34,3 +34,142 @@ You should create a VPC with a number of resources inside it. You must tag each 
 3. Connect to the Public EC2 instance terminal and verify that the nginx web server is installed and running. You may use `curl localhost` command to check the default web server page.
 
 ## Practical
+
+1. Configuration of IAM profile
+   
+   Create the 'trust-policy.json' file:
+   
+	```json
+	{
+		"Version": "2012-10-17",
+		"Statement": [
+			{
+				"Effect": "Allow",
+				"Principal": { "Service": "ec2.amazonaws.com" },
+				"Action": "sts:AssumeRole"
+			}
+		]
+	}
+	```
+
+	- Create the Role
+	  ```shell
+	  aws iam create-role --role-name cmtr-3kqa67jd-ssm-role --assume-role-policy-document file://trust-policy.json
+	  ```
+
+	- Attach SSM policy
+	  ```shell
+	  aws iam attach-role-policy --role-name cmtr-3kqa67jd-ssm-role --policy-arn arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+	  ```
+
+	- Create instance profile and assign the role
+	  ```shell
+	  aws iam create-instance-profile --instance-profile-name cmtr-3kqa67jd-ssm-profile 
+	  
+	  aws iam add-role-to-instance-profile --instance-profile-name cmtr-3kqa67jd-ssm-profile --role-name cmtr-3kqa67jd-ssm-role
+	  ```
+
+2. Create the VPC and enable the DNS
+
+	```shell
+	# Create VPC and save it's ID
+	VPC_ID=$(aws ec2 create-vpc --cidr-block 10.0.0.0/16 --tag-specifications 'ResourceType=vpc,Tags=[{Key=Name,Value=cmtr-3kqa67jd-vpc}]' --query 'Vpc.VpcId' --output text) 
+	
+	# Enable DNS hostnames
+	aws ec2 modify-vpc-attribute --vpc-id $VPC_ID --enable-dns-hostnames "{\"Value\":true}"
+	
+	echo "Created VPC: $VPC_ID"
+	```
+
+
+3. Create subnets
+
+	```shell
+	# A. Create public subnet
+	PUB_SUB_ID=$(aws ec2 create-subnet --vpc-id $VPC_ID --cidr-block 10.0.1.0/24 --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=cmtr-3kqa67jd-public_subnet}]' --query 'Subnet.SubnetId' --output text)
+	
+	# Enable auto-assign for public IP
+	aws ec2 modify-subnet-attribute --subnet-id $PUB_SUB_ID --map-public-ip-on-launch
+	
+	# B. Create private subnet
+	PRIV_SUB_ID=$(aws ec2 create-subnet --vpc-id $VPC_ID --cidr-block 10.0.2.0/24 --tag-specifications 'ResourceType=subnet,Tags=[{Key=Name,Value=cmtr-3kqa67jd-private_subnet}]' --query 'Subnet.SubnetId' --output text)
+	
+	echo "Public subnet: $PUB_SUB_ID | Private subnet: $PRIV_SUB_ID"
+	```
+
+4. Configure the Internet Gateway (IGW)
+
+	```shell
+	# Create IGW
+	IGW_ID=$(aws ec2 create-internet-gateway --tag-specifications 'ResourceType=internet-gateway,Tags=[{Key=Name,Value=cmtr-3kqa67jd-internet_gateway}]' --query 'InternetGateway.InternetGatewayId' --output text)
+	
+	# Assign to the VPC
+	aws ec2 attach-internet-gateway --vpc-id $VPC_ID --internet-gateway-id $IGW_ID
+	
+	echo "IGW connected: $IGW_ID"
+	```
+
+5. Configure Route Tables
+
+	```shell
+	# Public ROUTE TABLE
+	PUB_RT_ID=$(aws ec2 create-route-table --vpc-id $VPC_ID --tag-specifications 'ResourceType=route-table,Tags=[{Key=Name,Value=cmtr-3kqa67jd-route_public}]' --query 'RouteTable.RouteTableId' --output text)
+	
+	# Assign route to internet
+	aws ec2 create-route --route-table-id $PUB_RT_ID --destination-cidr-block 0.0.0.0/0 --gateway-id $IGW_ID
+	
+	# Assign the public subnet
+	aws ec2 associate-route-table --subnet-id $PUB_SUB_ID --route-table-id $PUB_RT_ID
+	
+	# Private Route Table
+	PRIV_RT_ID=$(aws ec2 create-route-table --vpc-id $VPC_ID --tag-specifications 'ResourceType=route-table,Tags=[{Key=Name,Value=cmtr-3kqa67jd-route_private}]' --query 'RouteTable.RouteTableId' --output text)
+	
+	# Assign private subnet
+	aws ec2 associate-route-table --subnet-id $PRIV_SUB_ID --route-table-id $PRIV_RT_ID
+	```
+
+6. Variables and script
+
+	```shell
+	# Get default security group ID
+	SG_ID=$(aws ec2 describe-security-groups --filters "Name=vpc-id,Values=$VPC_ID" "Name=group-name,Values=default" --query 'SecurityGroups[0].GroupId' --output text)
+	
+	# Get the current AMI ID of Amazon Linux 2023
+	AMI_ID=$(aws ec2 describe-images --owners amazon --filters "Name=name,Values=al2023-ami-2023.*-x86_64" "Name=state,Values=available" "Name=architecture,Values=x86_64" --query "sort_by(Images, &CreationDate)[-1].ImageId" --output text)	
+	```
+
+	- Create the script for nginx
+
+	```shell
+	#!/bin/bash
+	dnf update -y
+	dnf install -y nginx
+	systemctl enable nginx
+	systemctl start nginx
+	```
+
+	- Lanzar instancias EC2
+
+	```shell
+	# Launch Public Instance
+	aws ec2 run-instances \
+	    --image-id $AMI_ID \
+	    --count 1 \
+	    --instance-type t2.micro \
+	    --subnet-id $PUB_SUB_ID \
+	    --security-group-ids $SG_ID \
+	    --iam-instance-profile Name="cmtr-3kqa67jd-ssm-profile" \
+	    --user-data file://userdata.sh \
+	    --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=cmtr-3kqa67jd-public}]'
+	
+	# Launch Private Instace
+	aws ec2 run-instances \
+	    --image-id $AMI_ID \
+	    --count 1 \
+	    --instance-type t2.micro \
+	    --subnet-id $PRIV_SUB_ID \
+	    --security-group-ids $SG_ID \
+	    --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=cmtr-3kqa67jd-private}]'
+	```
+
+
