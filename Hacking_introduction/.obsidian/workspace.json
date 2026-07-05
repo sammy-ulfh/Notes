@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Enumeracion del sistema/Enumeracion del sistema.md",
+                "file": "Conceptos básicos de enumeración y explotación/Burpsuite/Introduccion a Burpsuite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeracion del sistema"
+              "title": "Introduccion a Burpsuite"
             }
           }
         ]
@@ -171,8 +171,15 @@
   },
   "active": "0bd5bf3733c51ee0",
   "lastOpenFiles": [
-    "Conceptos básicos de enumeración y explotación/Tipos de explotación/Tipos de explotación (Manuales y Automatizadas).md",
     "Conceptos básicos de enumeración y explotación/Enumeracion del sistema/Enumeracion del sistema.md",
+    "Conceptos básicos de enumeración y explotación/Burpsuite/Introduccion a Burpsuite.md",
+    "Conceptos básicos de enumeración y explotación/Burpsuite",
+    "Conceptos básicos de enumeración y explotación/Enumeracion del sistema/Untitled.md",
+    "Conceptos básicos de enumeración y explotación/Enumeracion del sistema/images/003.png",
+    "Conceptos básicos de enumeración y explotación/Enumeracion del sistema/images/002.png",
+    "Conceptos básicos de enumeración y explotación/Enumeracion del sistema/images/001.png",
+    "Conceptos básicos de enumeración y explotación/Enumeracion del sistema/images",
+    "Conceptos básicos de enumeración y explotación/Tipos de explotación/Tipos de explotación (Manuales y Automatizadas).md",
     "Conceptos básicos de enumeración y explotación/Enumeracion del sistema/images",
     "Conceptos básicos de enumeración y explotación/Enumeracion del sistema",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/038.png",
@@ -182,9 +189,6 @@
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/034.png",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/033.png",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/032.png",
-    "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/031.png",
-    "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/030.png",
-    "Conceptos básicos de enumeración y explotación/Tipos de explotación/images/029.png",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads/Tipos de payloads (Staged y Non-taged).md",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/images",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación",
@@ -197,9 +201,7 @@
     "Conceptos básicos de enumeración y explotación/Tipos de payloads",
     "Conceptos básicos de enumeración y explotación/Introducción.md",
     "Conceptos básicos de enumeración y explotación/Shells/images",
-    "Conceptos básicos de enumeración y explotación/Shells",
     "Tools/Enumeración.md",
-    "Conceptos básicos de enumeración y explotación",
     "Tools/Correos.md",
     "Tools/Imagenes.md",
     "Tools/Subdominios.md",
@@ -214,8 +216,6 @@
     "EnumServComunes/Untitled.md",
     "EnumServComunes/FTP/Enumeración del servicio FTP.md",
     "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (2-2).md",
-    "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
-    "Docker/Construccion/Port Forwarding en Docker y uso de monturas.md",
-    "Docker/Construccion/Comandos comunes para la gestión de contenedores.md"
+    "Docker/MaquinasVulnerbales/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md"
   ]
 }
