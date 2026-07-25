@@ -171,6 +171,12 @@
   },
   "active": "0bd5bf3733c51ee0",
   "lastOpenFiles": [
+    "OWASP TOP 10 y Vulnerabilidades Web/SQLI/images/003.png",
+    "OWASP TOP 10 y Vulnerabilidades Web/SQLI/images/002.png",
+    "OWASP TOP 10 y Vulnerabilidades Web/SQLI/images/001.png",
+    "OWASP TOP 10 y Vulnerabilidades Web/SQLI/images",
+    "OWASP TOP 10 y Vulnerabilidades Web/SQLI/Untitled.md",
+    "OWASP TOP 10 y Vulnerabilidades Web/SQLI/Introduccion a SQLI.md",
     "Conceptos básicos de enumeración y explotación/Burpsuite/Extensions.md",
     "Conceptos básicos de enumeración y explotación/Burpsuite/Comparer.md",
     "Conceptos básicos de enumeración y explotación/Burpsuite/Intruder.md",
@@ -178,7 +184,6 @@
     "Conceptos básicos de enumeración y explotación/Burpsuite/Decoder.md",
     "Conceptos básicos de enumeración y explotación/Burpsuite/Proxy.md",
     "Conceptos básicos de enumeración y explotación/Burpsuite/Introduccion a Burpsuite.md",
-    "OWASP TOP 10 y Vulnerabilidades Web/SQLI/Introduccion a SQLI.md",
     "OWASP TOP 10 y Vulnerabilidades Web/SQLI",
     "OWASP TOP 10 y Vulnerabilidades Web/Untitled.md",
     "OWASP TOP 10 y Vulnerabilidades Web",
@@ -190,8 +195,6 @@
     "Conceptos básicos de enumeración y explotación/Burpsuite/images/044.png",
     "Conceptos básicos de enumeración y explotación/Burpsuite/images/043.png",
     "Conceptos básicos de enumeración y explotación/Burpsuite/images/042.png",
-    "Conceptos básicos de enumeración y explotación/Burpsuite/images/041.png",
-    "Conceptos básicos de enumeración y explotación/Burpsuite/images/040.png",
     "001.md",
     "Conceptos básicos de enumeración y explotación/Burpsuite/images",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/Tipos de explotación (Manuales y Automatizadas).md",
@@ -204,7 +207,6 @@
     "Conceptos básicos de enumeración y explotación/Tipos de payloads/Tipos de payloads (Staged y Non-taged).md",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación/images",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación",
-    "Conceptos básicos de enumeración y explotación/Tipos de payloads/images",
     "Conceptos básicos de enumeración y explotación/Shells/Introducción a Shells.md",
     "Conceptos básicos de enumeración y explotación/Shells/Reverse Shell.md",
     "Conceptos básicos de enumeración y explotación/Shells/Bind Shell.md",
@@ -214,8 +216,6 @@
     "Tools/Correos.md",
     "Tools/Imagenes.md",
     "Tools/Subdominios.md",
-    "EnumServComunes/Gestores de contenido (CMS)/Magento/Enumeración de gestores de contenido (CMS) – Magento.md",
-    "EnumServComunes/Gestores de contenido (CMS)/Drupal/Enumeración de gestores de contenido (CMS) – Drupal.md",
-    "EnumServComunes/Gestores de contenido (CMS)/Joomla/Enumeración de gestores de contenido (CMS) – Joomla.md"
+    "EnumServComunes/Gestores de contenido (CMS)/Magento/Enumeración de gestores de contenido (CMS) – Magento.md"
   ]
 }
